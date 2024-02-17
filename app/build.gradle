@@ -1,0 +1,150 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "mt.karimi.ronevis"
+        minSdk 21
+        targetSdk 31
+        versionCode 43
+        versionName '2.65'
+
+        externalNativeBuild {
+            ndkBuild {
+                arguments "NDK_APPLICATION_MK:=src/main/jni/Application.mk", "APP_PLATFORM:=android-21"
+                abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path "src/main/jni/Android.mk"
+        }
+    }
+
+
+
+    flavorDimensions "market"
+    productFlavors {
+        cafebazaar {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"کافه بازار"'
+            buildConfigField 'String', 'marketPackage', '"com.farsitel.bazaar"'
+            buildConfigField 'String', 'marketUri', '"bazaar://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"bazaar://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.EDIT"'
+            buildConfigField 'String', 'marketCatID', '"2"'
+        }
+        asr24 {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"کندو"'
+            buildConfigField 'String', 'marketPackage', '"com.ada.market"'
+            buildConfigField 'String', 'marketUri', '"cando://leave-review?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"cando://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"5"'
+        }
+        parshub {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"پارس هاب"'
+            buildConfigField 'String', 'marketPackage', '"net.jhoobin.jhub"'
+            buildConfigField 'String', 'marketUri', '"parshub://comment?q=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"parshub://search?q=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"7"'
+        }
+        myket {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"مایکت"'
+            buildConfigField 'String', 'marketPackage', '"ir.mservices.market"'
+            buildConfigField 'String', 'marketUri', '"myket://comment/#Intent;scheme=comment;package=mt.karimi.ronevis;refId=app;end"'
+            buildConfigField 'String', 'marketUriApp', '"myket://download/#Intent;scheme=download;package=mt.karimi.ronevis;end"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"3"'
+        }
+        iranapps {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"ایران اپس"'
+            buildConfigField 'String', 'marketPackage', '"ir.tgbs.android.iranapp"'
+            buildConfigField 'String', 'marketUri', '"iranapps://app/mt.karimi.ronevis?a=comment&r=5"'
+            buildConfigField 'String', 'marketUriApp', '"iranapps://app/mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"1"'
+        }
+//        avvalmarket {
+//            dimension "market"
+//            buildConfigField 'String', 'marketName', '"اول مارکت"'
+//            buildConfigField 'String', 'marketPackage', '"com.hrm.android.market"'
+//            buildConfigField 'String', 'marketUri', '"market://rate?id=mt.karimi.ronevis"'
+//            buildConfigField 'String', 'marketUriApp', '"market://rate?id=mt.karimi.ronevis"'
+//            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+//            buildConfigField 'String', 'marketCatID', '"4"'
+//        }
+//        website {
+//            dimension "market"
+//            buildConfigField 'String', 'marketName', '"وب سایت رونویس"'
+//            buildConfigField 'String', 'marketPackage', '""'
+//            buildConfigField 'String', 'marketUri', '""'
+//            buildConfigField 'String', 'marketUriApp', '""'
+//            buildConfigField 'String', 'marketIntent', '""'
+//            buildConfigField 'String', 'marketCatID', '"8"'
+//        }
+
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'com.google.android.gms:play-services-measurement-api:20.1.2'
+    implementation 'com.google.firebase:firebase-crash:16.2.1'
+    implementation 'com.google.firebase:firebase-messaging:23.0.2'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
+    implementation 'com.daimajia.easing:library:1.0.1@aar'
+    implementation 'com.daimajia.androidanimations:library:1.1.3@aar'
+
+    implementation 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    implementation 'com.nineoldandroids:library:2.4.0'
+//    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.koushikdutta.ion:ion:2.1.9'
+    implementation 'com.orhanobut:logger:1.13'
+    implementation 'jp.wasabeef:recyclerview-animators:4.0.2'
+    implementation 'com.yalantis:ucrop:2.2.0-native'
+    implementation 'com.facebook.rebound:rebound:0.3.8'
+    implementation 'com.tumblr:backboard:0.2.0'
+    implementation 'com.github.Commit451:NativeStackBlur:1.0.7'
+    implementation 'com.jakewharton:disklrucache:2.0.2'
+
+    implementation files('libs/libwebp.jar')
+    implementation project(path: ':EasyFCM')
+
+    implementation "com.github.permissions-dispatcher:permissionsdispatcher:4.9.2"
+    annotationProcessor "com.github.permissions-dispatcher:permissionsdispatcher-processor:4.9.2"
+}

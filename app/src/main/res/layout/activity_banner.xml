@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragments.views.AutoSIzeImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bannerImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_centerInParent="true"
+    android:paddingTop="@dimen/padding_large"
+    android:clickable="true"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
+    android:drawingCacheQuality="high"
+    android:focusable="true"
+    android:focusableInTouchMode="true"/>

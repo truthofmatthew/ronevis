@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="panelHandle"/>
+    <item type="id" name="panelContent"/>
+    <item name="btn_Text_Add" type="id"/>
+    <item name="btn_Text_Font" type="id"/>
+    <item name="btn_Text_Size" type="id"/>
+    <item name="btn_Text_Crop" type="id"/>
+    <item name="btn_Text_Shadow" type="id"/>
+    <item name="btn_Text_Color" type="id"/>
+    <item name="btn_Text_BG_Color" type="id"/>
+    <item name="btn_Text_Opacity" type="id"/>
+    <item name="btn_Text_Gradient" type="id"/>
+    <item name="btn_Text_Stroke" type="id"/>
+    <item name="btn_Text_Texture" type="id"/>
+    <item name="btn_Text_LineSpace" type="id"/>
+    <item name="btn_Text_Duplicate" type="id"/>
+    <item name="btn_Text_Lock" type="id"/>
+    <item name="btn_Text_Align" type="id"/>
+    <item name="btn_Text_Bold" type="id"/>
+    <item name="btn_Text_Italic" type="id"/>
+    <item name="btn_Text_Strikethrough" type="id"/>
+    <item name="btn_Text_Underline" type="id"/>
+    <item name="btn_Text_Rotation" type="id"/>
+    <item name="btn_Text_Position" type="id"/>
+    <item name="btn_Text_Delete" type="id"/>
+    <item name="buttonLayout" type="id"/>
+    <item name="buttonIcon" type="id"/>
+    <item name="buttonText" type="id"/>
+    <item name="btn_BG_Import" type="id"/>
+    <item name="btn_BG_Vitrin" type="id"/>
+    <item name="btn_BG_Color" type="id"/>
+    <item name="btn_BG_Opacity" type="id"/>
+    <item name="btn_BG_Blur" type="id"/>
+    <item name="btn_BG_Delete" type="id"/>
+    <item name="btn_BG_Size" type="id"/>
+    <item name="btn_BG_Image_Crop" type="id"/>
+    <item name="btn_BG_Gradient" type="id"/>
+
+    <item name="btn_BG_Texture" type="id"/>
+    <item name="btn_Sticker_Import" type="id"/>
+    <item name="btn_Sticker_Vitrin" type="id"/>
+    <item name="btn_Sticker_Duplicate" type="id"/>
+    <item name="btn_Sticker_Opacity" type="id"/>
+    <item name="btn_Sticker_Rotation" type="id"/>
+    <item name="btn_Sticker_Expand" type="id"/>
+    <item name="btn_Sticker_Position" type="id"/>
+    <item name="btn_Sticker_Delete" type="id"/>
+    <item name="tagId_categoryPosition" type="id"/>
+    <item name="tagId_imagePosition" type="id"/>
+    <item name="color_picker" type="id"/>
+    <item name="color_picker_swatch" type="id"/>
+    <item name="color_picker_checkmark" type="id"/>
+    <item name="tab" type="id"/>
+    <item name="viewpager" type="id"/>
+    <item name="viewpagertab" type="id"/>
+
+    <item name="SwitchBtnTitle" type="id"/>
+    <item name="shadowmagiccolor" type="id"/>
+
+    <item name="seekshadowx" type="id"/>
+    <item name="seekshadowy" type="id"/>
+    <item name="seekshadowdensity" type="id"/>
+
+
+    <item name="dragger_layoutmanager" type="id"/>
+    <item name="dragger_layout" type="id"/>
+    <item name="dragger_setting" type="id"/>
+    <item name="dragger_icon" type="id"/>
+    <item name="tab_bar" type="id"/>
+    <item name="tab_bars" type="id"/>
+    <item name="tab_pager" type="id"/>
+    <item name="container_Pager" type="id"/>
+    <item name="container" type="id"/>
+    <item name="Drag_Main_View" type="id"/>
+    <item name="web_review" type="id"/>
+    <item name="esBtn" type="id"/>
+    <item name="esBar" type="id"/>
+
+</resources>

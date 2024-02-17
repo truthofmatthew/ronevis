@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+    <!--<TextView-->
+        <!--android:id="@+id/coverTitle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+      <!---->
+        <!--android:background="#80ffffff"-->
+        <!--android:gravity="right|center_vertical"-->
+        <!--android:paddingRight="@dimen/padding_large"-->
+        <!--android:text="dd"-->
+        <!--android:textColor="@color/text_primary_dark"-->
+        <!--android:textSize="16sp"/>-->
+    <TextView
+        android:id="@+id/coverTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:gravity="right"
+        android:background="#80000000"
+        android:textSize="12sp"
+        android:textColor="@color/text_primary_light"
+        android:text="سلام"/>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@color/text_primary_dark"/>-->
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+    <scale
+        android:duration="@integer/popup_fragment_anim_time"
+        android:fromXScale="1.1"
+        android:fromYScale="1.1"
+        android:pivotX="50.0%"
+        android:pivotY="50.0%"
+        android:toXScale="1.0"
+        android:toYScale="1.0"/>
+    <alpha
+        android:duration="@integer/popup_fragment_anim_time"
+        android:fromAlpha="0.5"
+        android:toAlpha="1.0"/>
+</set>

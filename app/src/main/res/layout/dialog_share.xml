@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_save_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    xmlns:my_app="http://schemas.android.com/apk/res-auto">
+    <fragments.views.TextButton
+        android:id="@+id/btn_project"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        my_app:text_caption="@string/dsFileFormatProj"
+        my_app:text_icon="@string/Icon_file"/>
+    <fragments.views.TextButton
+        android:id="@+id/btn_webp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        my_app:text_caption="@string/dsFileFormatWEBP"
+        my_app:text_icon="@string/Icon_emoticon_happy"/>
+    <fragments.views.TextButton
+        android:id="@+id/btn_png"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        my_app:text_caption="@string/dsFileFormatPNG"
+        my_app:text_icon="@string/Icon_file_image"/>
+</LinearLayout>
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+    android:layout_below="@+id/btn_save_panel"
+android:layout_marginBottom="6dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle"
+       />
+</RelativeLayout>

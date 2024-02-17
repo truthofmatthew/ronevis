@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "mt.karimi.ronevis",
+  "variantName": "cafebazaarDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 43,
+      "versionName": "2.65",
+      "outputFile": "resources-cafebazaarDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "mt.karimi.ronevis.test",
+  "variantName": "cafebazaarDebugAndroidTest",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 0,
+      "versionName": "",
+      "outputFile": "app-cafebazaar-debug-androidTest.apk"
+    }
+  ],
+  "elementType": "File"
+}

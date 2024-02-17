@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/md_pink_200" android:state_selected="true"/>
+    <item android:color="@color/md_red_500" android:state_drag_hovered="true"
+          android:state_first="true"  android:state_single="true" android:state_hovered="true"
+          android:state_active="true" android:state_pressed="true" android:state_focused="true"
+          android:state_activated="true"/>
+    <item android:color="@color/gold_1" android:state_focused="true" android:state_pressed="true"/>
+    <item android:color="@color/blue_3" android:state_pressed="true"/>
+    <item android:color="@color/md_green_600"/>
+</selector>

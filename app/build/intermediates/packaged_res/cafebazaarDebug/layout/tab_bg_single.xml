@@ -1,0 +1,50 @@
+<!--<com.daimajia.swipe.SwipeLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:autofit="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:swipe="http://schemas.android.com/apk/res-auto"-->
+<!--android:id="@+id/swipe"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:background="@null"-->
+<!--android:gravity="center_vertical"-->
+<!--swipe:leftEdgeSwipeOffset="0dp"-->
+<!--swipe:rightEdgeSwipeOffset="0dp">-->
+<!--<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:autofit="http://schemas.android.com/apk/res-auto"-->
+<!--android:id="@+id/bottom_wrapper_child1"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="match_parent"-->
+<!--android:background="@null"-->
+<!--android:gravity="center_vertical"-->
+<!--android:tag="Bottom2"-->
+<!--android:weightSum="2">-->
+<!--<fragments.views.TextIcon-->
+<!--android:id="@+id/singleRowFontDelete"-->
+<!--android:layout_width="0dp"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_weight="1"-->
+<!--android:background="@null"-->
+<!--android:button="@null"-->
+<!--android:gravity="center"-->
+<!--android:maxLines="1"-->
+<!--android:padding="@dimen/padding_medium"-->
+<!--android:maxLines="1"-->
+<!--android:textSize="30sp"-->
+<!--autofit:ColorOff="@color/colorWhiteTrans"-->
+<!--autofit:ColorOn="@color/colorRedBorder"-->
+<!--autofit:TextOff="@string/Icon_delete"-->
+<!--autofit:TextOn="@string/Icon_delete"-->
+<!--autofit:isradio="true"/>-->
+<!--</LinearLayout>-->
+<fragments.views.AutoSIzeImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imgbgsingle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_centerInParent="true"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:drawingCacheQuality="low"
+    android:src="@drawable/empty_ronevis"/>
+    <!--</com.daimajia.swipe.SwipeLayout>-->

@@ -1,0 +1,133 @@
+<resources>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    <style name="Toolbar_Popup" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">#08ec00</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <!--<item name="android:textColorPrimary">#836e8b</item>-->
+        <!--<item name="android:textColorSecondary">@color/md_pink_400</item>-->
+        <!--<item name="actionMenuTextColor">@color/md_green_700</item>-->
+        <!--<item name="android:textSize">20sp</item>-->
+        <!--<item name="android:textStyle">italic</item>-->
+        <item name="colorControlNormal">#ffd500</item>
+        <item name="android:colorBackground">#ff6a00</item>
+        <item name="colorControlActivated">#645400</item>
+        <item name="colorControlHighlight">#e100ff</item>
+        <!--<item name="actionOverflowButtonStyle">@style/ActionButtonOverflowStyle</item>-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+    <style name="MyToolbar" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <!--<item name="android:textColorSecondary">@color/md_light_blue_700</item>-->
+        <!--<item name="actionMenuTextColor">@color/md_yellow_500</item>-->
+    </style>
+    <style name="mWidget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="mBase.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabMaxWidth">@dimen/m_tab_max_width</item>
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+    <style name="mTextAppearance.Design.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/m_tab_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="borderless" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/btn_borderless</item>
+    </style>
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="NormalDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/NormalDialogAnimation</item>
+    </style>
+    <style name="NormalDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/info_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/info_dialog_exit</item>
+    </style>
+    <style name="FullDialog" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/FullDialogAnimation</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowSoftInputMode">adjustResize|stateAlwaysVisible</item>
+
+
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!--<item name="android:backgroundDimAmount">0.4</item>-->
+    </style>
+    <style name="FullDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/zoom_in_fade</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out_fade</item>
+    </style>
+    <style name="ColorPicker.Dark" parent="AppTheme.Base">
+        <item name="cp_backgroundColor">#222</item>
+        <item name="cp_hexaDecimalTextColor">#ff0</item>
+        <item name="cp_colorComponentsTextColor">#fff</item>
+        <item name="cp_positiveActionTextColor">@color/colorAccent</item>
+        <item name="cp_negativeActionTextColor">@color/colorAccentDark</item>
+        <item name="cp_sliderThumbColor">#ddd</item>
+    </style>
+    <style name="WelcomeHeadingAppearance" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/welcome_heading</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="WelcomeContentAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/welcome_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="SaveSizeTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">-10.0dip</item>
+        <!--<item name="drawableTint">#96000000</item>-->
+        <!--<item name="drawableTintMode">src_in</item>-->
+    </style>
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:minWidth">64dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minHeight">@dimen/abc_alert_dialog_button_bar_height</item>
+    </style>
+</resources>

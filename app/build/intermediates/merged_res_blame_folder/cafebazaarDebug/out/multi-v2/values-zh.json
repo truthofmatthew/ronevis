@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\incremental\\mergeCafebazaarDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ramin\\.gradle\\caches\\transforms-3\\8e249177ba83204c64a61ee7ad0e8f84\\transformed\\jetified-ucrop-2.2.0-native\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    }
+                }
+            ]
+        }
+    ]
+}

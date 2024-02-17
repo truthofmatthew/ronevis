@@ -1,0 +1,11 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.recyclerview.widget.RecyclerView android:requiresFadingEdge="horizontal|vertical"
+        android:id="@+id/bottom_bar_recycler"
+        android:layout_width="match_parent" android:clipToPadding="false"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"/>
+</FrameLayout>

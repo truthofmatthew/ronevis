@@ -1,0 +1,489 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mt.karimi.ronevis"
+4    android:versionCode="43"
+5    android:versionName="2.65" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:7:5-66
+11-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:7:22-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:8:5-67
+12-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:9:5-81
+13-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:10:5-81
+14-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:11:5-80
+15-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:12:5-68
+16-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:13:5-79
+17-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.READ_LOGS" />
+18-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:14:5-68
+18-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:14:22-65
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:15:5-75
+19-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:15:22-72
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:16:5-82
+20-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:16:22-79
+21    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- <permission -->
+21-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+21-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+22    <!-- android:name="mt.karimi.ronevis.permission.C2D_MESSAGE" -->
+23    <!-- android:protectionLevel="signature" /> -->
+24    <!-- <uses-permission android:name="mt.karimi.ronevis.permission.C2D_MESSAGE" /> -->
+25    <application
+25-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:24:5-171:19
+26        android:name="mt.karimi.ronevis.ApplicationLoader"
+26-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:25:9-42
+27        android:allowBackup="true"
+27-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:26:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\Ramin\.gradle\caches\transforms-3\c001bcc887ac6c1481af4f1e31159287\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:fullBackupContent="true"
+30-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:27:9-41
+31        android:hardwareAccelerated="true"
+31-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:29:9-43
+32        android:icon="@drawable/ic_launcher"
+32-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:30:9-45
+33        android:installLocation="preferExternal"
+33-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:31:9-49
+34        android:label="@string/app_name"
+34-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:32:9-41
+35        android:largeHeap="true"
+35-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:33:9-33
+36        android:supportsRtl="false"
+36-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:34:9-36
+37        android:theme="@style/AppTheme" >
+37-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:35:9-40
+38        <provider
+39            android:name="androidx.core.content.FileProvider"
+39-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:39:13-62
+40            android:authorities="mt.karimi.ronevis.provider"
+40-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:40:13-60
+41            android:exported="false"
+41-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:41:13-37
+42            android:grantUriPermissions="true" >
+42-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:42:13-47
+43            <meta-data
+43-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:43:13-45:58
+44                android:name="android.support.FILE_PROVIDER_PATHS"
+44-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:44:17-67
+45                android:resource="@xml/provider_paths" />
+45-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:45:17-55
+46        </provider>
+47
+48        <activity
+48-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:48:9-61:20
+49            android:name="activities.SplashActivity"
+49-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:49:13-53
+50            android:exported="true"
+50-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:56:13-36
+51            android:label="@string/app_name"
+51-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:50:13-45
+52            android:launchMode="singleTask"
+52-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:51:13-44
+53            android:noHistory="true"
+53-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:52:13-37
+54            android:screenOrientation="portrait"
+54-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:53:13-49
+55            android:theme="@style/Theme.AppCompat.NoActionBar"
+55-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:54:13-63
+56            android:windowSoftInputMode="adjustNothing" >
+56-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:55:13-56
+57            <intent-filter>
+57-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:57:13-60:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:58:17-69
+58-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:58:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:59:17-77
+60-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:59:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:62:9-74:20
+64            android:name="activities.MainActivity"
+64-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:63:13-51
+65            android:exported="true"
+65-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:68:13-36
+66            android:label="@string/app_name"
+66-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:64:13-45
+67            android:noHistory="false"
+67-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:65:13-38
+68            android:screenOrientation="portrait"
+68-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:66:13-49
+69            android:windowSoftInputMode="adjustResize" >
+69-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:67:13-55
+70            <intent-filter>
+70-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:69:13-73:29
+71                <action android:name="android.intent.action.SEND" />
+71-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:70:17-69
+71-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:70:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:71:17-76
+73-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:71:27-73
+74
+75                <data android:mimeType="image/*" />
+75-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:72:17-52
+75-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:72:23-49
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:76:9-82:66
+79            android:name="org.acra.dialog.CrashReportDialog"
+79-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:77:13-61
+80            android:excludeFromRecents="true"
+80-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:78:13-46
+81            android:finishOnTaskLaunch="true"
+81-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:79:13-46
+82            android:launchMode="singleInstance"
+82-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:80:13-48
+83            android:screenOrientation="portrait"
+83-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:81:13-49
+84            android:theme="@style/Theme.AppCompat.NoActionBar" />
+84-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:82:13-63
+85        <activity
+85-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:84:9-86:52
+86            android:name="activities.AppDetailActivity"
+86-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:85:13-56
+87            android:screenOrientation="portrait" />
+87-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:86:13-49
+88        <activity
+88-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:87:9-89:52
+89            android:name="activities.DownloadActivity"
+89-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:88:13-55
+90            android:screenOrientation="portrait" />
+90-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:89:13-49
+91        <activity
+91-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:91:9-93:52
+92            android:name="activities.AgreementActivity"
+92-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:92:13-56
+93            android:screenOrientation="portrait" />
+93-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:93:13-49
+94        <activity
+94-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:94:9-96:52
+95            android:name="activities.ActivitySetting"
+95-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:95:13-54
+96            android:screenOrientation="portrait" />
+96-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:96:13-49
+97        <activity
+97-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:98:9-100:52
+98            android:name="activities.TourActivity"
+98-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:99:13-51
+99            android:screenOrientation="portrait" />
+99-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:100:13-49
+100        <activity
+100-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:102:9-113:20
+101            android:name="activities.PopupNotificationActivity"
+101-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:103:13-64
+102            android:clearTaskOnLaunch="true"
+102-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:104:13-45
+103            android:excludeFromRecents="true"
+103-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:105:13-46
+104            android:exported="true"
+104-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:106:13-36
+105            android:finishOnTaskLaunch="true"
+105-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:107:13-46
+106            android:label="@string/app_namePer"
+106-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:108:13-48
+107            android:launchMode="standard"
+107-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:109:13-42
+108            android:screenOrientation="portrait"
+108-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:110:13-49
+109            android:taskAffinity=""
+109-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:111:13-36
+110            android:theme="@style/AppTheme.Notification" >
+110-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:112:13-57
+111        </activity>
+112        <activity
+112-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:115:9-126:20
+113            android:name="activities.DialogActivity"
+113-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:116:13-53
+114            android:clearTaskOnLaunch="true"
+114-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:117:13-45
+115            android:excludeFromRecents="true"
+115-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:118:13-46
+116            android:exported="true"
+116-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:119:13-36
+117            android:finishOnTaskLaunch="true"
+117-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:120:13-46
+118            android:label="@string/app_namePer"
+118-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:121:13-48
+119            android:launchMode="standard"
+119-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:122:13-42
+120            android:screenOrientation="portrait"
+120-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:123:13-49
+121            android:taskAffinity=""
+121-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:124:13-36
+122            android:theme="@style/AppTheme.Notification" >
+122-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:125:13-57
+123        </activity>
+124        <activity
+124-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:129:9-132:72
+125            android:name="com.yalantis.ucrop.UCropActivity"
+125-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:130:13-60
+126            android:screenOrientation="portrait"
+126-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:131:13-49
+127            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+127-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:132:13-69
+128
+129        <meta-data
+129-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:134:9-136:69
+130            android:name="com.google.android.gms.version"
+130-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:135:13-58
+131            android:value="@integer/google_play_services_version" />
+131-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:136:13-66
+132
+133        <service
+133-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:138:9-144:19
+134            android:name="users.fCMListenerService"
+134-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:139:13-52
+135            android:exported="false" >
+135-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:140:13-37
+136            <intent-filter>
+136-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:141:13-143:29
+137                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+137-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:142:17-78
+137-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:142:25-75
+138            </intent-filter>
+139        </service>
+140
+141        <!-- <service -->
+142        <!-- android:name="users.GcmIntentService" -->
+143        <!-- /> -->
+144
+145
+146        <!-- <receiver -->
+147        <!-- android:name="users.GCMBroadcastReceiver" -->
+148        <!-- android:permission="com.google.android.c2dm.permission.SEND"> -->
+149        <!-- <intent-filter> -->
+150        <!-- <action android:name="com.google.android.c2dm.intent.REGISTRATION"/> -->
+151        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE"/> -->
+152        <!-- &lt;!&ndash;<action android:name="com.google.android.c2dm.intent.GCM_RECEIVED_ACTION"/>&ndash;&gt; -->
+153
+154
+155        <!-- <category android:name="users.GcmIntentService"/> -->
+156        <!-- </intent-filter> -->
+157        <!-- </receiver> -->
+158
+159        <service
+159-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:163:9-166:39
+160            android:name="org.acra.sender.SenderService"
+160-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:164:13-57
+161            android:exported="false"
+161-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:165:13-37
+162            android:process=":acra" />
+162-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:166:13-36
+163        <service android:name="fragments.download.service.DownloadService" />
+163-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:168:9-78
+163-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:168:18-75
+164
+165        <!-- [START firebase_service] -->
+166        <service
+166-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:19
+167            android:name="com.trung.fcm.library.FCMListenerService"
+167-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-68
+168            android:exported="true" >
+168-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
+169            <intent-filter>
+169-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:141:13-143:29
+170                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+170-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:142:17-78
+170-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:142:25-75
+171            </intent-filter>
+172        </service> <!-- [END firebase_service] -->
+173        <!-- [START firebase_iid_service] -->
+174        <service
+174-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-32:19
+175            android:name="com.trung.fcm.library.FCMIdListenerService"
+175-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-70
+176            android:exported="true" >
+176-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+177            <intent-filter>
+177-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:29
+178                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+178-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-80
+178-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-77
+179            </intent-filter>
+180        </service> <!-- [END firebase_iid_service] -->
+181        <service
+181-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:40
+182            android:name="com.trung.fcm.library.SaveFCMIdService"
+182-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-66
+183            android:exported="false" />
+183-->[:EasyFCM] F:\FriendsProjects\Ronevis\EasyFCM\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+184        <service
+184-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:28:9-34:19
+185            android:name="com.google.firebase.components.ComponentDiscoveryService"
+185-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:29:13-84
+186            android:directBootAware="true"
+186-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+187            android:exported="false" >
+187-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:30:13-37
+188            <meta-data
+188-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+189                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+189-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\d35bdc587f51807f864d47f91ea4ef8d\transformed\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Ramin\.gradle\caches\transforms-3\a2a0dd8be3c4edeb4c8f33c1ed56eea8\transformed\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
+192                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
+192-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Ramin\.gradle\caches\transforms-3\a2a0dd8be3c4edeb4c8f33c1ed56eea8\transformed\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Ramin\.gradle\caches\transforms-3\a2a0dd8be3c4edeb4c8f33c1ed56eea8\transformed\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:55:13-57:85
+195                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+195-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:56:17-119
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:57:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\e0d8b251374883822b28a0194884ca88\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+198                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+198-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\e0d8b251374883822b28a0194884ca88\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\e0d8b251374883822b28a0194884ca88\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+200            <meta-data
+200-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\6b9fe60b453021f03ee8710c4aa983a3\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+201                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+201-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\6b9fe60b453021f03ee8710c4aa983a3\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\6b9fe60b453021f03ee8710c4aa983a3\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+203            <meta-data
+203-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Ramin\.gradle\caches\transforms-3\66ed340e8707cf904a4941e2f8b62255\transformed\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:28:13-30:85
+204                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+204-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Ramin\.gradle\caches\transforms-3\66ed340e8707cf904a4941e2f8b62255\transformed\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:29:17-115
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Ramin\.gradle\caches\transforms-3\66ed340e8707cf904a4941e2f8b62255\transformed\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:30:17-82
+206        </service>
+207
+208        <receiver
+208-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:31:9-38:20
+209            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+209-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:32:13-78
+210            android:exported="true"
+210-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:33:13-36
+211            android:permission="com.google.android.c2dm.permission.SEND" >
+211-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:34:13-73
+212            <intent-filter>
+212-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:35:13-37:29
+213                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+213-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:36:17-81
+213-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:36:25-78
+214            </intent-filter>
+215        </receiver>
+216        <!--
+217             FirebaseMessagingService performs security checks at runtime,
+218             but set to not exported to explicitly avoid allowing another app to call it.
+219        -->
+220        <service
+220-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:44:9-51:19
+221            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+221-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:45:13-82
+222            android:directBootAware="true"
+222-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:46:13-43
+223            android:exported="false" >
+223-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\Ramin\.gradle\caches\transforms-3\6c1b4592681923de4f27e7e09d3ffc96\transformed\jetified-firebase-messaging-23.0.2\AndroidManifest.xml:47:13-37
+224            <intent-filter android:priority="-500" >
+224-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:141:13-143:29
+225                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+225-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:142:17-78
+225-->F:\FriendsProjects\Ronevis\app\src\main\AndroidManifest.xml:142:25-75
+226            </intent-filter>
+227        </service>
+228
+229        <provider
+229-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+230            android:name="com.google.firebase.provider.FirebaseInitProvider"
+230-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+231            android:authorities="mt.karimi.ronevis.firebaseinitprovider"
+231-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+232            android:directBootAware="true"
+232-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+233            android:exported="false"
+233-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+234            android:initOrder="100" />
+234-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Ramin\.gradle\caches\transforms-3\4a1578dca3a81b6c382d624fb959478c\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+235
+236        <activity
+236-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\8454da982f3b3bd0c324a279b8356ba9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+237            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+237-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\8454da982f3b3bd0c324a279b8356ba9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+238            android:exported="false"
+238-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\8454da982f3b3bd0c324a279b8356ba9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+239            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ramin\.gradle\caches\transforms-3\8454da982f3b3bd0c324a279b8356ba9\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+240
+241        <provider
+241-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+242            android:name="androidx.startup.InitializationProvider"
+242-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+243            android:authorities="mt.karimi.ronevis.androidx-startup"
+243-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+244            android:exported="false" >
+244-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+245            <meta-data
+245-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+246                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+246-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+247                android:value="androidx.startup" />
+247-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ramin\.gradle\caches\transforms-3\64282ae4730c10fca05a1f1060938b75\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+248            <meta-data
+248-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ramin\.gradle\caches\transforms-3\e07a3d65bcb73cd4b8e2d4a5173c501a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+249                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+249-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ramin\.gradle\caches\transforms-3\e07a3d65bcb73cd4b8e2d4a5173c501a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+250                android:value="androidx.startup" />
+250-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ramin\.gradle\caches\transforms-3\e07a3d65bcb73cd4b8e2d4a5173c501a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+251        </provider>
+252
+253        <service
+253-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\e3d17b19d6a25f0b0121e8dc66e909b5\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
+254            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+254-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\e3d17b19d6a25f0b0121e8dc66e909b5\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
+255            android:exported="false" >
+255-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\e3d17b19d6a25f0b0121e8dc66e909b5\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
+256            <meta-data
+256-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\e3d17b19d6a25f0b0121e8dc66e909b5\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
+257                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+257-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\e3d17b19d6a25f0b0121e8dc66e909b5\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
+258                android:value="cct" />
+258-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\e3d17b19d6a25f0b0121e8dc66e909b5\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
+259        </service>
+260        <service
+260-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
+261            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+261-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
+262            android:exported="false"
+262-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
+263            android:permission="android.permission.BIND_JOB_SERVICE" >
+263-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
+264        </service>
+265
+266        <receiver
+266-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
+267            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+267-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
+268            android:exported="false" />
+268-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Ramin\.gradle\caches\transforms-3\599b2f80dfae239af25f562ac0ed49fd\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
+269    </application>
+270
+271</manifest>

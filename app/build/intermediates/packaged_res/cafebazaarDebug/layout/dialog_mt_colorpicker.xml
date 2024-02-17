@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/mtcpDialog"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_margin="10dp"
+              android:padding="8dp"
+              android:orientation="vertical">
+<!--    <com.chiralcode.colorpicker.CircleColorPickerPalette-->
+<!--        android:id="@id/color_picker"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"/>-->
+</LinearLayout>

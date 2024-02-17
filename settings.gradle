@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        exclusiveContent {
+            forRepository {
+                maven {
+                    url "https://a8c-libs.s3.amazonaws.com/android"
+                }
+            }
+            filter {
+                includeModule "com.tumblr", "backboard"
+            }
+        }
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "Ronevis"
+include ':app'
+include ':EasyFCM'

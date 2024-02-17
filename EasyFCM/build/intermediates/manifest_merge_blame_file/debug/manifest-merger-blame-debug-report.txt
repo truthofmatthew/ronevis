@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trung.fcm.library" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml
+8
+9    <application
+9-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:4:5-32:19
+10        android:allowBackup="true"
+10-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:5:9-35
+11        android:label="@string/app_name"
+11-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:6:9-41
+12        android:supportsRtl="true" >
+12-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:7:9-35
+13
+14        <!-- [START firebase_service] -->
+15        <service
+15-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:10:9-16:19
+16            android:name="com.trung.fcm.library.FCMListenerService"
+16-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:11:13-47
+17            android:exported="true" >
+17-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:12:13-36
+18            <intent-filter>
+18-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:13:13-15:29
+19                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+19-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:14:17-77
+19-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:14:25-75
+20            </intent-filter>
+21        </service>
+22        <!-- [END firebase_service] -->
+23
+24
+25        <!-- [START firebase_iid_service] -->
+26        <service
+26-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:21:9-27:19
+27            android:name="com.trung.fcm.library.FCMIdListenerService"
+27-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:22:13-49
+28            android:exported="true" >
+28-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:23:13-36
+29            <intent-filter>
+29-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:24:13-26:29
+30                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+30-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:25:17-79
+30-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:25:25-77
+31            </intent-filter>
+32        </service>
+33        <!-- [END firebase_iid_service] -->
+34
+35        <service
+35-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:30:9-77
+36            android:name="com.trung.fcm.library.SaveFCMIdService"
+36-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:30:18-50
+37            android:exported="false" />
+37-->F:\FriendsProjects\Ronevis\EasyFCM\src\main\AndroidManifest.xml:30:51-75
+38    </application>
+39
+40</manifest>

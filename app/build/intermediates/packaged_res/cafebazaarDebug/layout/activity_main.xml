@@ -1,0 +1,129 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:focusable="false">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/wholeCanvas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/Rtoolbar"
+                    android:layout_marginBottom="32dp"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+        <fragments.views.MTFrameLayout
+            android:id="@+id/exportroot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:splitMotionEvents="true">
+
+            <fragments.views.BGImageView
+                android:id="@+id/rootbg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+
+            <!--<fragments.views.LoupeView-->
+                <!--android:id="@+id/image_view"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                 <!--/>-->
+
+        </fragments.views.MTFrameLayout>
+    </RelativeLayout>
+
+
+    <!--<fragments.views.pinterestview.PinterestView-->
+    <!--xmlns:custom="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/item_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#50000000"-->
+    <!--custom:child_size="48dp"-->
+    <!--custom:child_radius="100dp"-->
+    <!--custom:child_max_scale="1.8"-->
+    <!--custom:tips_color="@android:color/white"-->
+    <!--custom:tips_size="15sp"-->
+    <!--custom:tips_background="@drawable/shape_child_item"-->
+    <!--android:visibility="gone"/>-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Rtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/top_bottom_divider_background"
+        android:logo="@null"
+        android:minHeight="?attr/actionBarSize"
+        android:title="@null"
+        app:logo="@null"
+        app:navigationIcon="@null"
+        app:title="@null">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/Rtoolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingEnd="0dp"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="0dp"
+                android:paddingStart="@dimen/padding_medium"
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textIsSelectable="false"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/toolbar_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingEnd="0dp"
+                android:paddingLeft="@dimen/padding_medium"
+                android:paddingRight="0dp"
+                android:paddingStart="@dimen/padding_medium"
+                android:textColor="@color/colorWhiteTrans"
+                android:textIsSelectable="false"
+                android:textSize="12sp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.Toolbar>
+
+
+</RelativeLayout>

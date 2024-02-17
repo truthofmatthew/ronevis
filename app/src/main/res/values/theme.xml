@@ -1,0 +1,66 @@
+<resources>
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">@color/colorAccentDark</item>
+        <item name="android:background">@color/bg_tools</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="colorPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryDark">@color/bg_tools</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="actionOverflowMenuStyle">@style/CMOptionsMenu</item>
+        <item name="android:listSelector">@null</item>
+        <item name="android:cacheColorHint">@null</item>
+        <!--<item name="android:colorBackgroundCacheHint">@null</item>-->
+        <!--<item name="android:alwaysDrawnWithCache">false</item>-->
+    </style>
+    <style name="AppTheme.Notification" parent="AppTheme">
+        <item name="colorPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="ThemeDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@color/bg_tools</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+    <style name="CMOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:divider">#FF0000</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:textColor">@color/colorWhiteTrans</item>
+        <item name="android:popupBackground">@color/bg_tools</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/colorWhiteTrans</item>
+    </style>
+</resources>

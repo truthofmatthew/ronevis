@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mt.karimi.ronevis.test" >
+4
+5    <uses-sdk
+5-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:5:15-41
+7        android:targetSdkVersion="31" />
+7-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:11:5-15:67
+10        android:name="android.test.InstrumentationTestRunner"
+10-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:11:22-75
+11        android:functionalTest="false"
+11-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:13:22-53
+13        android:label="Tests for mt.karimi.ronevis"
+13-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:15:22-65
+14        android:targetPackage="mt.karimi.ronevis" />
+14-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:12:22-63
+15
+16    <application android:debuggable="true" >
+16-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:8:9-60
+17-->F:\FriendsProjects\Ronevis\app\build\intermediates\tmp\manifest\androidTest\cafebazaar\debug\tempFile1ProcessTestManifest4693346287214597469.xml:8:23-57
+18    </application>
+19
+20</manifest>

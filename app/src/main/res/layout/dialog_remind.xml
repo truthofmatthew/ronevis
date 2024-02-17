@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/remind"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="48dp"
+             android:clipChildren="false">
+    <TextView
+        android:id="@+id/image_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:text="@string/Icon_shopping"
+        android:textColor="@color/gold_2"
+        android:textSize="100sp"/>
+</FrameLayout>

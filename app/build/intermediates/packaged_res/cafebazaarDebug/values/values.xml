@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="BGDefaultSize">
+        <item>استیکر</item>
+        <item>مستطیل</item>
+    </string-array>
+    <attr format="reference" name="MaterialTapTargetPromptTheme"/>
+    <attr format="boolean" name="autoDismiss"/>
+    <attr format="boolean" name="autoFinish"/>
+    <attr format="color" name="backgroundColour"/>
+    <attr format="boolean" name="captureTouchEventOnFocal"/>
+    <attr format="boolean" name="captureTouchEventOutsidePrompt"/>
+    <attr format="color" name="focalColour"/>
+    <attr format="dimension" name="focalRadius"/>
+    <attr format="dimension" name="focalToTextPadding"/>
+    <attr format="color" name="iconColourFilter"/>
+    <attr format="dimension" name="maxTextWidth"/>
+    <attr format="string" name="mprimaryText"/>
+    <attr format="dimension" name="mprimaryTextSize"/>
+    <attr format="enum" name="mprimaryTextStyle">
+        <enum name="normal" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="italic" value="2"/>
+    </attr>
+    <attr format="enum" name="mprimaryTextTypeface">
+        <enum name="normal" value="0"/>
+        <enum name="sans" value="1"/>
+        <enum name="serif" value="2"/>
+        <enum name="monospace" value="3"/>
+    </attr>
+    <attr format="string" name="msecondaryText"/>
+    <attr format="dimension" name="msecondaryTextSize"/>
+    <attr format="enum" name="msecondaryTextStyle">
+        <enum name="normal" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="italic" value="2"/>
+    </attr>
+    <attr format="enum" name="msecondaryTextTypeface">
+        <enum name="normal" value="0"/>
+        <enum name="sans" value="1"/>
+        <enum name="serif" value="2"/>
+        <enum name="monospace" value="3"/>
+    </attr>
+    <attr format="color" name="primaryTextColour"/>
+    <attr format="string" name="primaryTextFontFamily"/>
+    <attr format="color" name="secondaryTextColour"/>
+    <attr format="string" name="secondaryTextFontFamily"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="reference" name="target"/>
+    <attr format="dimension" name="textPadding"/>
+    <attr format="dimension" name="textSeparation"/>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <bool name="is_rtl">false</bool>
+    <color name="Ash">#BEB8A7</color>
+    <color name="Aths_Special">#D2C8B1</color>
+    <color name="BEAVER">#998560</color>
+    <color name="BURLYWOOD">#DDBA76</color>
+    <color name="Barossa">#4A3E43</color>
+    <color name="CHARCOAL">#39464F</color>
+    <color name="DARK_GRAY">#A8A7AC</color>
+    <color name="Double_Pearl">#E7DDC3</color>
+    <color name="GHOST_WHITE">#F8F8F8</color>
+    <color name="GUNMETAL">#2B363B</color>
+    <color name="Half_Dutch">#FDF1D5</color>
+    <color name="Hemp">#967F76</color>
+    <color name="ISABELLINE">#EBEBEB</color>
+    <color name="Jumbo">#8B8B85</color>
+    <color name="LAVENDER_GRAY">#C7C6CB</color>
+    <color name="L_bar_bg">#ffffff</color>
+    <color name="L_bar_divider">#ededed</color>
+    <color name="L_bar_icon_pressed">#c4c5c9</color>
+    <color name="L_bar_icon_text">#bec3c7</color>
+    <color name="L_bar_icon_text_selected">#545a5c</color>
+    <color name="L_bg">#fcfcfc</color>
+    <color name="L_content_divider">#ebecee</color>
+    <color name="L_indicator">#ebecee</color>
+    <color name="L_indicator_selected">#c1c6ca</color>
+    <color name="Maire">#1C1C1B</color>
+    <color name="OUTER_SPACE">#47484D</color>
+    <color name="SHADOW">#8F7C5B</color>
+    <color name="SILVER">#39464F</color>
+    <color name="Wafer">#CBBBB0</color>
+    <color name="Wan_White">#E5E3DC</color>
+    <color name="Zanah">#B7BEB7</color>
+    <color name="Zorba">#9E8E82</color>
+    <color name="accent_blue_1">#ffecf4fb</color>
+    <color name="accent_blue_2">#ffc6def4</color>
+    <color name="accent_blue_3">#ffa0c8ed</color>
+    <color name="accent_blue_4">#ff7ab2e6</color>
+    <color name="accent_blue_5">#ff4090db</color>
+    <color name="accent_blue_6">#ff2d6599</color>
+    <color name="accent_blue_7">#ff20486d</color>
+    <color name="accent_blue_8">#ff132b41</color>
+    <color name="accent_blue_9">#060e15</color>
+    <color name="action_bar_semi_transparent_white">#bfffffff</color>
+    <color name="action_bar_top_highlight">#ff366289</color>
+    <color name="action_bar_transparent_background">#20000000</color>
+    <color name="action_bar_transparent_background_pressed_state">#30000000</color>
+    <color name="bg_dark">#1f1f1f</color>
+    <color name="bg_divider">#1a1919</color>
+    <color name="bg_tools">#282828</color>
+    <color name="black">#000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_25_transparent">#40000000</color>
+    <color name="blue_1">#ffe8eef3</color>
+    <color name="blue_2">#ffb8cddc</color>
+    <color name="blue_3">#ff89abc4</color>
+    <color name="blue_4">#ff5a89ac</color>
+    <color name="blue_5">#ff125688</color>
+    <color name="blue_6">#ff0d3c5f</color>
+    <color name="blue_7">#ff092b44</color>
+    <color name="blue_8">#ff051a29</color>
+    <color name="blue_9">#ff02080d</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="blue_dark_bg">#1e2225</color>
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_icon">#c6c6c6</color>
+    <color name="btn_title">#6b6b6e</color>
+    <color name="button_checked">#ff33b5e5</color>
+    <color name="button_pressed">#ff0099cc</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="cerulean">#00ACEC</color>
+    <color name="click_background">#33141823</color>
+    <color name="colorAccent">#f0cf69</color>
+    <color name="colorAccentDark">#f7ca42</color>
+    <color name="colorAccentLight">#d6c079</color>
+    <color name="colorBlue">#2196f3</color>
+    <color name="colorControlHighlight">@color/fifty_percent_transparency_grey_400</color>
+    <color name="colorGreen">#1de9b6</color>
+    <color name="colorGrey">#424242</color>
+    <color name="colorGreyLight">#727272</color>
+    <color name="colorPink">#E91E63</color>
+    <color name="colorPrimary">#1f1f1f</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorRed">#FF5722</color>
+    <color name="colorRedBG">#55FF5722</color>
+    <color name="colorRedBorder">#99FF5722</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteTrans">#99ffffff</color>
+    <color name="dark_action_bar_top_highlight">#ff292d30</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="dividerDark">#f3f4f7</color>
+    <color name="enls_default_list_background">#ffc829</color>
+    <color name="enls_default_selection_view_background">#ffcd28</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="fifty_percent_transparency_grey_400">#80bdbdbd</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="gold_1">#f7ca42</color>
+    <color name="gold_2">#f0cf69</color>
+    <color name="gold_3">#d6c079</color>
+    <color name="gold_dark_bg">#f5f0ea</color>
+    <color name="gold_light_bg">#fdfaf7</color>
+    <color name="gold_light_title">#f5f0ea</color>
+    <color name="gold_title">#fef2e1</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="grey_0_5">#fffafafa</color>
+    <color name="grey_0_7">#fff6f7f7</color>
+    <color name="grey_1">#ffedeeee</color>
+    <color name="grey_1_5">#ffe6e6e6</color>
+    <color name="grey_2">#ffc9cbcc</color>
+    <color name="grey_3">#ffa5a7aa</color>
+    <color name="grey_4">#ff818488</color>
+    <color name="grey_5">#ff4b4f54</color>
+    <color name="grey_6">#ff34373b</color>
+    <color name="grey_7">#ff25272a</color>
+    <color name="grey_8">#ff161819</color>
+    <color name="grey_9">#ff070808</color>
+    <color name="grey_dark">@color/grey_7</color>
+    <color name="grey_light">@color/grey_3</color>
+    <color name="grey_medium">@color/grey_5</color>
+    <color name="h_icon_pressed">#d2d2d2</color>
+    <color name="h_layout_bg">#f7f7f7</color>
+    <color name="h_layout_card_divider">#d9d9d9</color>
+    <color name="h_layout_divider">#d2d2d2</color>
+    <color name="h_search_border">#acacac</color>
+    <color name="h_search_icon">#d1d1d1</color>
+    <color name="h_search_icon_active">#787878</color>
+    <color name="h_search_text_deactive">#b3b3b3</color>
+    <color name="h_text">#000</color>
+    <color name="h_text_pressed">#787878</color>
+    <color name="h_toolbar_bg">#f0f0f0</color>
+    <color name="h_toolbar_divider">#c0c0c0</color>
+    <color name="h_toolbar_title">#545454</color>
+    <color name="h_toolbar_title_presed">#787878</color>
+    <color name="h_toolbar_title_selected">#242424</color>
+    <color name="icon_disabled">#FF63727B</color>
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_orange">#ff9c53</color>
+    <color name="icon_pink">#ff4b64</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_shadow">#33000000</color>
+    <color name="light_gray_header_color">#646663</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="md_amber_100">#FFECB3</color>
+    <color name="md_amber_200">#FFE082</color>
+    <color name="md_amber_300">#FFD54F</color>
+    <color name="md_amber_400">#FFCA28</color>
+    <color name="md_amber_50">#FFF8E1</color>
+    <color name="md_amber_500">#FFC107</color>
+    <color name="md_amber_600">#FFB300</color>
+    <color name="md_amber_700">#FFA000</color>
+    <color name="md_amber_800">#FF8F00</color>
+    <color name="md_amber_900">#FF6F00</color>
+    <color name="md_amber_A100">#FFE57F</color>
+    <color name="md_amber_A200">#FFD740</color>
+    <color name="md_amber_A400">#FFC400</color>
+    <color name="md_amber_A700">#FFAB00</color>
+    <color name="md_blue_100">#BBDEFB</color>
+    <color name="md_blue_200">#90CAF9</color>
+    <color name="md_blue_300">#64B5F6</color>
+    <color name="md_blue_400">#42A5F5</color>
+    <color name="md_blue_50">#E3F2FD</color>
+    <color name="md_blue_500">#2196F3</color>
+    <color name="md_blue_600">#1E88E5</color>
+    <color name="md_blue_700">#1976D2</color>
+    <color name="md_blue_800">#1565C0</color>
+    <color name="md_blue_900">#0D47A1</color>
+    <color name="md_blue_A100">#82B1FF</color>
+    <color name="md_blue_A200">#448AFF</color>
+    <color name="md_blue_A400">#2979FF</color>
+    <color name="md_blue_A700">#2962FF</color>
+    <color name="md_blue_grey_100">#CFD8DC</color>
+    <color name="md_blue_grey_200">#B0BEC5</color>
+    <color name="md_blue_grey_300">#90A4AE</color>
+    <color name="md_blue_grey_400">#78909C</color>
+    <color name="md_blue_grey_50">#ECEFF1</color>
+    <color name="md_blue_grey_500">#607D8B</color>
+    <color name="md_blue_grey_600">#546E7A</color>
+    <color name="md_blue_grey_700">#455A64</color>
+    <color name="md_blue_grey_800">#37474F</color>
+    <color name="md_blue_grey_900">#263238</color>
+    <color name="md_brown_100">#D7CCC8</color>
+    <color name="md_brown_200">#BCAAA4</color>
+    <color name="md_brown_300">#A1887F</color>
+    <color name="md_brown_400">#8D6E63</color>
+    <color name="md_brown_50">#EFEBE9</color>
+    <color name="md_brown_500">#795548</color>
+    <color name="md_brown_600">#6D4C41</color>
+    <color name="md_brown_700">#5D4037</color>
+    <color name="md_brown_800">#4E342E</color>
+    <color name="md_brown_900">#3E2723</color>
+    <color name="md_cyan_100">#B2EBF2</color>
+    <color name="md_cyan_200">#80DEEA</color>
+    <color name="md_cyan_300">#4DD0E1</color>
+    <color name="md_cyan_400">#26C6DA</color>
+    <color name="md_cyan_50">#E0F7FA</color>
+    <color name="md_cyan_500">#00BCD4</color>
+    <color name="md_cyan_600">#00ACC1</color>
+    <color name="md_cyan_700">#0097A7</color>
+    <color name="md_cyan_800">#00838F</color>
+    <color name="md_cyan_900">#006064</color>
+    <color name="md_cyan_A100">#84FFFF</color>
+    <color name="md_cyan_A200">#18FFFF</color>
+    <color name="md_cyan_A400">#00E5FF</color>
+    <color name="md_cyan_A700">#00B8D4</color>
+    <color name="md_deep_orange_100">#FFCCBC</color>
+    <color name="md_deep_orange_200">#FFAB91</color>
+    <color name="md_deep_orange_300">#FF8A65</color>
+    <color name="md_deep_orange_400">#FF7043</color>
+    <color name="md_deep_orange_50">#FBE9E7</color>
+    <color name="md_deep_orange_500">#FF5722</color>
+    <color name="md_deep_orange_600">#F4511E</color>
+    <color name="md_deep_orange_700">#E64A19</color>
+    <color name="md_deep_orange_800">#D84315</color>
+    <color name="md_deep_orange_900">#BF360C</color>
+    <color name="md_deep_orange_A100">#FF9E80</color>
+    <color name="md_deep_orange_A200">#FF6E40</color>
+    <color name="md_deep_orange_A400">#FF3D00</color>
+    <color name="md_deep_orange_A700">#DD2C00</color>
+    <color name="md_deep_purple_100">#D1C4E9</color>
+    <color name="md_deep_purple_200">#B39DDB</color>
+    <color name="md_deep_purple_300">#9575CD</color>
+    <color name="md_deep_purple_400">#7E57C2</color>
+    <color name="md_deep_purple_50">#EDE7F6</color>
+    <color name="md_deep_purple_500">#673AB7</color>
+    <color name="md_deep_purple_600">#5E35B1</color>
+    <color name="md_deep_purple_700">#512DA8</color>
+    <color name="md_deep_purple_800">#4527A0</color>
+    <color name="md_deep_purple_900">#311B92</color>
+    <color name="md_deep_purple_A100">#B388FF</color>
+    <color name="md_deep_purple_A200">#7C4DFF</color>
+    <color name="md_deep_purple_A400">#651FFF</color>
+    <color name="md_deep_purple_A700">#6200EA</color>
+    <color name="md_green_100">#C8E6C9</color>
+    <color name="md_green_200">#A5D6A7</color>
+    <color name="md_green_300">#81C784</color>
+    <color name="md_green_400">#66BB6A</color>
+    <color name="md_green_50">#E8F5E9</color>
+    <color name="md_green_500">#4CAF50</color>
+    <color name="md_green_600">#43A047</color>
+    <color name="md_green_700">#388E3C</color>
+    <color name="md_green_800">#2E7D32</color>
+    <color name="md_green_900">#1B5E20</color>
+    <color name="md_green_A100">#B9F6CA</color>
+    <color name="md_green_A200">#69F0AE</color>
+    <color name="md_green_A400">#00E676</color>
+    <color name="md_green_A700">#00C853</color>
+    <color name="md_grey_0">#ffffff</color>
+    <color name="md_grey_1">#000000</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_850">#303030</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_indigo_100">#C5CAE9</color>
+    <color name="md_indigo_200">#9FA8DA</color>
+    <color name="md_indigo_300">#7986CB</color>
+    <color name="md_indigo_400">#5C6BC0</color>
+    <color name="md_indigo_50">#E8EAF6</color>
+    <color name="md_indigo_500">#3F51B5</color>
+    <color name="md_indigo_600">#3949AB</color>
+    <color name="md_indigo_700">#303F9F</color>
+    <color name="md_indigo_800">#283593</color>
+    <color name="md_indigo_900">#1A237E</color>
+    <color name="md_indigo_A100">#8C9EFF</color>
+    <color name="md_indigo_A200">#536DFE</color>
+    <color name="md_indigo_A400">#3D5AFE</color>
+    <color name="md_indigo_A700">#304FFE</color>
+    <color name="md_light_blue_100">#B3E5FC</color>
+    <color name="md_light_blue_200">#81D4FA</color>
+    <color name="md_light_blue_300">#4FC3F7</color>
+    <color name="md_light_blue_400">#29B6F6</color>
+    <color name="md_light_blue_50">#E1F5FE</color>
+    <color name="md_light_blue_500">#03A9F4</color>
+    <color name="md_light_blue_600">#039BE5</color>
+    <color name="md_light_blue_700">#0288D1</color>
+    <color name="md_light_blue_800">#0277BD</color>
+    <color name="md_light_blue_900">#01579B</color>
+    <color name="md_light_blue_A100">#80D8FF</color>
+    <color name="md_light_blue_A200">#40C4FF</color>
+    <color name="md_light_blue_A400">#00B0FF</color>
+    <color name="md_light_blue_A700">#0091EA</color>
+    <color name="md_light_green_100">#DCEDC8</color>
+    <color name="md_light_green_200">#C5E1A5</color>
+    <color name="md_light_green_300">#AED581</color>
+    <color name="md_light_green_400">#9CCC65</color>
+    <color name="md_light_green_50">#F1F8E9</color>
+    <color name="md_light_green_500">#8BC34A</color>
+    <color name="md_light_green_600">#7CB342</color>
+    <color name="md_light_green_700">#689F38</color>
+    <color name="md_light_green_800">#558B2F</color>
+    <color name="md_light_green_900">#33691E</color>
+    <color name="md_light_green_A100">#CCFF90</color>
+    <color name="md_light_green_A200">#B2FF59</color>
+    <color name="md_light_green_A400">#76FF03</color>
+    <color name="md_light_green_A700">#64DD17</color>
+    <color name="md_lime_100">#F0F4C3</color>
+    <color name="md_lime_200">#E6EE9C</color>
+    <color name="md_lime_300">#DCE775</color>
+    <color name="md_lime_400">#D4E157</color>
+    <color name="md_lime_50">#F9FBE7</color>
+    <color name="md_lime_500">#CDDC39</color>
+    <color name="md_lime_600">#C0CA33</color>
+    <color name="md_lime_700">#AFB42B</color>
+    <color name="md_lime_800">#9E9D24</color>
+    <color name="md_lime_900">#827717</color>
+    <color name="md_lime_A100">#F4FF81</color>
+    <color name="md_lime_A200">#EEFF41</color>
+    <color name="md_lime_A400">#C6FF00</color>
+    <color name="md_lime_A700">#AEEA00</color>
+    <color name="md_orange_100">#FFE0B2</color>
+    <color name="md_orange_200">#FFCC80</color>
+    <color name="md_orange_300">#FFB74D</color>
+    <color name="md_orange_400">#FFA726</color>
+    <color name="md_orange_50">#FFF3E0</color>
+    <color name="md_orange_500">#FF9800</color>
+    <color name="md_orange_600">#FB8C00</color>
+    <color name="md_orange_700">#F57C00</color>
+    <color name="md_orange_800">#EF6C00</color>
+    <color name="md_orange_900">#E65100</color>
+    <color name="md_orange_A100">#FFD180</color>
+    <color name="md_orange_A200">#FFAB40</color>
+    <color name="md_orange_A400">#FF9100</color>
+    <color name="md_orange_A700">#FF6D00</color>
+    <color name="md_pink_100">#F8BBD0</color>
+    <color name="md_pink_200">#F48FB1</color>
+    <color name="md_pink_300">#F06292</color>
+    <color name="md_pink_400">#EC407A</color>
+    <color name="md_pink_50">#FCE4EC</color>
+    <color name="md_pink_500">#E91E63</color>
+    <color name="md_pink_600">#D81B60</color>
+    <color name="md_pink_700">#C2185B</color>
+    <color name="md_pink_800">#AD1457</color>
+    <color name="md_pink_900">#880E4F</color>
+    <color name="md_pink_A100">#FF80AB</color>
+    <color name="md_pink_A200">#FF4081</color>
+    <color name="md_pink_A400">#F50057</color>
+    <color name="md_pink_A700">#C51162</color>
+    <color name="md_purple_100">#E1BEE7</color>
+    <color name="md_purple_200">#CE93D8</color>
+    <color name="md_purple_300">#BA68C8</color>
+    <color name="md_purple_400">#AB47BC</color>
+    <color name="md_purple_50">#F3E5F5</color>
+    <color name="md_purple_500">#9C27B0</color>
+    <color name="md_purple_600">#8E24AA</color>
+    <color name="md_purple_700">#7B1FA2</color>
+    <color name="md_purple_800">#6A1B9A</color>
+    <color name="md_purple_900">#4A148C</color>
+    <color name="md_purple_A100">#EA80FC</color>
+    <color name="md_purple_A200">#E040FB</color>
+    <color name="md_purple_A400">#D500F9</color>
+    <color name="md_purple_A700">#AA00FF</color>
+    <color name="md_red_100">#FFCDD2</color>
+    <color name="md_red_200">#EF9A9A</color>
+    <color name="md_red_300">#E57373</color>
+    <color name="md_red_400">#EF5350</color>
+    <color name="md_red_50">#FFEBEE</color>
+    <color name="md_red_500">#F44336</color>
+    <color name="md_red_600">#E53935</color>
+    <color name="md_red_700">#D32F2F</color>
+    <color name="md_red_800">#C62828</color>
+    <color name="md_red_900">#B71C1C</color>
+    <color name="md_red_A100">#FF8A80</color>
+    <color name="md_red_A200">#FF5252</color>
+    <color name="md_red_A400">#FF1744</color>
+    <color name="md_red_A700">#D50000</color>
+    <color name="md_teal_100">#B2DFDB</color>
+    <color name="md_teal_200">#80CBC4</color>
+    <color name="md_teal_300">#4DB6AC</color>
+    <color name="md_teal_400">#26A69A</color>
+    <color name="md_teal_50">#E0F2F1</color>
+    <color name="md_teal_500">#009688</color>
+    <color name="md_teal_600">#00897B</color>
+    <color name="md_teal_700">#00796B</color>
+    <color name="md_teal_800">#00695C</color>
+    <color name="md_teal_900">#004D40</color>
+    <color name="md_teal_A100">#A7FFEB</color>
+    <color name="md_teal_A200">#64FFDA</color>
+    <color name="md_teal_A400">#1DE9B6</color>
+    <color name="md_teal_A700">#00BFA5</color>
+    <color name="md_white_1000">#FFFFFF</color>
+    <color name="md_yellow_100">#FFF9C4</color>
+    <color name="md_yellow_200">#FFF59D</color>
+    <color name="md_yellow_300">#FFF176</color>
+    <color name="md_yellow_400">#FFEE58</color>
+    <color name="md_yellow_50">#FFFDE7</color>
+    <color name="md_yellow_500">#FFEB3B</color>
+    <color name="md_yellow_600">#FDD835</color>
+    <color name="md_yellow_700">#FBC02D</color>
+    <color name="md_yellow_800">#F9A825</color>
+    <color name="md_yellow_900">#F57F17</color>
+    <color name="md_yellow_A100">#FFFF8D</color>
+    <color name="md_yellow_A200">#FFFF00</color>
+    <color name="md_yellow_A400">#FFEA00</color>
+    <color name="md_yellow_A700">#FFD600</color>
+    <color name="medium_text_disabled">#4D000000</color>
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="mt_accent">#FF5722</color>
+    <color name="mt_divider">#BDBDBD</color>
+    <color name="mt_icons">#212121</color>
+    <color name="mt_primary">#9E9E9E</color>
+    <color name="mt_primary1">#c5d5cb</color>
+    <color name="mt_primary2">#9fa8a3</color>
+    <color name="mt_primary3">#e3e0cf</color>
+    <color name="mt_primary_dark">#616161</color>
+    <color name="mt_primary_light">#F5F5F5</color>
+    <color name="mt_primary_text">#212121</color>
+    <color name="mt_secondary_text">#757575</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="status_bar_blue_background">#ff0f4973</color>
+    <color name="status_bar_grey_background">#ffb2b2b2</color>
+    <color name="sticker_border">#ff666666</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="text_color">#575757</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+    <color name="text_divider_dark">#606060</color>
+    <color name="text_divider_darker">#424242</color>
+    <color name="text_divider_light">#404040</color>
+    <color name="text_enabled">#FFFFFFFF</color>
+    <color name="text_hilite">#ffffffff</color>
+    <color name="text_normal">#ff000000</color>
+    <color name="text_other_dark">#303030</color>
+    <color name="text_other_light">#8f8f8f</color>
+    <color name="text_primary_dark">#000000</color>
+    <color name="text_primary_light">#ffffffff</color>
+    <color name="text_secondary_dark">#212121</color>
+    <color name="text_secondary_light">#bcbcbc</color>
+    <color name="toolbar">#f0f0f2</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="ucrop_color_crop_background" ns1:override="true">#212121</color>
+    <color name="ucrop_color_default_crop_frame" ns1:override="true">#80ffffff</color>
+    <color name="ucrop_color_default_crop_grid" ns1:override="true">#80ffffff</color>
+    <color name="ucrop_color_default_dimmed" ns1:override="true">#8c000000</color>
+    <color name="ucrop_color_default_logo" ns1:override="true">#a08331</color>
+    <color name="ucrop_color_progress_wheel_line" ns1:override="true">#808080</color>
+    <color name="ucrop_color_statusbar" ns1:override="true">#111111</color>
+    <color name="ucrop_color_toolbar" ns1:override="true">#212121</color>
+    <color name="ucrop_color_toolbar_widget" ns1:override="true">#ffffff</color>
+    <color name="ucrop_color_widget" ns1:override="true">#fff</color>
+    <color name="ucrop_color_widget_active" ns1:override="true">#ffdc17</color>
+    <color name="ucrop_color_widget_background" ns1:override="true">#303030</color>
+    <color name="ucrop_color_widget_text" ns1:override="true">#fff</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="bb_height">56dp</dimen>
+    <dimen name="card_action_padding">8dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_elevation_raised">8dp</dimen>
+    <dimen name="card_elevation_resting_default">2dp</dimen>
+    <dimen name="card_elevation_resting_desktop">0dp</dimen>
+    <dimen name="card_margin_outside_card">8dp</dimen>
+    <dimen name="card_padding_between_sections">16dp</dimen>
+    <dimen name="card_padding_bottom">24dp</dimen>
+    <dimen name="card_stacked_action_between_padding">4dp</dimen>
+    <dimen name="card_subtitle_text">14sp</dimen>
+    <dimen name="card_supporting_text">14sp</dimen>
+    <dimen name="card_supporting_text_padding_horizontal">16dp</dimen>
+    <dimen name="card_title_area_height">72dp</dimen>
+    <dimen name="card_title_area_padding_horizontal">16dp</dimen>
+    <dimen name="card_title_large_padding_top">24dp</dimen>
+    <dimen name="card_title_large_text">24sp</dimen>
+    <dimen name="card_title_small_padding_top">16dp</dimen>
+    <dimen name="card_title_small_text">14sp</dimen>
+    <dimen name="color_swatch_large">64.0dip</dimen>
+    <dimen name="color_swatch_margins_large">8.0dip</dimen>
+    <dimen name="color_swatch_margins_small">4.0dip</dimen>
+    <dimen name="color_swatch_small">48.0dip</dimen>
+    <dimen name="column_width">72dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="dialogs_padding_around_content_area">24dp</dimen>
+    <dimen name="enls_margin_selected_view">5dp</dimen>
+    <dimen name="enls_selected_view_height">75dp</dimen>
+    <dimen name="enls_selected_view_size_plus_margin">80dp</dimen>
+    <dimen name="enls_selected_view_width">70dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="home_category_margin_border">8dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="image_title_padding">8dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="item_margin_half">4dp</dimen>
+    <dimen name="ksw_md_thumb_ripple_size">42dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_offset">2dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_size">21dp</dimen>
+    <dimen name="ksw_md_thumb_solid_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_solid_size">20dp</dimen>
+    <dimen name="m_tab_max_width">264dp</dimen>
+    <dimen name="m_tab_scrollable_min_width">72dp</dimen>
+    <dimen name="m_tab_text_size">14sp</dimen>
+    <dimen name="m_tab_text_size_2line">12sp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_specialLarge">16dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="row_padding">16.0dip</dimen>
+    <dimen name="segmented_control_min_height">40dp</dimen>
+    <dimen name="segmented_control_min_width">100dp</dimen>
+    <dimen name="tap_target_menu_max_width">350dp</dimen>
+    <dimen name="view_switcher_shadow_height">7.0dip</dimen>
+    <dimen name="welcome_content">16.0sp</dimen>
+    <dimen name="welcome_content_min_height">96.0dip</dimen>
+    <dimen name="welcome_heading">24.0sp</dimen>
+    <dimen name="welcome_images_margin_top">0.0dip</dimen>
+    <dimen name="welcome_text_margin">48.0dip</dimen>
+    <item name="Drag_Main_View" type="id"/>
+    <item name="SwitchBtnTitle" type="id"/>
+    <item name="btn_BG_Blur" type="id"/>
+    <item name="btn_BG_Color" type="id"/>
+    <item name="btn_BG_Delete" type="id"/>
+    <item name="btn_BG_Gradient" type="id"/>
+    <item name="btn_BG_Image_Crop" type="id"/>
+    <item name="btn_BG_Import" type="id"/>
+    <item name="btn_BG_Opacity" type="id"/>
+    <item name="btn_BG_Size" type="id"/>
+    <item name="btn_BG_Texture" type="id"/>
+    <item name="btn_BG_Vitrin" type="id"/>
+    <item name="btn_Sticker_Delete" type="id"/>
+    <item name="btn_Sticker_Duplicate" type="id"/>
+    <item name="btn_Sticker_Expand" type="id"/>
+    <item name="btn_Sticker_Import" type="id"/>
+    <item name="btn_Sticker_Opacity" type="id"/>
+    <item name="btn_Sticker_Position" type="id"/>
+    <item name="btn_Sticker_Rotation" type="id"/>
+    <item name="btn_Sticker_Vitrin" type="id"/>
+    <item name="btn_Text_Add" type="id"/>
+    <item name="btn_Text_Align" type="id"/>
+    <item name="btn_Text_BG_Color" type="id"/>
+    <item name="btn_Text_Bold" type="id"/>
+    <item name="btn_Text_Color" type="id"/>
+    <item name="btn_Text_Crop" type="id"/>
+    <item name="btn_Text_Delete" type="id"/>
+    <item name="btn_Text_Duplicate" type="id"/>
+    <item name="btn_Text_Font" type="id"/>
+    <item name="btn_Text_Gradient" type="id"/>
+    <item name="btn_Text_Italic" type="id"/>
+    <item name="btn_Text_LineSpace" type="id"/>
+    <item name="btn_Text_Lock" type="id"/>
+    <item name="btn_Text_Opacity" type="id"/>
+    <item name="btn_Text_Position" type="id"/>
+    <item name="btn_Text_Rotation" type="id"/>
+    <item name="btn_Text_Shadow" type="id"/>
+    <item name="btn_Text_Size" type="id"/>
+    <item name="btn_Text_Strikethrough" type="id"/>
+    <item name="btn_Text_Stroke" type="id"/>
+    <item name="btn_Text_Texture" type="id"/>
+    <item name="btn_Text_Underline" type="id"/>
+    <item name="buttonIcon" type="id"/>
+    <item name="buttonLayout" type="id"/>
+    <item name="buttonText" type="id"/>
+    <item name="color_picker" type="id"/>
+    <item name="color_picker_checkmark" type="id"/>
+    <item name="color_picker_swatch" type="id"/>
+    <item name="container" type="id"/>
+    <item name="container_Pager" type="id"/>
+    <item name="dragger_icon" type="id"/>
+    <item name="dragger_layout" type="id"/>
+    <item name="dragger_layoutmanager" type="id"/>
+    <item name="dragger_setting" type="id"/>
+    <item name="esBar" type="id"/>
+    <item name="esBtn" type="id"/>
+    <item name="panelContent" type="id"/>
+    <item name="panelHandle" type="id"/>
+    <item name="seekshadowdensity" type="id"/>
+    <item name="seekshadowx" type="id"/>
+    <item name="seekshadowy" type="id"/>
+    <item name="shadowmagiccolor" type="id"/>
+    <item name="tab" type="id"/>
+    <item name="tab_bar" type="id"/>
+    <item name="tab_bars" type="id"/>
+    <item name="tab_pager" type="id"/>
+    <item name="tagId_categoryPosition" type="id"/>
+    <item name="tagId_imagePosition" type="id"/>
+    <item name="viewpager" type="id"/>
+    <item name="viewpagertab" type="id"/>
+    <item name="web_review" type="id"/>
+    <integer name="AnimDuration">230</integer>
+    <integer name="AnimDurationLong">500</integer>
+    <integer name="AnimDurationLongest">1000</integer>
+    <integer name="AnimDurationShort">300</integer>
+    <integer name="IconFontName">6</integer>
+    <integer name="ImageFixedMaxSize">1920</integer>
+    <integer name="PLAY_SERVICES_RESOLUTION_REQUEST">2801</integer>
+    <integer name="REQUEST_ALL">2800</integer>
+    <integer name="REQUEST_LOCATION">2803</integer>
+    <integer name="REQUEST_LOG">2804</integer>
+    <integer name="REQUEST_NETWORK">2802</integer>
+    <integer name="REQUEST_STORAGE">2801</integer>
+    <integer name="bgAlphaMax">100</integer>
+    <integer name="bgAlphaMin">0</integer>
+    <integer name="bgBlurMax">25</integer>
+    <integer name="bgBlurMin">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="maximum">100</integer>
+    <integer name="popup_fragment_anim_time">250</integer>
+    <integer name="popup_fragment_bg_anim_time">250</integer>
+    <integer name="popup_fragment_bg_anim_time_delay">100</integer>
+    <integer name="ronevisButtonFont">4</integer>
+    <integer name="ronevisMainFont">1</integer>
+    <integer name="ronevisTitleFont">3</integer>
+    <integer name="stickerAlphaMax">100</integer>
+    <integer name="stickerAlphaMin">0</integer>
+    <integer name="textAlphaMax">255</integer>
+    <integer name="textAlphaMin">1</integer>
+    <integer name="textCropMax">300</integer>
+    <integer name="textCropMin">0</integer>
+    <integer name="textLineSpaceMax">200</integer>
+    <integer name="textLineSpaceMin">0</integer>
+    <integer name="textShadowDenMax">25</integer>
+    <integer name="textShadowDenMin">0</integer>
+    <integer name="textShadowMax">100</integer>
+    <integer name="textShadowMin">0</integer>
+    <integer name="textSizeMax">500</integer>
+    <integer name="textSizeMin">1</integer>
+    <string name="Complete">تکمیل شده</string>
+    <string name="CrashChooser">با  کدوم سرویس؟</string>
+    <string name="CrashEmailTitle">خطا در رونویس</string>
+    <string name="CrashMsg">ببخشید ولی یه مشکلی برام پیش اومد، الان به بابام اطلاع میدم تا منو  برای نسخه بعد درست کنه، قول میدم زود خوب بشم، دوست من بمون چون من دوستتم.</string>
+    <string name="CrashTitle">یه مشکلی پیش اومده</string>
+    <string name="Done">خوبه</string>
+    <string name="Download">دانلود</string>
+    <string name="Error">خطا</string>
+    <string name="IR_Bold_Fa">"self/IRANSansMobile_Fa_Bold.ttf"</string>
+    <string name="IR_Icons">"self/icons.ttf"</string>
+    <string name="IR_Light_Fa">"self/IRANSansMobile_Fa_Light.ttf"</string>
+    <string name="IR_Medium_Fa">"self/IRANSansMobile_Fa_Medium.ttf"</string>
+    <string name="IR_Regular_Fa">"self/IRANSansMobile_Fa.ttf"</string>
+    <string name="IR_UltraLight_Fa">"self/IRANSansMobile_Fa_UltraLight.ttf"</string>
+    <string name="Icon_Textbox"></string>
+    <string name="Icon_alert_circle"></string>
+    <string name="Icon_android"></string>
+    <string name="Icon_apps"></string>
+    <string name="Icon_arrange_bring_forward"></string>
+    <string name="Icon_arrange_bring_to_front"></string>
+    <string name="Icon_arrange_send_backward"></string>
+    <string name="Icon_arrange_send_to_back"></string>
+    <string name="Icon_arrow_all"></string>
+    <string name="Icon_arrow_down"></string>
+    <string name="Icon_arrow_down_bold"></string>
+    <string name="Icon_arrow_expand"></string>
+    <string name="Icon_arrow_expand_all"></string>
+    <string name="Icon_arrow_left_bold"></string>
+    <string name="Icon_arrow_left_outline"></string>
+    <string name="Icon_arrow_right"></string>
+    <string name="Icon_arrow_right_bold"></string>
+    <string name="Icon_arrow_right_outline"></string>
+    <string name="Icon_arrow_up_bold"></string>
+    <string name="Icon_auto_fix"></string>
+    <string name="Icon_blur"></string>
+    <string name="Icon_blur_off"></string>
+    <string name="Icon_border_bottom"></string>
+    <string name="Icon_border_inside"></string>
+    <string name="Icon_border_left"></string>
+    <string name="Icon_border_right"></string>
+    <string name="Icon_border_top"></string>
+    <string name="Icon_briefcase_download"></string>
+    <string name="Icon_check"></string>
+    <string name="Icon_check_circle"></string>
+    <string name="Icon_check_circle_outline"></string>
+    <string name="Icon_checkerboard"></string>
+    <string name="Icon_close"></string>
+    <string name="Icon_coin"></string>
+    <string name="Icon_content_duplicate"></string>
+    <string name="Icon_content_save"></string>
+    <string name="Icon_crop"></string>
+    <string name="Icon_crop_free"></string>
+    <string name="Icon_crop_landscape"></string>
+    <string name="Icon_crop_portrait"></string>
+    <string name="Icon_crop_square"></string>
+    <string name="Icon_cursor_pointer"></string>
+    <string name="Icon_cursor_text"></string>
+    <string name="Icon_delete"></string>
+    <string name="Icon_delete_sweep"></string>
+    <string name="Icon_download"></string>
+    <string name="Icon_drag_horizontal"></string>
+    <string name="Icon_email"></string>
+    <string name="Icon_emoticon_happy"></string>
+    <string name="Icon_export"></string>
+    <string name="Icon_eye"></string>
+    <string name="Icon_eye_off"></string>
+    <string name="Icon_eyedropper"></string>
+    <string name="Icon_facebook"></string>
+    <string name="Icon_facebook_box"></string>
+    <string name="Icon_file"></string>
+    <string name="Icon_file_export"></string>
+    <string name="Icon_file_image"></string>
+    <string name="Icon_file_import"></string>
+    <string name="Icon_folder"></string>
+    <string name="Icon_folder_download"></string>
+    <string name="Icon_folder_image"></string>
+    <string name="Icon_folder_lock_open"></string>
+    <string name="Icon_format_align_center"></string>
+    <string name="Icon_format_align_justify"></string>
+    <string name="Icon_format_align_left"></string>
+    <string name="Icon_format_align_right"></string>
+    <string name="Icon_format_bold"></string>
+    <string name="Icon_format_clear"></string>
+    <string name="Icon_format_color_fill"></string>
+    <string name="Icon_format_horizontal_align_center"></string>
+    <string name="Icon_format_horizontal_align_left"></string>
+    <string name="Icon_format_horizontal_align_right"></string>
+    <string name="Icon_format_italic"></string>
+    <string name="Icon_format_line_spacing"></string>
+    <string name="Icon_format_line_style"></string>
+    <string name="Icon_format_line_weight"></string>
+    <string name="Icon_format_marker"></string>
+    <string name="Icon_format_paint"></string>
+    <string name="Icon_format_paragraph"></string>
+    <string name="Icon_format_quote"></string>
+    <string name="Icon_format_size"></string>
+    <string name="Icon_format_strikethrough"></string>
+    <string name="Icon_format_text"></string>
+    <string name="Icon_format_title"></string>
+    <string name="Icon_format_underline"></string>
+    <string name="Icon_format_vertical_align_bottom"></string>
+    <string name="Icon_format_vertical_align_center"></string>
+    <string name="Icon_format_vertical_align_top"></string>
+    <string name="Icon_fullscreen"></string>
+    <string name="Icon_fullscreen_exit"></string>
+    <string name="Icon_google_play"></string>
+    <string name="Icon_gradient"></string>
+    <string name="Icon_grid"></string>
+    <string name="Icon_grid_on"></string>
+    <string name="Icon_heart"></string>
+    <string name="Icon_heart_broken"></string>
+    <string name="Icon_heart_outline"></string>
+    <string name="Icon_heart_pulse"></string>
+    <string name="Icon_help_circle"></string>
+    <string name="Icon_image"></string>
+    <string name="Icon_image_area"></string>
+    <string name="Icon_image_filter_center_focus"></string>
+    <string name="Icon_import"></string>
+    <string name="Icon_information"></string>
+    <string name="Icon_instagram"></string>
+    <string name="Icon_keyboard_backspace"></string>
+    <string name="Icon_lightbulb"></string>
+    <string name="Icon_lightbulb_outline"></string>
+    <string name="Icon_linkedin"></string>
+    <string name="Icon_linkedin_box"></string>
+    <string name="Icon_lock"></string>
+    <string name="Icon_lock_open"></string>
+    <string name="Icon_lock_open_outline"></string>
+    <string name="Icon_lock_outline"></string>
+    <string name="Icon_magnet"></string>
+    <string name="Icon_magnet_on"></string>
+    <string name="Icon_menu_down"></string>
+    <string name="Icon_menu_left"></string>
+    <string name="Icon_menu_right"></string>
+    <string name="Icon_menu_up"></string>
+    <string name="Icon_minus_circle"></string>
+    <string name="Icon_new_box"></string>
+    <string name="Icon_notification_clear_all"></string>
+    <string name="Icon_opacity"></string>
+    <string name="Icon_package"></string>
+    <string name="Icon_package_down"></string>
+    <string name="Icon_palette"></string>
+    <string name="Icon_pause"></string>
+    <string name="Icon_pencil"></string>
+    <string name="Icon_pencil_box"></string>
+    <string name="Icon_pencil_box_outline"></string>
+    <string name="Icon_pencil_lock"></string>
+    <string name="Icon_pencil_off"></string>
+    <string name="Icon_phone"></string>
+    <string name="Icon_phone_in_talk"></string>
+    <string name="Icon_playlist_plus"></string>
+    <string name="Icon_plus"></string>
+    <string name="Icon_plus_box"></string>
+    <string name="Icon_plus_circle"></string>
+    <string name="Icon_refresh"></string>
+    <string name="Icon_rotate_3d"></string>
+    <string name="Icon_rounded_corner"></string>
+    <string name="Icon_settings"></string>
+    <string name="Icon_share_variant"></string>
+    <string name="Icon_shopping"></string>
+    <string name="Icon_star"></string>
+    <string name="Icon_star_outline"></string>
+    <string name="Icon_sync"></string>
+    <string name="Icon_telegram"></string>
+    <string name="Icon_text_shadow"></string>
+    <string name="Icon_texture"></string>
+    <string name="Icon_thumb_down"></string>
+    <string name="Icon_thumb_down_outline"></string>
+    <string name="Icon_thumb_up"></string>
+    <string name="Icon_thumb_up_outline"></string>
+    <string name="Icon_toggle_switch"></string>
+    <string name="Icon_toggle_switch_off"></string>
+    <string name="Icon_triangle"></string>
+    <string name="Icon_triangle_outline"></string>
+    <string name="Icon_unfold_less"></string>
+    <string name="Icon_unfold_more"></string>
+    <string name="Icon_video"></string>
+    <string name="Icon_view_column"></string>
+    <string name="Icon_view_grid"></string>
+    <string name="Icon_view_module"></string>
+    <string name="Icon_view_stream"></string>
+    <string name="Icon_window_close"></string>
+    <string name="JSON_MIN_VERSION_CODE">minVersionCode</string>
+    <string name="JSON_MIN_VERSION_NAME">minVersionName</string>
+    <string name="PREFERENCES_LAST_CHECK_DATE">last_check_date</string>
+    <string name="PREFERENCES_SKIPPED_VERSION">skipped_version</string>
+    <string name="Pick">خوبه</string>
+    <string name="STATUS_BACKPRESS">تا پایان دانلود صبر کنید</string>
+    <string name="STATUS_B_COMPLETE">نصب</string>
+    <string name="STATUS_B_CONNECTING">انصراف</string>
+    <string name="STATUS_B_CONNECT_ERROR">سعی دوباره</string>
+    <string name="STATUS_B_DOWNLOADING">توقف</string>
+    <string name="STATUS_B_DOWNLOAD_ERROR">سعی دوباره</string>
+    <string name="STATUS_B_INSTALLED">حذف</string>
+    <string name="STATUS_B_NOT_DOWNLOAD">دانلود</string>
+    <string name="STATUS_B_PAUSED">ادامه</string>
+    <string name="STATUS_COMPLETE">تکمیل شده</string>
+    <string name="STATUS_CONNECTED">وصل شده</string>
+    <string name="STATUS_CONNECTING">داره وصل میشه</string>
+    <string name="STATUS_CONNECT_ERROR">اتصالش مشکل داره</string>
+    <string name="STATUS_DELETE">حذف</string>
+    <string name="STATUS_DELETEED">حذف</string>
+    <string name="STATUS_DELETEING">در حال حذف</string>
+    <string name="STATUS_DOWNLOADING">در حال دانلود</string>
+    <string name="STATUS_DOWNLOAD_CANCELED">دانلود لغو شده</string>
+    <string name="STATUS_DOWNLOAD_COMPLETE">تکمیل شده</string>
+    <string name="STATUS_DOWNLOAD_ERROR">خطا در دانلود</string>
+    <string name="STATUS_DOWNLOAD_FAILED">خطا در دانلود</string>
+    <string name="STATUS_DOWNLOAD_INIT">راه اندازی</string>
+    <string name="STATUS_FINISHED">اتمام</string>
+    <string name="STATUS_INSTALLED">نصب شده</string>
+    <string name="STATUS_INSTALLING">در حال نصب</string>
+    <string name="STATUS_INSTALL_ERROR">خطا در نصب</string>
+    <string name="STATUS_NOT_DOWNLOAD">دانلود نشده</string>
+    <string name="STATUS_PAUSED">متوقف شده</string>
+    <string name="STATUS_RETRY">سعی مجدد</string>
+    <string name="STATUS_SD_NOSPACE">کارت حافظه جا نداره</string>
+    <string name="SharedPrefronevisEditor">"ronevisEditor"</string>
+    <string name="SharedPrefronevisLastFS">"LastFontSize"</string>
+    <string name="SharedPrefronevisLastFont">"LastFontType"</string>
+    <string name="SharedPrefronevisUserAgreed">"ronevisUserAgreed"</string>
+    <string name="TabBackground">پس‌زمینه</string>
+    <string name="TabBackgroundDefault">عکس</string>
+    <string name="TabBackgroundEffects">تنظیمات پس زمینه</string>
+    <string name="TabBackgroundUser">پس زمینه های شما</string>
+    <string name="TabExport">خروجی</string>
+    <string name="TabFont">متن</string>
+    <string name="TabFontEng">انگلیسی</string>
+    <string name="TabFontFarsi">فارسی</string>
+    <string name="TabFontFav">منتخب</string>
+    <string name="TabFontInstalled">نصب شده</string>
+    <string name="TabLogo">عکس و لوگو</string>
+    <string name="TabSettings">تنظیمات</string>
+    <string name="TabSticker">استیکر</string>
+    <string name="TabStickerDefault">استیکر</string>
+    <string name="TabStickerEffects">لوگو و تنظیمات</string>
+    <string name="TabTemplate">پروژه ها</string>
+    <string name="a_b_2">تنظیم دسترسی</string>
+    <string name="a_chk_e_1">ازت ممنونم و رو معرفتت حساب میکنم.</string>
+    <string name="a_chk_e_2">من با معرفتم.</string>
+    <string name="a_e_2">یادت رفت دسترسی بدی</string>
+    <string name="a_h_1">نکات مهم</string>
+    <string name="a_h_2">دسترسی به…</string>
+    <string name="a_h_3"> <b>\"توجه\"</b> معرفی ویترین</string>
+    <string name="a_h_4">توافق نهایی</string>
+    <string name="a_m_1">یه چندتا نکته کوچیکو بررسی کنیم و بریم که دنیا منتظر هنر شماست</string>
+    <string name="a_m_2">اگر اندروید 6 به بالا داری لازمه اجازه بدی به کارت حافظه و اینترنت دسترسی داشته باشم</string>
+    <string name="a_m_3">برای استفاده از فونت، پس‌زمینه و استیکر باید اونهارو از ویترین دانلود کنی و برای مناسبت‌های که رخ میده بسته‌های جدیدی برات میفرستم</string>
+    <string name="a_m_4">نمیخوام بگم قانونی یا شرعی ولی بدون خیلی بی معرفتیه که منو به دوستت مجانی بفرستی، فکر میکنی اگر رایگان منو بفرستی و یا رایگان استفاده کنی نسخه های بعدیم آماده میشه؟ قول میدی با معرفت باشی؟</string>
+    <string name="ac_about">درباره رونویس</string>
+    <string name="ac_banner">اطلاع رسانی رونویس</string>
+    <string name="ac_download_detail">جزئیات ویترین</string>
+    <string name="ac_download_main">ویترین رونویس</string>
+    <string name="ac_main">ronevis</string>
+    <string name="ac_tour">مقدمه</string>
+    <string name="app_banner">تبلیغات</string>
+    <string name="app_name">Ronevis</string>
+    <string name="app_namePer">رونویس</string>
+    <string name="b_h_1">ابزارهای پس زمینه</string>
+    <string name="b_h_2">عکس های گالریتون</string>
+    <string name="b_h_3">گالری رونویس</string>
+    <string name="b_h_4">تازه سازی</string>
+    <string name="b_h_5">اندازه ثابت</string>
+    <string name="b_m_1">یه سری امکانات مهم برای انتخاب و ویرایش پس زمینه دارم و یکم ازشون میگم</string>
+    <string name="b_m_2">خوب خیلی از ماها دوست داریم از عکسهای گالریمون برای پس زمینه استفاده کنیم، روی این ابزار کلیک کن و عکس مورد نظر خودتو انتخاب کن :)</string>
+    <string name="b_m_3">من کلی عکس تو دسته بندی های گوناگون دارم،بابام این عکسهارو بصورت ماهانه بروزرسانی میکنه و کلی عکس جدید میتونی دانلود کنی و برای همیشه داشته باشی، یکبار دانلود کن یک عمر داشته باش</string>
+    <string name="b_m_4">وقتی تصویر جدیدی وارد میکنی و میخوای قالبت تنظیم بشه برای اون عکس، روی این ابزار کلیک کن</string>
+    <string name="b_m_5">با انتخاب یه اندازه ثابت و وارد کردن عددش میتونی یه صفحه ثابت بسازی که هیچوقت اندازش تغییر نمیکنه</string>
+    <string name="btnBGCrop">اندازه صفحه</string>
+    <string name="btnBGImageCrop">برش تصویر</string>
+    <string name="btnBgBlur">محو کردن</string>
+    <string name="btnBgOpacity">شفافیت</string>
+    <string name="btnCrop">اندازه جعبه</string>
+    <string name="btnGradient">سایه روشن</string>
+    <string name="btnLinespacing">فاصله خطوط</string>
+    <string name="btnLogoExpand">اندازه استیکر</string>
+    <string name="btnOpacity">شفافیت</string>
+    <string name="btnOpacityLogo">شفافیت</string>
+    <string name="btnRotationLogo">چرخش</string>
+    <string name="btnSize">اندازه متن</string>
+    <string name="btnStroke">حاشیه</string>
+    <string name="btnTexture">بافت</string>
+    <string name="btn_Skip">انتها</string>
+    <string name="btnaddtext">متن جدید</string>
+    <string name="btnarrows">جابه‌جایی</string>
+    <string name="btndelbg">حذف پس‌زمینه</string>
+    <string name="btndeltxt">حذف متن</string>
+    <string name="btnedittext">ویرایش متن</string>
+    <string name="btnimageduplicate">همانند ساز</string>
+    <string name="btnrotation">چرخش</string>
+    <string name="btntextLock">قفل</string>
+    <string name="btntextalign">چینش</string>
+    <string name="btntextbold">ضخیم</string>
+    <string name="btntextduplicate">همانند‌ساز</string>
+    <string name="btntextfont">فونت</string>
+    <string name="btntextitalic">مورب</string>
+    <string name="btntextshadow">سایه</string>
+    <string name="btntextstrikethrough">خط وسط</string>
+    <string name="btntextunderline">خط زیر</string>
+    <string name="cancel">بیخیال</string>
+    <string name="color_picker_default_title">یه رنگ انتخاب کن</string>
+    <string name="color_swatch_description">رنگ %1$d</string>
+    <string name="color_swatch_description_selected">ردیف شد %1$d رنگ</string>
+    <string name="contactUs">کانال‌های رونویس:</string>
+    <string name="dRemMessage">الان باید بری تو ویترین و بسته‌های عکس و استیکر و فونت‌های مورد نظرتو دانلود کنی.</string>
+    <string name="dRemPositiveButton">بازش کن</string>
+    <string name="dRemTitle">یادت نره</string>
+    <string name="daMessage">هر چه میخواهد دل تنگت بگو</string>
+    <string name="daNegativeButton">نمیخوامش</string>
+    <string name="daPositiveButton">بنویسش</string>
+    <string name="daTitle">یه متن بنویس</string>
+    <string name="daaEmail">support@ronevis.com</string>
+    <string name="daaIntentChoose">با چی برم</string>
+    <string name="daaIntentErr">هیچ اپلیکیشنی نیست که باهاش برم</string>
+    <string name="daaMailBody">سلام\n</string>
+    <string name="daaMailChoose">با چی بفرستم؟</string>
+    <string name="daaMailErr">هیچ اپلیکیشنی نیست که باهاش ایمیل بفرستم</string>
+    <string name="daaMailSubject">اپلیکیشن رونویس</string>
+    <string name="daaMe">بابای من:</string>
+    <string name="daaMeName">محمد تقی کریمی</string>
+    <string name="daaNegativeButton">ایمیل</string>
+    <string name="daaNeutralButton">تماس</string>
+    <string name="daaPhone">0901–3737–731</string>
+    <string name="daaPositiveButton">خوبه</string>
+    <string name="daaSocials">راه های ارتباطی</string>
+    <string name="daaTitle">درباره رونویس</string>
+    <string name="daaVersion">نسخه:</string>
+    <string name="daaWhy">همیشه جای همچین اپلیکیشنی خالی بود، وقتی تو محل کارم نشسته بودمو کارایه گرافیکی تولید میکردم، میگفتم یه روز باید اپلیکینشو بسازی چون خیلی موقعها یه اید هایی یه جاهای خاصی میاد سراقت، مثلا اتوبوس، امیدوارم از استفادش لذت ببرین\n\n 0901–37–37–731\n\nبرنامه نویس: محمد تقی کریمی</string>
+    <string name="dbgsMessage">یه پروژه انتخاب کن</string>
+    <string name="dbgsNegativeButton">نمیخوام</string>
+    <string name="dbgsPositiveButton">خوبه</string>
+    <string name="dbgsSpinner">انتخاب اندازه</string>
+    <string name="dbgsTitle">اندازه های پیشفرض</string>
+    <string name="dcChooseTextError">بعد از نوشتن متن رو من کلیک کن</string>
+    <string name="dcEditEmptyError">اگر میخوای حذفش کنی رو سطل زباله بزن</string>
+    <string name="ddMessage">مطمئنی میخوای حذفش کنی؟</string>
+    <string name="ddNegativeButton">بذار باشه</string>
+    <string name="ddPositiveButton">پاکش کن</string>
+    <string name="ddTitle">حذف کردن</string>
+    <string name="deAddEmptyError">هیچی ننوشتی :|</string>
+    <string name="deEditEmptyError">اگر میخوای حذفش کنی رو سطل زباله بزن</string>
+    <string name="deNegativeButton">قبلی خوب بود</string>
+    <string name="deNullEditError">یه چیزی بنویس بعد ویرایش کن</string>
+    <string name="dePositiveButton">همین خوبه</string>
+    <string name="deTitle">ویرایش متن</string>
+    <string name="dfChooseTextError">اول یه چیزی بنویس</string>
+    <string name="dfEditEmptyError">اگر میخوای حذفش کنی رو سطل زباله بزن</string>
+    <string name="dfFileDeleted">حذف شده</string>
+    <string name="dfnMessage">یه صفحه جدید میخوای بسازی؟</string>
+    <string name="dfnNegativeButton">نساز</string>
+    <string name="dfnPositiveButton">بساز</string>
+    <string name="dfnTitle">صفحه جدید</string>
+    <string name="dialog_share_title">بفرست به</string>
+    <string name="dialog_title">یه رنگ انتخاب کن</string>
+    <string name="dmgChooseTextError">بعد از انتخاب پس زمینه رو من کلیک کن</string>
+    <string name="dmgEditEmptyError">اگر میخوای حذفش کنی رو سطل زباله بزن</string>
+    <string name="dmgnMessage">یه صفحه جدید میخوای بسازی؟</string>
+    <string name="dmgnNegativeButton">نمیخوام</string>
+    <string name="dmgnPositiveButton">بساز</string>
+    <string name="dmgnTitle">ساختن صفحه جدید</string>
+    <string name="dnMessage">یه مقدار که دوست داری بذار</string>
+    <string name="dnNegativeButton">نمیخوام</string>
+    <string name="dnPositiveButton">کافیه</string>
+    <string name="dnTitle">تغییر دقیق</string>
+    <string name="doMessage">یه پروژه انتخاب کن</string>
+    <string name="doNegativeButton">نمیخوام</string>
+    <string name="doPositiveButton">بازش کن</string>
+    <string name="doTitle">انتخاب پروژه</string>
+    <string name="dpnMessage">یه صفحه جدید میخوای بسازی؟</string>
+    <string name="dpnNegativeButton">نساز</string>
+    <string name="dpnPositiveButton">بساز</string>
+    <string name="dpnTitle">صفحه جدید</string>
+    <string name="dpsChooseTextError">اول یه چیزی بنویس</string>
+    <string name="dpsEditEmptyError">اگر میخوای حذفش کنی رو سطل زباله بزن</string>
+    <string name="dpsMessage">من بدون سرویس های گوگل نمی تونم بهترین کاراییو داشته باشه.</string>
+    <string name="dpsMessageUp">سرویس های گوگل باید بروزرسانی بشن تا من بتونم بهتر کار کنم.</string>
+    <string name="dpsNegativeButton">نمیخوام</string>
+    <string name="dpsPositiveButton">دریافت سرویس های گوگل</string>
+    <string name="dpsPositiveButtonUp">بروزرسانی سرویس های گوگل</string>
+    <string name="dpsTitle">سرویس های گوگل</string>
+    <string name="drDeveloper">ایمیل به برنامه نویس</string>
+    <string name="drMessage">لطفا اگر از من رضایت داری بهم امتیاز بدین و اگر پیشنهادی دارین به بابام ایمیل بزنید</string>
+    <string name="drNegativeButton">ایمیل</string>
+    <string name="drNeutralButton">نمیخوام</string>
+    <string name="drPositiveButton">امتیاز میدم</string>
+    <string name="drThanks">از حمایت شما متشکرم</string>
+    <string name="drTitle">امتیاز به من</string>
+    <string name="dsBtnEdit">ویرایش مجدد</string>
+    <string name="dsBtnNew">صفحه جدید</string>
+    <string name="dsBtnShare">اشتراک گذاری</string>
+    <string name="dsEditEmptyError">اگر میخوای حذفش کنی رو سطل زباله بزن</string>
+    <string name="dsEmptyNameError">باید یه اسم انتخاب کنی</string>
+    <string name="dsFileFormat">با چه قالبی؟</string>
+    <string name="dsFileFormatJPEG">عکس JPEG</string>
+    <string name="dsFileFormatPNG">عکس</string>
+    <string name="dsFileFormatProj">پروژه</string>
+    <string name="dsFileFormatWEBP">استیکر</string>
+    <string name="dsMessage">یه اسم انتخاب کن</string>
+    <string name="dsNegativeButton">نمیخوام</string>
+    <string name="dsNegativeButtonD">دوباره مینویسم</string>
+    <string name="dsPositiveButton">ذخیره کن</string>
+    <string name="dsPositiveButtonD">جایگزین کن</string>
+    <string name="dsPositiveButtonDD">حله</string>
+    <string name="dsProjectFull">کامل</string>
+    <string name="dsProjectSimple">ساده</string>
+    <string name="dsSaved">تصویر ذخیره شد</string>
+    <string name="dsSpinner">انتخاب فایل</string>
+    <string name="dsTitle">چطوری ذخیره کنم؟</string>
+    <string name="dsWrongNameDuplicate">اسم تکراری</string>
+    <string name="dsWrongNameDuplicateM">یا باید جایگزین قبلی بشه یا یه اسم دیگه انتخاب کنی</string>
+    <string name="dsWrongNameError">اسمی که انتخاب کردی مشکل داره</string>
+    <string name="dspTitle">ذخیره پروژه</string>
+    <string name="dssPositiveButton">بفرست</string>
+    <string name="dssTitle">اشتراک گذاری</string>
+    <string name="duMessage">سلام، باید منو از %1$s بروزرسانی کنی، این بروزرسانی رایگانه. نسخه فعلی شما %2$s و میتونی به %3$s بروزرسانی کنی.</string>
+    <string name="duNegativeButton">الان نه</string>
+    <string name="duNeutralButton">مهم نیست</string>
+    <string name="duPositiveButton">بروزرسانی</string>
+    <string name="duTitle">بروزرسانی جدید</string>
+    <string name="exit_press_back_twice_message">دوبار کلیک کن تا خارج بشی</string>
+    <string name="firebase_database_url" translatable="false">https://friendly-magnet-803.firebaseio.com</string>
+    <string name="fixedSize">اندازه ثابت</string>
+    <string name="gcm_defaultSenderId" translatable="false">933020282510</string>
+    <string name="google_api_key" translatable="false">AIzaSyA1nVVKoPYoZcq1JYaBMAXgKqEU3JLxFO0</string>
+    <string name="google_app_id" translatable="false">1:933020282510:android:0e44dc7cbb42ca3b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA1nVVKoPYoZcq1JYaBMAXgKqEU3JLxFO0</string>
+    <string name="google_storage_bucket" translatable="false">friendly-magnet-803.appspot.com</string>
+    <string name="i_1_h">سلام دوستم :)</string>
+    <string name="i_1_m">من رونویسم و الان میخوام یکم در مورد خودم برات بگم</string>
+    <string name="imgStickerDialog">استیکر از آرشیو</string>
+    <string name="imgbgDialog">عکس از آرشیو</string>
+    <string name="imgbgRefresh">بازسازی</string>
+    <string name="imgdelST">حذف استیکر</string>
+    <string name="imglogoselect">استیکر از گالری</string>
+    <string name="imgviewselect">عکس از گالری</string>
+    <string name="label_cancel">نمیخوام</string>
+    <string name="label_ok">اجازه میدم</string>
+    <string name="label_select_picture">انتخاب عکس</string>
+    <string name="m_h_1">ابزار ذخیره سازی</string>
+    <string name="m_h_2">استیکر و…</string>
+    <string name="m_m_1">حالا دیگه میتونی پروژه خودتو ذخیره کنی و هر وقت خواستی دوباره روش کار کنی یا تغییرش بدی یا یه قالب برای خودت بسازی و همیشه داشته باشی</string>
+    <string name="m_m_2">وقتی روی ابزار اشتراک گذاری کلیک کنی، میتونی بصورت مستقیم برای تلگرام استیکر بفرستی :)) این ابزار خوبی برای هنرنمایی و درآمدزایی هستش و حسابی ازش استفاده کن</string>
+    <string name="meAparat">آپارات من</string>
+    <string name="meInsta">اینستاگرام من</string>
+    <string name="meTelegram">تلگرام من</string>
+    <string name="menuOpenFile">بازکردن پروژه</string>
+    <string name="menuabout">درباره</string>
+    <string name="menugallery">گالری</string>
+    <string name="menulearn">آموزشگاه</string>
+    <string name="menunew">جدید</string>
+    <string name="menusave">ذخیره</string>
+    <string name="menusaveFile">ذخیره پروژه</string>
+    <string name="menusetting">تنظیمات</string>
+    <string name="menushare">ذخیره و اشتراک</string>
+    <string name="menushop">ویترین</string>
+    <string name="menutour">آشنایی</string>
+    <string name="menutrain">راهنمای من</string>
+    <string name="notification_image_saved">تصویر ذخیره شد</string>
+    <string name="notification_image_saved_click_to_preview">برای مشاهده کلیک کند</string>
+    <string name="ok">باشه</string>
+    <string name="permission_all">من برای بهتر کار کردن نیاز به دسترسی به کارت حافظه و اینترنت  دارم، به کارت حافظه نیاز دارم تا بتونم عکسهارو ذخیره کنم و به اینترنت برای رفع اشکال و بروزرسانی.</string>
+    <string name="permission_deny">اجازه دسترسی ندادی</string>
+    <string name="permission_deny_all">اجازه دسترسی به هیچی ندارم</string>
+    <string name="permission_deny_location">هر وقت دوست داشتی بهم بگو کدوم استان هستی</string>
+    <string name="permission_deny_log">اگر ندونم گوشیت تو چه وضعیتیه چطور به بابام بگم درد من چیه آخه؟</string>
+    <string name="permission_deny_network">اگر به اینترنت وصل نشم نمیتونم بروزرسانی کنم</string>
+    <string name="permission_deny_storage">اگر نذاری به کارت حافظه دسترسی داشته باشم نمیتونی کارهای هنریتو ذخیره کنی و فونت نصب کنی</string>
+    <string name="permission_location">اگر میخوای پس زمینه و استیکر مناسبتی و مرتبط با استان زندگیتون داشته باشین اجازه بدین شهرتونو پیدا کنم</string>
+    <string name="permission_log">من برای اینکه بتونم به بابام خبر بدم که چه مشکلی دارم باید بدونم گوشیت تو چه وضعیتیه</string>
+    <string name="permission_message">بعضی چیزا هست که من لازم دارم، توضیح میدم برات و اگر خواستی اجازه بده</string>
+    <string name="permission_network">من برای بروزرسانی و رفع مشکلات نیاز به اینترنت دارم</string>
+    <string name="permission_never">دیگه ازت نمی پرسم</string>
+    <string name="permission_storage">من برای استفاده از گالری و یا ذخیره تصاویر نیاز به دسترسی به کارت حافظه دارم</string>
+    <string name="permission_title">نیاز به دسترسی</string>
+    <string name="project_id" translatable="false">friendly-magnet-803</string>
+    <string name="ronevisBackJson">"BACKGROUNDVIEWS"</string>
+    <string name="ronevisExportPathFolder">"ronevis/UserArts"</string>
+    <string name="ronevisFilePNG">".png"</string>
+    <string name="ronevisFileWEBP">".webp"</string>
+    <string name="ronevisImageJson">"IMAGEVIEWS"</string>
+    <string name="ronevisPathBackGrounds">"ronevis/.Backs"</string>
+    <string name="ronevisPathBackGroundsImg">"ronevis/.Backs/.img"</string>
+    <string name="ronevisPathBackGroundsTmb">"ronevis/.Backs/.tmb"</string>
+    <string name="ronevisPathFolder">"ronevis"</string>
+    <string name="ronevisPathFonts">"ronevis/.Fonts"</string>
+    <string name="ronevisPathFontsEn">"ronevis/.Fonts/.en"</string>
+    <string name="ronevisPathFontsFa">"ronevis/.Fonts/.fa"</string>
+    <string name="ronevisPathFontsUser">"ronevis/.Fonts/.user"</string>
+    <string name="ronevisPathStickers">"ronevis/.Stickers"</string>
+    <string name="ronevisPathTemp">"ronevis/.temp"</string>
+    <string name="ronevisPathTexture">"ronevis/.Texture"</string>
+    <string name="ronevisProjectFull">".rsp"</string>
+    <string name="ronevisProjectSimple">".rsv"</string>
+    <string name="ronevisShareTempFile">"ronevis_Temp"</string>
+    <string name="ronevisTemplatePathFolder">"ronevis/UserTemplates"</string>
+    <string name="ronevisTextJson">"TEXTVIEWS"</string>
+    <string name="shadow">سایه</string>
+    <string name="t_h_1">ابزارهای رونویسی</string>
+    <string name="t_h_10">اسلایدر + عدد</string>
+    <string name="t_h_2">نوشتن متن</string>
+    <string name="t_h_3">صفحه نوشتن متن</string>
+    <string name="t_h_4">ویرایش متن</string>
+    <string name="t_h_5">همانند ساز</string>
+    <string name="t_h_6">انتخاب فونت</string>
+    <string name="t_h_7">سایه</string>
+    <string name="t_h_8">قفل</string>
+    <string name="t_h_9">انتخاب رنگ هوشمند</string>
+    <string name="t_m_1">خوب تو بخش اول میریم سراغ آموزش ابزارهای رونویسی مثل نوشتن متن و رنگ و سایه…</string>
+    <string name="t_m_10">یه قابلیت سالهاست تو رونویس هست ولی چون بهش اشاره نکردم کسی ازش استفاده نکرده بود تا الان :D از نسخه دوم به بعد این قابلیت اضافه شده، خودتون روی آیکون کنار اسلایدرها کلیک کنید تا…</string>
+    <string name="t_m_2">از این آیکون برای نوشتن متن جدید استفاده کن</string>
+    <string name="t_m_3">وقتی روی اون آیکون + کلیک میکنی یه صفحه باز میشه و میتونی هر متنیو اینجا بنویسی. دقت کن که اگر به انتهای خط رسیدی از Enter استفاده کن تا بری خط بعدی :)</string>
+    <string name="t_m_4">وقتی یه متنی مینویسی و بعد که نظرت عوض شد و میخوای تغییرش بدی رو این آیکون کلیک کن و یادت باشه که این ابزار فقط برای ویرایش متن ها و کلمات نوشته شده هستش نه نوشتن متن جدید</string>
+    <string name="t_m_5">از هر چیزی که نوشتی وقتی روی این آیکون بزنی همونجا برات یه کپی ازش میگیره. فراموش نکن این ابزار دقیقا همونجایی کپی میسازه که متن فعلیت هست :) جلوتر که کار کنی متوجه میشی که چقدر خوبه این :-p</string>
+    <string name="t_m_6">وقتی متنی مینویسی و میخوای فونتشو عوض کنی، اون متنی که میخواین فونتشو عوض کنی انتخاب کن و بعد روی این آیکون کلیک کن. این ابزار کاملا هوشمند هستش و برای اولین بار در دنیا متنیو که انتخاب کردی در فونت های مختلف پیش نمایش میده ;)</string>
+    <string name="t_m_7">از این ابزار میتونی برای سایه دادن به متنت استفاده کنی</string>
+    <string name="t_m_8">وقتی متنتو قفل کنی دیگه نمیتونی با انگشت جا به جاش کنی اینجوری نگران نیستی که یه چیزی ناخواسته جا به جا بشه</string>
+    <string name="t_m_9">این ابزار دوتا کار انجام میده یکی انتخاب رنگ سریع و یکی بعد از انتخاب عکس پس زمینه، یه متن باید بنویسی و بعدش پالت رنگو کلیک کنی، حالا بهترین و مناسب ترین رنگ ها متناسب با پس زمینه، به شما پیشنهاد میشه</string>
+    <string name="textColorBackGround">پس زمینه</string>
+    <string name="tf_selected_Path">fonts/</string>
+    <string name="title_activity_app_detail">اطلاعات فایل</string>
+    <string name="toast_cannot_retrieve_cropped_image">عدم توانایی در بازیابی تصویر برش خورده</string>
+    <string name="toast_cannot_retrieve_selected_image">عدم توانایی در بازیابی تصویر انتخاب شده</string>
+    <string name="toast_unexpected_error">خطای پیش بینی نشده</string>
+    <string name="ucrop_error_input_data_is_absent" ns1:override="true">ورودی و خروجی ها باید مشخص باشند</string>
+    <string name="ucrop_label_edit_photo" ns1:override="true">تغییر اندازه</string>
+    <string name="ucrop_label_original" ns1:override="true">تصویر اصلی</string>
+    <string name="ucrop_menu_crop" ns1:override="true">برش</string>
+    <string name="userColorPallete">رنگ متن</string>
+    <string name="userbgcolor">رنگ پس‌زمینه</string>
+    <string name="usercolor">رنگ پیشرفته</string>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="colorPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryDark">@color/bg_tools</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="actionOverflowMenuStyle">@style/CMOptionsMenu</item>
+        <item name="android:listSelector">@null</item>
+        <item name="android:cacheColorHint">@null</item>
+        <!--<item name="android:colorBackgroundCacheHint">@null</item>-->
+        <!--<item name="android:alwaysDrawnWithCache">false</item>-->
+    </style>
+    <style name="AppTheme.Notification" parent="AppTheme">
+        <item name="colorPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:minWidth">64dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minHeight">@dimen/abc_alert_dialog_button_bar_height</item>
+    </style>
+    <style name="CMOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:divider">#FF0000</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:textColor">@color/colorWhiteTrans</item>
+        <item name="android:popupBackground">@color/bg_tools</item>
+    </style>
+    <style name="ColorPicker.Dark" parent="AppTheme.Base">
+        <item name="cp_backgroundColor">#222</item>
+        <item name="cp_hexaDecimalTextColor">#ff0</item>
+        <item name="cp_colorComponentsTextColor">#fff</item>
+        <item name="cp_positiveActionTextColor">@color/colorAccent</item>
+        <item name="cp_negativeActionTextColor">@color/colorAccentDark</item>
+        <item name="cp_sliderThumbColor">#ddd</item>
+    </style>
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">@color/colorAccentDark</item>
+        <item name="android:background">@color/bg_tools</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+    <style name="FullDialog" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/FullDialogAnimation</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowSoftInputMode">adjustResize|stateAlwaysVisible</item>
+
+
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!--<item name="android:backgroundDimAmount">0.4</item>-->
+    </style>
+    <style name="FullDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/zoom_in_fade</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out_fade</item>
+    </style>
+    <style name="MyToolbar" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <!--<item name="android:textColorSecondary">@color/md_light_blue_700</item>-->
+        <!--<item name="actionMenuTextColor">@color/md_yellow_500</item>-->
+    </style>
+    <style name="NormalDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/NormalDialogAnimation</item>
+    </style>
+    <style name="NormalDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/info_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/info_dialog_exit</item>
+    </style>
+    <style mce_bogus="1" name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+    <style name="SaveSizeTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">-10.0dip</item>
+        <!--<item name="drawableTint">#96000000</item>-->
+        <!--<item name="drawableTintMode">src_in</item>-->
+    </style>
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/colorWhiteTrans</item>
+    </style>
+    <style name="Theme.Ronevis" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/md_purple_500</item>
+        <item name="colorPrimaryVariant">@color/md_purple_700</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/md_teal_200</item>
+        <item name="colorSecondaryVariant">@color/md_teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ThemeDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@color/bg_tools</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Toolbar_Popup" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">#08ec00</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <!--<item name="android:textColorPrimary">#836e8b</item>-->
+        <!--<item name="android:textColorSecondary">@color/md_pink_400</item>-->
+        <!--<item name="actionMenuTextColor">@color/md_green_700</item>-->
+        <!--<item name="android:textSize">20sp</item>-->
+        <!--<item name="android:textStyle">italic</item>-->
+        <item name="colorControlNormal">#ffd500</item>
+        <item name="android:colorBackground">#ff6a00</item>
+        <item name="colorControlActivated">#645400</item>
+        <item name="colorControlHighlight">#e100ff</item>
+        <!--<item name="actionOverflowButtonStyle">@style/ActionButtonOverflowStyle</item>-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+    <style name="WelcomeContentAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/welcome_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="WelcomeHeadingAppearance" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/welcome_heading</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="borderless" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/btn_borderless</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    <style name="mBase.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabMaxWidth">@dimen/m_tab_max_width</item>
+        <item name="tabIndicatorColor">?attr/colorAccent</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+    <style name="mTextAppearance.Design.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/m_tab_text_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="mWidget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <declare-styleable name="AndroidGradientImageViewAttrs">
+        <attr format="float" name="giv_x"/>
+        <attr format="float" name="giv_y"/>
+        <attr format="float" name="giv_width"/>
+        <attr format="float" name="giv_height"/>
+        <attr format="float" name="giv_rotate"/>
+        <attr format="color" name="giv_startColor"/>
+        <attr format="color" name="giv_endColor"/>
+        <attr format="color" name="giv_middleColor"/>
+        <attr format="float" name="giv_startOffset"/>
+        <attr format="float" name="giv_middleOffset"/>
+        <attr format="float" name="giv_endOffset"/>
+        <attr format="float" name="giv_alpha"/>
+    </declare-styleable>
+    <declare-styleable name="AvatarView">
+        <attr format="boolean" name="showLabel"/>
+        <attr format="dimension" name="avatarSize"/>
+        <attr format="reference" name="avatarSrc"/>
+        <attr format="reference" name="labelSrc"/>
+    </declare-styleable>
+    <declare-styleable name="BlurView">
+        <attr format="color" name="blurOverlayColor"/>
+    </declare-styleable>
+    <declare-styleable name="BoxColor">
+        <attr format="enum" name="Lorientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr format="reference" name="colors"/>
+        <attr format="integer" name="selectedColorIndex"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        <attr format="color" name="civ_fill_color"/>
+    </declare-styleable>
+    <declare-styleable name="ColorPickerRootView">
+        <attr format="boolean" name="cp_showHexaDecimalValue"/>
+        <attr format="boolean" name="cp_showColorComponentsInfo"/>
+        <attr format="color" name="cp_backgroundColor"/>
+        <attr format="color" name="cp_hexaDecimalTextColor"/>
+        <attr format="color" name="cp_colorComponentsTextColor"/>
+        <attr format="color" name="cp_positiveActionTextColor"/>
+        <attr format="color" name="cp_negativeActionTextColor"/>
+        <attr format="color" name="cp_sliderThumbColor"/>
+        <attr format="boolean" name="cp_editHSV"/>
+        <attr format="boolean" name="cp_editRGB"/>
+    </declare-styleable>
+    <declare-styleable name="EditableSeekBar">
+        <attr format="reference" name="esbTitleAppearance"/>
+        <attr format="integer" name="esbMax"/>
+        <attr format="integer" name="esbMin"/>
+        <attr format="integer" name="esbValue"/>
+        <attr format="string" name="esbTitle"/>
+        <attr format="boolean" name="esbSelectAllOnFocus"/>
+        <attr format="boolean" name="esbAnimateSeekBar"/>
+        <attr format="dimension" name="esbEditTextWidth"/>
+        <attr format="dimension" name="esbEditTextFontSize"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandablePanel">
+        <attr format="reference" name="handle"/>
+        <attr format="reference" name="content"/>
+        <attr format="reference" name="contentContainer"/>
+        <attr format="integer" name="animationDuration"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalWheelView">
+        <attr format="integer" name="maxVisibleMarks"/>
+        <attr format="color" name="normalColor"/>
+        <attr format="color" name="activeColor"/>
+        <attr format="boolean" name="showActiveRange"/>
+    </declare-styleable>
+    <declare-styleable name="LargeImageView">
+        <attr name="android:src"/>
+    </declare-styleable>
+    <declare-styleable name="MT_DragLayout">
+        <attr format="dimension" name="minHeight"/>
+        <attr format="dimension" name="maxHeight"/>
+        <attr format="boolean" name="autoFix"/>
+    </declare-styleable>
+    <declare-styleable name="OpacityPicker">
+        <attr format="boolean" name="cp_showOpacityBar"/>
+    </declare-styleable>
+    <declare-styleable name="OrientedSeekBar">
+        <attr format="enum" name="orientation">
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="Panel">
+        <!-- Defines panel animation duration in ms. -->
+        <!-- Defines panel position on the screen. -->
+        <attr name="position">
+            <!-- Panel placed at top of the screen. -->
+            <enum name="top" value="0"/>
+            <!-- Panel placed at bottom of the screen. -->
+            <enum name="bottom" value="1"/>
+            <!-- Panel placed at left of the screen. -->
+            <enum name="left" value="2"/>
+            <!-- Panel placed at right of the screen. -->
+            <enum name="right" value="3"/>
+        </attr>
+        <!-- Defines if flying gesture forces linear interpolator in animation. -->
+        <attr format="boolean" name="linearFlying"/>
+        <!-- Defines opened handle (drawable/color). -->
+        <attr format="reference|color" name="openedHandle"/>
+        <!-- Defines closed handle (drawable/color). -->
+        <attr format="reference|color" name="closedHandle"/>
+    </declare-styleable>
+    <declare-styleable name="PinterestView">
+        <attr format="dimension|float" name="child_size"/>
+        <attr format="dimension" name="child_radius"/>
+        <attr format="float" name="child_max_scale"/>
+        <attr format="color" name="tips_color"/>
+        <attr format="reference" name="tips_background"/>
+        <attr format="dimension" name="tips_size"/>
+    </declare-styleable>
+    <declare-styleable name="PromptView">
+        <attr name="target"/>
+        <attr name="mprimaryText"/>
+        <attr name="msecondaryText"/>
+        <attr name="primaryTextColour"/>
+        <attr name="secondaryTextColour"/>
+        <attr name="backgroundColour"/>
+        <attr name="focalColour"/>
+        <attr name="focalRadius"/>
+        <attr name="mprimaryTextSize"/>
+        <attr name="msecondaryTextSize"/>
+        <attr name="maxTextWidth"/>
+        <attr name="textPadding"/>
+        <attr name="focalToTextPadding"/>
+        <attr name="textSeparation"/>
+        <attr name="autoDismiss"/>
+        <attr name="autoFinish"/>
+        <attr name="captureTouchEventOutsidePrompt"/>
+        <attr name="captureTouchEventOnFocal"/>
+        <attr name="primaryTextFontFamily"/>
+        <attr name="secondaryTextFontFamily"/>
+        <attr name="mprimaryTextStyle"/>
+        <attr name="msecondaryTextStyle"/>
+        <attr name="mprimaryTextTypeface"/>
+        <attr name="msecondaryTextTypeface"/>
+        <attr name="iconTint"/>
+        <attr name="iconTintMode"/>
+        <attr name="iconColourFilter"/>
+    </declare-styleable>
+    <declare-styleable name="ScComponents">
+        <attr format="dimension" name="scc_stroke_size"/>
+        <attr format="color" name="scc_stroke_color"/>
+        <attr format="string" name="scc_stroke_colors"/>
+        <attr format="float" name="scc_angle_start"/>
+        <attr format="float" name="scc_angle_sweep"/>
+        <attr format="dimension" name="scc_progress_size"/>
+        <attr format="color" name="scc_progress_color"/>
+        <attr format="string" name="scc_progress_colors"/>
+        <attr format="float" name="scc_value"/>
+        <attr format="dimension" name="scc_pointer_radius"/>
+        <attr format="color" name="scc_pointer_color"/>
+        <attr format="string" name="scc_pointer_colors"/>
+        <attr format="dimension" name="scc_halo_size"/>
+        <attr format="dimension" name="scc_notches_size"/>
+        <attr format="color" name="scc_notches_color"/>
+        <attr format="string" name="scc_notches_colors"/>
+        <attr format="integer" name="scc_notches"/>
+        <attr format="dimension" name="scc_notches_length"/>
+        <attr format="boolean" name="scc_snap_to_notches"/>
+        <attr format="string" name="scc_text_tokens"/>
+        <attr format="dimension" name="scc_text_size"/>
+        <attr format="color" name="scc_text_color"/>
+        <attr format="string" name="scc_text_colors"/>
+        <attr format="boolean" name="scc_text_unbend"/>
+        <attr format="dimension" name="scc_max_width"/>
+        <attr format="dimension" name="scc_max_height"/>
+        <attr format="boolean" name="scc_path_touchable"/>
+        <attr format="reference" name="scc_layout"/>
+        <attr format="boolean" name="scc_start_open"/>
+        <attr format="boolean" name="scc_toggle_ontouch"/>
+        <attr format="boolean" name="scc_animate_alpha"/>
+        <attr format="boolean" name="scc_animate_translation"/>
+        <attr format="integer" name="scc_duration"/>
+        <attr format="dimension" name="scc_handle_size"/>
+        <attr format="dimension" name="scc_offset"/>
+        <attr format="boolean" name="scc_hide_onclose"/>
+        <attr format="float" name="scc_left"/>
+        <attr format="float" name="scc_top"/>
+        <attr format="float" name="scc_bottom"/>
+        <attr format="float" name="scc_right"/>
+        <attr format="boolean" name="scc_rounded_line"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr format="dimension" name="umanoPanelHeight"/>
+        <attr format="dimension" name="umanoShadowHeight"/>
+        <attr format="dimension" name="umanoParallaxOffset"/>
+        <attr format="color" name="umanoFadeColor"/>
+        <attr format="integer" name="umanoFlingVelocity"/>
+        <attr format="reference" name="umanoDragView"/>
+        <attr format="reference" name="umanoScrollableView"/>
+        <attr format="boolean" name="umanoOverlay"/>
+        <attr format="boolean" name="umanoClipPanel"/>
+        <attr format="float" name="umanoAnchorPoint"/>
+        <attr format="float" name="umanoParalaxOffset"/>
+        <attr format="enum" name="umanoInitialState">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr>
+        <attr format="reference" name="umanoScrollInterpolator"/>
+    </declare-styleable>
+    <declare-styleable name="SmoothButton">
+        <attr format="reference" name="transitionDrawable"/>
+        <attr format="integer" name="transitionDrawableLength"/>
+        <attr format="color" name="transitionTextColorUp"/>
+        <attr format="color" name="transitionTextColorDown"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr format="reference" name="kswThumbDrawable"/>
+        <attr format="color|reference" name="kswThumbColor"/>
+        <attr format="dimension|reference" name="kswThumbMargin"/>
+        <attr format="dimension|reference" name="kswThumbMarginTop"/>
+        <attr format="dimension|reference" name="kswThumbMarginBottom"/>
+        <attr format="dimension|reference" name="kswThumbMarginLeft"/>
+        <attr format="dimension|reference" name="kswThumbMarginRight"/>
+        <attr format="dimension|reference" name="kswThumbWidth"/>
+        <attr format="dimension|reference" name="kswThumbHeight"/>
+        <attr format="dimension|reference" name="kswThumbRadius"/>
+        <attr format="dimension|reference" name="kswBackRadius"/>
+        <attr format="reference" name="kswBackDrawable"/>
+        <attr format="color|reference" name="kswBackColor"/>
+        <attr format="boolean" name="kswFadeBack"/>
+        <attr format="float" name="kswBackMeasureRatio"/>
+        <attr format="integer" name="kswAnimationDuration"/>
+        <attr format="color|reference" name="kswTintColor"/>
+        <attr format="string" name="kswTextOn"/>
+        <attr format="string" name="kswTextOff"/>
+        <attr format="dimension" name="kswTextMarginH"/>
+        <attr format="boolean" name="kswAutoAdjustTextPosition"/>
+    </declare-styleable>
+    <declare-styleable name="TextButton">
+        <attr format="reference|string" name="text_icon"/>
+        <attr format="reference|string" name="text_icon_on"/>
+        <attr format="color" name="text_icon_color"/>
+        <attr format="color" name="text_icon_color_on"/>
+        <attr format="reference|string" name="text_caption"/>
+        <attr format="reference|string" name="text_caption_on"/>
+        <attr format="color" name="text_caption_color"/>
+        <attr format="color" name="text_caption_color_on"/>
+        <attr format="boolean" name="text_checked"/>
+        <attr format="boolean" name="text_checkable"/>
+        <attr format="reference" name="text_TextAppearance"/>
+    </declare-styleable>
+    <declare-styleable name="TextIcon">
+        <attr format="string" name="TextOn"/>
+        <attr format="string" name="TextOff"/>
+        <attr format="integer" name="ColorOn"/>
+        <attr format="integer" name="ColorOff"/>
+        <attr format="boolean" name="isradio"/>
+    </declare-styleable>
+    <declare-styleable name="TintableImageView">
+        <attr format="reference|color" name="tint"/>
+    </declare-styleable>
+    <declare-styleable name="TriangleLabelView">
+        <attr format="color" name="backgroundColor"/>
+        <attr format="color" name="primaryTextColor"/>
+        <attr format="color" name="secondaryTextColor"/>
+        <attr format="string" name="primaryText"/>
+        <attr format="string" name="secondaryText"/>
+        <attr format="dimension" name="primaryTextSize"/>
+        <attr format="dimension" name="secondaryTextSize"/>
+        <attr format="dimension" name="labelTopPadding"/>
+        <attr format="dimension" name="labelCenterPadding"/>
+        <attr format="dimension" name="labelBottomPadding"/>
+        <attr name="primaryTextStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+        <attr name="secondaryTextStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+        <attr name="corner">
+            <enum name="leftTop" value="1"/>
+            <enum name="rightTop" value="2"/>
+            <enum name="leftBottom" value="3"/>
+            <enum name="rightBottom" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator">
+         <attr format="boolean" name="fades"/>
+         <attr format="integer" name="fadeDelay"/>
+         <attr format="integer" name="fadeLength"/>
+         <attr name="selectedColor"/>
+         <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr format="reference" name="vpiUnderlinePageIndicatorStyle"/>
+    </declare-styleable>
+    <declare-styleable name="draghelper_layout">
+        <attr format="reference" name="drag_view_id"/>
+        <attr format="float" name="drag_limit"/>
+    </declare-styleable>
+    <declare-styleable name="mToggleButton">
+        <attr format="dimension" name="mborderWidth">
+        </attr>
+        <attr format="reference|color" name="moffBorderColor">
+        </attr>
+        <attr format="reference|color" name="moffColor">
+        </attr>
+        <attr format="reference|color" name="monColor">
+        </attr>
+        <attr format="reference|color" name="mspotColor">
+        </attr>
+        <attr format="reference|boolean" name="manimate">
+        </attr>
+        <attr format="reference|boolean" name="misDefaultOn">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="progressLayout">
+        <attr format="color" name="emptyColor"/>
+        <attr format="color" name="loadedColor"/>
+        <attr format="integer" name="maxProgress"/>
+        <attr format="boolean" name="autoProgress"/>
+    </declare-styleable>
+    <declare-styleable name="webp">
+        <attr format="string" name="webp_src"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_divider_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large">
+
+    <LinearLayout
+        android:id="@+id/container_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <RelativeLayout
+                android:id="@+id/preview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/padding_medium"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="false"
+                    android:scaleType="matrix"
+                    android:src="@drawable/checker"/>
+
+                <LinearLayout
+                    android:id="@+id/picker_PreviewBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"/>
+
+            </RelativeLayout>
+
+            <com.azeesoft.lib.colorpicker.OpacityPicker
+                android:id="@+id/picker_opacityBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5"
+                android:max="255"
+                android:maxHeight="25dp"
+                android:minHeight="25dp"
+                android:progress="255"
+                android:progressDrawable="@drawable/opacity_box_bg_land"
+                android:thumb="@drawable/slider_thumb"/>
+
+
+            <fragments.views.TextIcon
+                android:id="@+id/picker_btn_procolor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:maxLines="1"
+
+                android:text="@string/Icon_format_color_fill"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="30sp"
+                autofit:isradio="false"/>
+
+            <!--<fragments.views.TextIcon  android:padding="@dimen/padding_medium"-->
+                <!--android:id="@+id/picker_btn_eyedrop"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@null"-->
+                <!--android:button="@null"-->
+                <!--android:gravity="center"-->
+                <!--android:maxLines="1"-->
+
+                <!--android:text="@string/Icon_eyedropper"-->
+                <!--android:textColor="@color/text_secondary_light"-->
+                <!--android:textSize="30sp"-->
+                <!--autofit:isradio="false"/>-->
+
+        </LinearLayout>
+
+        <fragments.views.colorpicker.BoxColor
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/picker_Primary"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:orientation="horizontal"
+            app:selectedColorIndex="0"/>
+
+        <fragments.views.colorpicker.BoxColor
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/picker_Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            app:orientation="horizontal"
+            app:selectedColorIndex="0"/>
+
+        <fragments.views.colorpicker.BoxColor
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/picker_Array"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            app:orientation="horizontal"
+            app:selectedColorIndex="0"/>
+    </LinearLayout>
+</ScrollView>

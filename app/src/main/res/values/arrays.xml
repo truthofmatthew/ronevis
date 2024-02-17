@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BGDefaultSize">
+        <item>استیکر</item>
+        <item>مستطیل</item>
+    </string-array>
+</resources>

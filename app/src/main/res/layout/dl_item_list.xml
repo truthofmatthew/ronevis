@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+
+    android:clickable="true">
+    <!--android:foreground="?android:attr/selectableItemBackground"-->
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingBottom="48dp"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="#80000000"
+        android:gravity="bottom"
+        >
+
+        <fragments.views.TextIcon
+            android:id="@+id/tvDownload"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/Icon_download"
+            android:textColor="@color/text_primary_light"
+            android:textSize="24sp"
+            autofit:isradio="false"/>
+
+        <FrameLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tvDownload"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:gravity="center"
+                android:text="سلام"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:text="dsdsd"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/tvDownloadPerSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="dsdsd"
+                android:textColor="@color/text_secondary_light"
+                android:textSize="10sp"/>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="46dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"/>
+    <!--<fragments.views.TriangleLabelView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="top|right"-->
+    <!--app:backgroundColor="@color/md_yellow_900"-->
+    <!--app:corner="rightTop"-->
+    <!--app:labelBottomPadding="5dp"-->
+    <!--app:labelCenterPadding="0dp"-->
+    <!--app:labelTopPadding="10dp"-->
+    <!--app:primaryText="پس زمینه"-->
+    <!--app:primaryTextColor="@color/md_yellow_500"-->
+    <!--app:primaryTextSize="16sp"-->
+    <!--app:secondaryText="450"-->
+    <!--app:secondaryTextColor="@color/md_yellow_100"-->
+    <!--app:secondaryTextSize="11sp"/>-->
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="@color/text_primary_dark"/>-->
+</FrameLayout>

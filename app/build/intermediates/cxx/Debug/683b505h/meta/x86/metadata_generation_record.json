@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "cafebazaarDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 721764296
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027F:\\FriendsProjects\\Ronevis\\app\\build\\.cxx\\Debug\\683b505h\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "cafebazaarDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 427670556
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "cafebazaarDebug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 513653461
+  }
+]

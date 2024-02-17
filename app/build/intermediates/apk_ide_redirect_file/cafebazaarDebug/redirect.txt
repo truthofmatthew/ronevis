@@ -1,0 +1,2 @@
+#- File Locator -
+listingFile=../../apk/cafebazaar/debug/output-metadata.json

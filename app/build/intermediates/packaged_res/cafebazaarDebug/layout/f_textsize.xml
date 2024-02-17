@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_divider_background"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:weightSum="7">
+
+        <fragments.views.TextIcon
+            android:id="@+id/textSizeX"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/Icon_arrow_right"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="30sp"
+            autofit:isradio="false"
+            />
+
+        <SeekBar
+            android:id="@+id/textSizeSeekX"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="5"
+            android:max="10"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:progress="0"
+            />
+
+        <TextView
+            android:id="@+id/textSizeSeekXText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:weightSum="7">
+
+        <fragments.views.TextIcon
+            android:id="@+id/textSizeY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/Icon_arrow_down"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="30sp"
+            autofit:isradio="false" />
+
+        <SeekBar
+            android:id="@+id/textSizeSeekY"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="5"
+            android:max="10"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:progress="0"
+            />
+
+        <TextView
+            android:id="@+id/textSizeSeekYText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:weightSum="7">
+
+        <fragments.views.TextIcon
+            android:id="@+id/textSizeAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/Icon_arrow_expand_all"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="30sp"
+            autofit:isradio="false"
+            />
+
+        <SeekBar
+            android:id="@+id/textSizeSeekAll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="5"
+            android:max="300"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:progress="0"
+            />
+
+        <TextView
+            android:id="@+id/textSizeSeekAllText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:textColor="@color/text_secondary_light"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

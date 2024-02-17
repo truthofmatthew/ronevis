@@ -1,0 +1,2 @@
+F:\FriendsProjects\Ronevis\app\src\main\jni\Android.mk
+F:\FriendsProjects\Ronevis\app\src\main\jni\Application.mk

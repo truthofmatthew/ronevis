@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mt.karimi.ronevis">
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+
+    <!--<permission-->
+    <!--android:name="mt.karimi.ronevis.permission.C2D_MESSAGE"-->
+    <!--android:protectionLevel="signature" />-->
+    <!--<uses-permission android:name="mt.karimi.ronevis.permission.C2D_MESSAGE" />-->
+
+    <application
+        android:name=".ApplicationLoader"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:installLocation="preferExternal"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="activities.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustNothing"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activities.MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.acra.dialog.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name="activities.AppDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.DownloadActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.AgreementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivitySetting"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.TourActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.PopupNotificationActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_namePer"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme.Notification">
+        </activity>
+
+        <activity
+            android:name="activities.DialogActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_namePer"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme.Notification">
+        </activity>
+
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="users.fCMListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <!--<service-->
+        <!--android:name="users.GcmIntentService"-->
+        <!--/>-->
+
+        <!--<receiver-->
+        <!--android:name="users.GCMBroadcastReceiver"-->
+        <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION"/>-->
+        <!--<action android:name="com.google.android.c2dm.intent.RECEIVE"/>-->
+        <!--&lt;!&ndash;<action android:name="com.google.android.c2dm.intent.GCM_RECEIVED_ACTION"/>&ndash;&gt;-->
+
+        <!--<category android:name="users.GcmIntentService"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <service
+            android:name="org.acra.sender.SenderService"
+            android:exported="false"
+            android:process=":acra" />
+
+        <service android:name="fragments.download.service.DownloadService" />
+
+
+    </application>
+
+</manifest>

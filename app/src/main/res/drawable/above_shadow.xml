@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <padding
+                android:bottom="2dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#00CCCCCC"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="2dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#10CCCCCC"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="2dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#20CCCCCC"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="2dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#30CCCCCC"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:bottom="2dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <solid android:color="#50CCCCCC"/>
+        </shape>
+    </item>
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="#ffffff"/>
+        </shape>
+    </item>
+</layer-list>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<gradient-->
+    <!--android:startColor="#404040"-->
+    <!--android:endColor="#F1F1F1"-->
+    <!--android:angle="270"-->
+    <!--&gt;-->
+    <!--</gradient>-->
+    <!--</shape>-->
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item>-->
+    <!--<shape android:shape="rectangle">-->
+    <!--<solid android:color="@android:color/holo_blue_light"/>-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--<item-->
+    <!--android:left="0dp"-->
+    <!--android:right="0dp"-->
+    <!--android:top="4dp"-->
+    <!--android:bottom="0dp">-->
+    <!--<shape android:shape="rectangle">-->
+    <!--<solid android:color="@android:color/holo_red_dark"/>-->
+    <!---->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--</layer-list>-->

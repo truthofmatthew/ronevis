@@ -1,0 +1,112 @@
+{
+  "buildFiles": [
+    "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+    "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "F:\\sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+      "NDK_APPLICATION_MK\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Application.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-21",
+      "NDK_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj",
+      "NDK_LIBS_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/lib",
+      "NDK_APPLICATION_MK:\u003dsrc/main/jni/Application.mk",
+      "APP_PLATFORM:\u003dandroid-21",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "F:\\sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+    "NDK_APPLICATION_MK\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Application.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-21",
+    "NDK_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj",
+    "NDK_LIBS_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/lib",
+    "NDK_APPLICATION_MK:\u003dsrc/main/jni/Application.mk",
+    "APP_PLATFORM:\u003dandroid-21",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "cpufeatures-cafebazaarDebug-arm64-v8a": {
+      "buildCommandComponents": [
+        "F:\\sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-21",
+        "NDK_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj",
+        "NDK_LIBS_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/lib",
+        "NDK_APPLICATION_MK:\u003dsrc/main/jni/Application.mk",
+        "APP_PLATFORM:\u003dandroid-21",
+        "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj/local/arm64-v8a/libcpufeatures.a"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "cpufeatures",
+      "output": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h\\obj\\local\\arm64-v8a\\libcpufeatures.a"
+    },
+    "webp-cafebazaarDebug-arm64-v8a": {
+      "buildCommandComponents": [
+        "F:\\sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-21",
+        "NDK_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj",
+        "NDK_LIBS_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/lib",
+        "NDK_APPLICATION_MK:\u003dsrc/main/jni/Application.mk",
+        "APP_PLATFORM:\u003dandroid-21",
+        "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj/local/arm64-v8a/libwebp.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "webp",
+      "output": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h\\obj\\local\\arm64-v8a\\libwebp.so"
+    },
+    "dwebp-cafebazaarDebug-arm64-v8a": {
+      "buildCommandComponents": [
+        "F:\\sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dF:\\FriendsProjects\\Ronevis\\app\\src\\main\\jni\\Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-21",
+        "NDK_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj",
+        "NDK_LIBS_OUT\u003dF:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/lib",
+        "NDK_APPLICATION_MK:\u003dsrc/main/jni/Application.mk",
+        "APP_PLATFORM:\u003dandroid-21",
+        "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h/obj/local/arm64-v8a/dwebp"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "dwebp",
+      "output": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\cxx\\Debug\\683b505h\\obj\\local\\arm64-v8a\\dwebp"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "F:\\sdk\\ndk\\21.4.7075529\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

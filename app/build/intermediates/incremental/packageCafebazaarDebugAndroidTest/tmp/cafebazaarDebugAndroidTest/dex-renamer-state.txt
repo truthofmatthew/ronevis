@@ -1,0 +1,7 @@
+#Thu Jun 15 11:27:41 GMT+03:30 2023
+base.1=F\:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\dex\\cafebazaarDebugAndroidTest\\mergeProjectDexCafebazaarDebugAndroidTest\\5\\classes.dex
+path.1=5/classes.dex
+base.0=F\:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\dex\\cafebazaarDebugAndroidTest\\mergeProjectDexCafebazaarDebugAndroidTest\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

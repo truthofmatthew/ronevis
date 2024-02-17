@@ -1,0 +1,1026 @@
+[
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\build\\generated\\res\\pngs\\cafebazaar\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_bg_gradient_info.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\bg_gradient_info.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_fragment_recycler_view.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\fragment_recycler_view.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_a_1.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\a_1.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_a_4_a.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\a_4_a.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_selector_state.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\selector_state.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_textsize.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_textsize.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxxhdpi_ic_scale_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_scale_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_color_picker_swatch.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\color_picker_swatch.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_transparentback.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\transparentback.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_a_4.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\a_4.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_dialog_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_layout_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\layout_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_rotation_s.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_rotation_s.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_toolbar_spinner_item_actionbar.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\toolbar_spinner_item_actionbar.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_window_push_exit.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\window_push_exit.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_to_bottom_out.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_to_bottom_out.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_a_1.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\a_1.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-ldpi_ic_matt.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-ldpi\\ic_matt.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_a_2.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\a_2.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_expanded_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_expanded_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\xml_provider_paths.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_crop__tile.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\crop__tile.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_edit_cancel.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\edit_cancel.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_custom_tab.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_a_3.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\a_3.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_progress_thumb_white.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\progress_thumb_white.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_bottom_bar.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\bottom_bar.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_to_top_in.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_to_top_in.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_btn_borderless_default.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\btn_borderless_default.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dl_item_main.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dl_item_main.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_a_2.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\a_2.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout-land-v21_dialog_color_picker.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout-land-v21\\dialog_color_picker.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_slider_thumb.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\slider_thumb.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_ksw_md_back_color.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\ksw_md_back_color.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_about.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_gradient.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_gradient.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_remind.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_remind.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_gray_button_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\gray_button_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_ic_scale_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\ic_scale_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_a_2.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\a_2.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_fragment_list_view.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\fragment_list_view.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\menu_main.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_prompts.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\prompts.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_edit_cancel.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\edit_cancel.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_flash_on_white_24dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_flash_on_white_24dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dl_item_list.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dl_item_list.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_window_pop_enter.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\window_pop_enter.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_thumb_white_unpressed.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\thumb_white_unpressed.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_edit_cancel.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\edit_cancel.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_mode_edit_white_24dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_mode_edit_white_24dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_to_top_out.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_to_top_out.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_a_4.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\a_4.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tour_begin.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tour_begin.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_custom_tab.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\custom_tab.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_shape_bg_white_rounded_rect.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\shape_bg_white_rounded_rect.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_image1_c_01.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\image1_c_01.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_expanded_focused.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_expanded_focused.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_splashscreen.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\splashscreen.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_bg_textview.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\bg_textview.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_share.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_share.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_menu_item_view.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\menu_item_view.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_text_button.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\text_button.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_bottom_divider_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_bottom_divider_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_a_2.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\a_2.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_textboxsize.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_textboxsize.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_intro.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\intro.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_edit_doneblue.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\edit_doneblue.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_rotation.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_rotation.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_bottom_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\bottom_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_a_4_a.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\a_4_a.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_edit_doneblue.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\edit_doneblue.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_matt.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_matt.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_download.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_download.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_in_left.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_gcm.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_gcm.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_bar_button_text.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\bar_button_text.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_a_3.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\a_3.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\xml_app_tracker.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\xml\\app_tracker.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_custom_icon.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\custom_icon.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_bry.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\bry.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_ic_matt.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\ic_matt.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_warning_sigh.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\warning_sigh.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_positioning.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_positioning.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_grab_icon_selector.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\grab_icon_selector.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_ic_matt.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\ic_matt.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_ksw_md_thumb.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\ksw_md_thumb.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_autofitrecycler.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\autofitrecycler.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_ic_close_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\ic_close_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_splash_top.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\splash_top.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_empty_dl.jpg.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\empty_dl.jpg"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_success_bow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\success_bow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_bar_selector_picker.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\bar_selector_picker.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_texture.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\texture.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_agree_master.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\agree_master.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_font_f_single.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\font_f_single.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialod_edit_color_root.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialod_edit_color_root.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_ic_close_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\ic_close_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_edit_cancel.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\edit_cancel.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tour_end.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tour_end.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_main.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tab_bg_single.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tab_bg_single.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_toolbar_spinner_item_dropdown.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\toolbar_spinner_item_dropdown.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_ic_close_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\ic_close_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_miui_back_drawable.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\miui_back_drawable.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_a_1.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\a_1.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_a_4_a.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\a_4_a.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_open.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_open.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_grab_oval_normal.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\grab_oval_normal.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_ic_matt.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\ic_matt.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_bar_button_icon.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\bar_button_icon.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_btn_borderless.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\btn_borderless.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_font_tab_loader.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\font_tab_loader.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_zoom_in_img.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\zoom_in_img.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_save.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_save.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_text_align.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_text_align.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_grab_oval_pressed.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\grab_oval_pressed.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_out_bottom.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_popup_fragment_exit.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\popup_fragment_exit.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_root.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_root.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tab_sticker.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tab_sticker.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_color.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_color.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_custom_tab_icon_and_text.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\custom_tab_icon_and_text.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_grab_oval_selector.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\grab_oval_selector.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_card_default.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\card_default.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_banner.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_banner.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_ic_mode_edit_white_24dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\ic_mode_edit_white_24dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_background_border.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\background_border.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_shape_child_item.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\shape_child_item.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_expanded_selected.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_expanded_selected.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_numberdialog.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_numberdialog.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_break.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_break.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_mt.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_mt.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_ic_launcher_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_icon_anim_fade_in.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\icon_anim_fade_in.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_error_circle.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\error_circle.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_popup_out.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\popup_out.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_close_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_red_button_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\red_button_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_fragment_font_single.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\fragment_font_single.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_save_project.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_save_project.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_stroke.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_stroke.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_mt_colorpicker.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_mt_colorpicker.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_bb_bottom_bar_top_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\bb_bottom_bar_top_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_progress_thumb_white_unpressed.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\progress_thumb_white_unpressed.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_empty_ronevis.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\empty_ronevis.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_custom_tab_like_a_medium.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\custom_tab_like_a_medium.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_collapsed.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_collapsed.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_info_dialog_exit.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\info_dialog_exit.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_empty_icon.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\empty_icon.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_out_right.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_success_circle.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\success_circle.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_out_left.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_transparent.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\transparent.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_collapsed_selected.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_collapsed_selected.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_bottom_divider_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\bottom_divider_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_layout_animation.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\layout_animation.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_text.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_text.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_a_4_a.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\a_4_a.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_color_picker.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_color_picker.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_zoom_in_fade.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\zoom_in_fade.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_info_dialog_enter.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\info_dialog_enter.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_a_1.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\a_1.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tab_sticker_loader.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tab_sticker_loader.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_in_bottom.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_to_bottom_in.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_to_bottom_in.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_error_center_x.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\error_center_x.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_expanded.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_expanded.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_nav_shadow.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\nav_shadow.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_ic_scale_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\ic_scale_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_slide_in_right.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_window_push_enter.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\window_push_enter.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_editable_seekbar.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\editable_seekbar.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_image1_a_01.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\image1_a_01.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_clickable_item_bg.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\clickable_item_bg.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_ic_scale_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\ic_scale_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tour_agree.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tour_agree.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_edit_doneblue.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\edit_doneblue.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_ic_mode_edit_white_24dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mode_edit_white_24dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_ic_mode_edit_white_24dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\ic_mode_edit_white_24dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tour_perm.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tour_perm.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_collapsed_focused.9.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_collapsed_focused.9.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_action_show.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\action_show.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_card_highlighted.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\card_highlighted.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_ic_luncher_white.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\ic_luncher_white.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_above_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\above_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_a_4.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\a_4.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_mydivider.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\mydivider.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_a_4.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\a_4.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_list_layout.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\list_layout.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxxhdpi_ic_matt.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_matt.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_parallax_example.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\parallax_example.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_bgsize.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_bgsize.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_save_image.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_save_image.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-hdpi_edit_doneblue.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-hdpi\\edit_doneblue.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_thumb_unpressed.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\thumb_unpressed.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_cheetah_tile.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\cheetah_tile.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_below_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\below_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_filter_list_divider_whiteout.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\filter_list_divider_whiteout.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_ic_done_white_48dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\ic_done_white_48dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_top_switcher_collapsed_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\top_switcher_collapsed_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_list_divider.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\list_divider.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxxhdpi_ic_close_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_close_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_zoom_out_fade.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\zoom_out_fade.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_sat_val_thumb.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\sat_val_thumb.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_opacity_box_bg_land.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\opacity_box_bg_land.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_splash.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_popup_in.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\popup_in.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_window_pop_exit.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\window_pop_exit.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_setting.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_tutorial.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_tutorial.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_blue_button_background.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\blue_button_background.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_selector_bg_card.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\selector_bg_card.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_activity_app_detail.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\activity_app_detail.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_icon_anim_fade_out.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\icon_anim_fade_out.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_thumb.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\thumb.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_selected_border.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\selected_border.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_warning_circle.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\warning_circle.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_progressbar.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-v21_btn_default_light.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-v21\\btn_default_light.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_popup_fragment_enter.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\popup_fragment_enter.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_f_texture.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\f_texture.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_home_white_24dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_home_white_24dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_view_switcher_shadow.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\view_switcher_shadow.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_ic_scale_white_18dp.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\ic_scale_white_18dp.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_dialog_edit_color.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\dialog_edit_color.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\anim_action_hidden.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\anim\\action_hidden.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xxhdpi_a_3.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xxhdpi\\a_3.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_custom_tab_icon.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\custom_tab_icon.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_image1_b_01.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\image1_b_01.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable_shape_linear_gradient_transparent_to_black.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable\\shape_linear_gradient_transparent_to_black.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-xhdpi_a_3.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-xhdpi\\a_3.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\color_custom_tab.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\color\\custom_tab.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout_tour_master.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout\\tour_master.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\drawable-nodpi_checker.png.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\drawable-nodpi\\checker.png"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\layout-land_dialog_root.xml.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\layout-land\\dialog_root.xml"
+    },
+    {
+        "merged": "F:\\FriendsProjects\\Ronevis\\app\\build\\intermediates\\merged_res\\cafebazaarDebug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "F:\\FriendsProjects\\Ronevis\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]

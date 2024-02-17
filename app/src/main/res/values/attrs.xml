@@ -1,0 +1,413 @@
+<resources>
+
+
+
+    <attr name="MaterialTapTargetPromptTheme" format="reference"/>
+    <attr name="target" format="reference"/>
+    <attr name="mprimaryText" format="string"/>
+    <attr name="msecondaryText" format="string"/>
+    <attr name="primaryTextColour" format="color"/>
+    <attr name="secondaryTextColour" format="color"/>
+    <attr name="backgroundColour" format="color"/>
+    <attr name="focalColour" format="color"/>
+    <attr name="focalRadius" format="dimension"/>
+    <attr name="mprimaryTextSize" format="dimension"/>
+    <attr name="msecondaryTextSize" format="dimension"/>
+    <attr name="maxTextWidth" format="dimension"/>
+    <attr name="textPadding" format="dimension"/>
+    <attr name="focalToTextPadding" format="dimension"/>
+    <attr name="textSeparation" format="dimension"/>
+    <attr name="autoDismiss" format="boolean"/>
+    <attr name="autoFinish" format="boolean"/>
+    <attr name="captureTouchEventOutsidePrompt" format="boolean"/>
+    <attr name="captureTouchEventOnFocal" format="boolean"/>
+    <attr name="primaryTextFontFamily" format="string"/>
+    <attr name="secondaryTextFontFamily" format="string"/>
+    <attr name="mprimaryTextStyle" format="enum">
+        <enum name="normal" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="italic" value="2"/>
+    </attr>
+    <attr name="msecondaryTextStyle" format="enum">
+        <enum name="normal" value="0"/>
+        <enum name="bold" value="1"/>
+        <enum name="italic" value="2"/>
+    </attr>
+    <attr name="mprimaryTextTypeface" format="enum">
+        <enum name="normal" value="0" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+        <enum name="monospace" value="3" />
+    </attr>
+    <attr name="msecondaryTextTypeface" format="enum">
+        <enum name="normal" value="0" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+        <enum name="monospace" value="3" />
+    </attr>
+<!--    <attr name="iconTint" format="reference"/>-->
+<!--    <attr name="iconTintMode" format="enum">-->
+<!--        <enum name="SRC_OVER" value="3" />-->
+<!--        <enum name="SRC_IN" value="5" />-->
+<!--        <enum name="SRC_ATOP" value="9" />-->
+<!--        <enum name="MULTIPLY" value="14" />-->
+<!--        <enum name="SCREEN" value="15" />-->
+<!--        <enum name="ADD" value="16" />-->
+<!--    </attr>-->
+    <attr name="iconColourFilter" format="color"/>
+    <declare-styleable name="PromptView">
+        <attr name="target"/>
+        <attr name="mprimaryText"/>
+        <attr name="msecondaryText"/>
+        <attr name="primaryTextColour"/>
+        <attr name="secondaryTextColour"/>
+        <attr name="backgroundColour"/>
+        <attr name="focalColour"/>
+        <attr name="focalRadius"/>
+        <attr name="mprimaryTextSize"/>
+        <attr name="msecondaryTextSize"/>
+        <attr name="maxTextWidth"/>
+        <attr name="textPadding"/>
+        <attr name="focalToTextPadding"/>
+        <attr name="textSeparation"/>
+        <attr name="autoDismiss"/>
+        <attr name="autoFinish"/>
+        <attr name="captureTouchEventOutsidePrompt"/>
+        <attr name="captureTouchEventOnFocal"/>
+        <attr name="primaryTextFontFamily"/>
+        <attr name="secondaryTextFontFamily"/>
+        <attr name="mprimaryTextStyle"/>
+        <attr name="msecondaryTextStyle"/>
+        <attr name="mprimaryTextTypeface"/>
+        <attr name="msecondaryTextTypeface"/>
+        <attr name="iconTint"/>
+        <attr name="iconTintMode"/>
+        <attr name="iconColourFilter"/>
+    </declare-styleable>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <declare-styleable name="MT_DragLayout">
+        <attr name="minHeight" format="dimension"/>
+        <attr name="maxHeight" format="dimension"/>
+        <attr name="autoFix" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="PinterestView">
+        <attr name="child_size" format="dimension|float"/>
+        <attr name="child_radius" format="dimension"/>
+        <attr name="child_max_scale" format="float"/>
+        <attr name="tips_color" format="color"/>
+        <attr name="tips_background" format="reference"/>
+        <attr name="tips_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+
+
+
+    <!--<declare-styleable name="TextButton">-->
+        <!--<attr name="text_icon" format="reference|string"/>-->
+        <!--<attr name="text_caption" format="reference|string" localization="suggested"/>-->
+    <!--</declare-styleable>-->
+    <declare-styleable name="Panel">
+        <!-- Defines panel animation duration in ms. -->
+        <!-- Defines panel position on the screen. -->
+        <attr name="position">
+            <!-- Panel placed at top of the screen. -->
+            <enum name="top" value="0"/>
+            <!-- Panel placed at bottom of the screen. -->
+            <enum name="bottom" value="1"/>
+            <!-- Panel placed at left of the screen. -->
+            <enum name="left" value="2"/>
+            <!-- Panel placed at right of the screen. -->
+            <enum name="right" value="3"/>
+        </attr>
+        <!-- Defines if flying gesture forces linear interpolator in animation. -->
+        <attr name="linearFlying" format="boolean"/>
+        <!-- Defines opened handle (drawable/color). -->
+        <attr name="openedHandle" format="reference|color"/>
+        <!-- Defines closed handle (drawable/color). -->
+        <attr name="closedHandle" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="SmoothButton">
+        <attr name="transitionDrawable" format="reference"/>
+        <attr name="transitionDrawableLength" format="integer"/>
+        <attr name="transitionTextColorUp" format="color"/>
+        <attr name="transitionTextColorDown" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ScComponents">
+        <attr name="scc_stroke_size" format="dimension"/>
+        <attr name="scc_stroke_color" format="color"/>
+        <attr name="scc_stroke_colors" format="string"/>
+        <attr name="scc_angle_start" format="float"/>
+        <attr name="scc_angle_sweep" format="float"/>
+        <attr name="scc_progress_size" format="dimension"/>
+        <attr name="scc_progress_color" format="color"/>
+        <attr name="scc_progress_colors" format="string"/>
+        <attr name="scc_value" format="float"/>
+        <attr name="scc_pointer_radius" format="dimension"/>
+        <attr name="scc_pointer_color" format="color"/>
+        <attr name="scc_pointer_colors" format="string"/>
+        <attr name="scc_halo_size" format="dimension"/>
+        <attr name="scc_notches_size" format="dimension"/>
+        <attr name="scc_notches_color" format="color"/>
+        <attr name="scc_notches_colors" format="string"/>
+        <attr name="scc_notches" format="integer"/>
+        <attr name="scc_notches_length" format="dimension"/>
+        <attr name="scc_snap_to_notches" format="boolean"/>
+        <attr name="scc_text_tokens" format="string"/>
+        <attr name="scc_text_size" format="dimension"/>
+        <attr name="scc_text_color" format="color"/>
+        <attr name="scc_text_colors" format="string"/>
+        <attr name="scc_text_unbend" format="boolean"/>
+        <attr name="scc_max_width" format="dimension"/>
+        <attr name="scc_max_height" format="dimension"/>
+        <attr name="scc_path_touchable" format="boolean"/>
+        <attr name="scc_layout" format="reference"/>
+        <attr name="scc_start_open" format="boolean"/>
+        <attr name="scc_toggle_ontouch" format="boolean"/>
+        <attr name="scc_animate_alpha" format="boolean"/>
+        <attr name="scc_animate_translation" format="boolean"/>
+        <attr name="scc_duration" format="integer"/>
+        <attr name="scc_handle_size" format="dimension"/>
+        <attr name="scc_offset" format="dimension"/>
+        <attr name="scc_hide_onclose" format="boolean"/>
+        <attr name="scc_left" format="float"/>
+        <attr name="scc_top" format="float"/>
+        <attr name="scc_bottom" format="float"/>
+        <attr name="scc_right" format="float"/>
+        <attr name="scc_rounded_line" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="draghelper_layout">
+        <attr name="drag_view_id" format="reference"/>
+        <attr name="drag_limit" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandablePanel">
+        <attr name="handle" format="reference"/>
+        <attr name="content" format="reference"/>
+        <attr name="contentContainer" format="reference"/>
+        <attr name="animationDuration" format="integer"/>
+    </declare-styleable>
+    <bool name="is_rtl">false</bool>
+    <declare-styleable name="AvatarView">
+        <attr name="showLabel" format="boolean"/>
+        <attr name="avatarSize" format="dimension"/>
+        <attr name="avatarSrc" format="reference"/>
+        <attr name="labelSrc" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TriangleLabelView">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="primaryTextColor" format="color"/>
+        <attr name="secondaryTextColor" format="color"/>
+        <attr name="primaryText" format="string"/>
+        <attr name="secondaryText" format="string"/>
+        <attr name="primaryTextSize" format="dimension"/>
+        <attr name="secondaryTextSize" format="dimension"/>
+        <attr name="labelTopPadding" format="dimension"/>
+        <attr name="labelCenterPadding" format="dimension"/>
+        <attr name="labelBottomPadding" format="dimension"/>
+        <attr name="primaryTextStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+        <attr name="secondaryTextStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+        <attr name="corner">
+            <enum name="leftTop" value="1"/>
+            <enum name="rightTop" value="2"/>
+            <enum name="leftBottom" value="3"/>
+            <enum name="rightBottom" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AndroidGradientImageViewAttrs">
+        <attr name="giv_x" format="float"/>
+        <attr name="giv_y" format="float"/>
+        <attr name="giv_width" format="float"/>
+        <attr name="giv_height" format="float"/>
+        <attr name="giv_rotate" format="float"/>
+        <attr name="giv_startColor" format="color"/>
+        <attr name="giv_endColor" format="color"/>
+        <attr name="giv_middleColor" format="color"/>
+        <attr name="giv_startOffset" format="float"/>
+        <attr name="giv_middleOffset" format="float"/>
+        <attr name="giv_endOffset" format="float"/>
+        <attr name="giv_alpha" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="progressLayout">
+        <attr name="emptyColor" format="color"/>
+        <attr name="loadedColor" format="color"/>
+        <attr name="maxProgress" format="integer"/>
+        <attr name="autoProgress" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="BlurView">
+        <attr name="blurOverlayColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+        <attr name="kswAutoAdjustTextPosition" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="mToggleButton">
+        <attr name="mborderWidth" format="dimension">
+        </attr>
+        <attr name="moffBorderColor" format="reference|color">
+        </attr>
+        <attr name="moffColor" format="reference|color">
+        </attr>
+        <attr name="monColor" format="reference|color">
+        </attr>
+        <attr name="mspotColor" format="reference|color">
+        </attr>
+        <attr name="manimate" format="reference|boolean">
+        </attr>
+        <attr name="misDefaultOn" format="reference|boolean">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LargeImageView">
+        <attr name="android:src"/>
+    </declare-styleable>
+    <declare-styleable name="EditableSeekBar">
+        <attr name="esbTitleAppearance" format="reference"/>
+        <attr name="esbMax" format="integer"/>
+        <attr name="esbMin" format="integer"/>
+        <attr name="esbValue" format="integer"/>
+        <attr name="esbTitle" format="string"/>
+        <attr name="esbSelectAllOnFocus" format="boolean"/>
+        <attr name="esbAnimateSeekBar" format="boolean"/>
+        <attr name="esbEditTextWidth" format="dimension"/>
+        <attr name="esbEditTextFontSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="TextButton">
+        <attr name="text_icon" format="reference|string"/>
+        <attr name="text_icon_on" format="reference|string"/>
+        <attr name="text_icon_color" format="color"/>
+        <attr name="text_icon_color_on" format="color"/>
+        <attr name="text_caption" format="reference|string"/>
+        <attr name="text_caption_on" format="reference|string"/>
+        <attr name="text_caption_color" format="color"/>
+        <attr name="text_caption_color_on" format="color"/>
+        <attr name="text_checked" format="boolean"/>
+        <attr name="text_checkable" format="boolean"/>
+        <attr name="text_TextAppearance" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TintableImageView">
+        <attr name="tint" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="webp">
+        <attr name="webp_src" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalWheelView">
+        <attr name="maxVisibleMarks" format="integer"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="activeColor" format="color"/>
+        <attr name="showActiveRange" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+    <attr name="selectedColor" format="color"/>
+    <declare-styleable name="UnderlinePageIndicator">
+         <attr name="fades" format="boolean"/>
+         <attr name="fadeDelay" format="integer"/>
+         <attr name="fadeLength" format="integer"/>
+         <attr name="selectedColor"/>
+         <attr name="android:background"/>
+    </declare-styleable>
+    <declare-styleable name="BoxColor">
+        <attr name="Lorientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="colors" format="reference"/>
+        <attr name="selectedColorIndex" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="TextIcon">
+        <attr name="TextOn" format="string"/>
+        <attr name="TextOff" format="string"/>
+        <attr name="ColorOn" format="integer"/>
+        <attr name="ColorOff" format="integer"/>
+        <attr name="isradio" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="OrientedSeekBar">
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="OpacityPicker">
+        <attr name="cp_showOpacityBar" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="ColorPickerRootView">
+        <attr name="cp_showHexaDecimalValue" format="boolean"/>
+        <attr name="cp_showColorComponentsInfo" format="boolean"/>
+        <attr name="cp_backgroundColor" format="color"/>
+        <attr name="cp_hexaDecimalTextColor" format="color"/>
+        <attr name="cp_colorComponentsTextColor" format="color"/>
+        <attr name="cp_positiveActionTextColor" format="color"/>
+        <attr name="cp_negativeActionTextColor" format="color"/>
+        <attr name="cp_sliderThumbColor" format="color"/>
+        <attr name="cp_editHSV" format="boolean"/>
+        <attr name="cp_editRGB" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension"/>
+        <attr name="umanoShadowHeight" format="dimension"/>
+        <attr name="umanoParallaxOffset" format="dimension"/>
+        <attr name="umanoFadeColor" format="color"/>
+        <attr name="umanoFlingVelocity" format="integer"/>
+        <attr name="umanoDragView" format="reference"/>
+        <attr name="umanoScrollableView" format="reference"/>
+        <attr name="umanoOverlay" format="boolean"/>
+        <attr name="umanoClipPanel" format="boolean"/>
+        <attr name="umanoAnchorPoint" format="float"/>
+        <attr name="umanoParalaxOffset" format="float"/>
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference"/>
+    </declare-styleable>
+</resources>
