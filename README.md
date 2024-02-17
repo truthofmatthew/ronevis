@@ -10,6 +10,13 @@
 
 Ronvis combines ease of use with powerful editing tools, making it a valuable tool for graphic design enthusiasts 🎨. Contributions are welcomed to refresh and extend its capabilities for today's users.
 
+#### This part shows how I rendered the fonts 😭 it took me 3 month to get it right
+<img src="/images/Screenshot_20160528-225302.png" alt="How I handled the font rendering" width="200"/><img src="/images/Screenshot_20160526-175836.png" alt="How I handled the font rendering" width="200"/>
+<img src="/images/Screenshot_20160526-164329.png" alt="How I handled the font rendering" width="200"/>
+<img src="/images/Screenshot_20160526-163909.png" alt="How I handled the font rendering" width="200"/>
+
+
+
 ---
 
 # Ronvis: The Premier Photo Text Creator App
