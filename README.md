@@ -103,7 +103,9 @@ Ronvis is an advanced Android application designed for creating photo texts with
 
 ### Development and Contribution
 
-To contribute to Ronvis, a solid understanding of Android development and familiarity with Firebase services are required. The project is open for contributions under a permissive license, allowing use and modification without restriction.
+Ronvis was created 10 years ago and last updated 6 years ago. Some parts may be outdated but the application is functional and has been financially successful over the years. It is currently open-source under the GNU General Public License version 3 (GPLv3), inviting contributions to modernize and enhance its capabilities. 
+
+For more information on contributing or if you have any questions, feel free to contact me at mtk.branding@gmail.com.
 
 #### Setting Up
 
