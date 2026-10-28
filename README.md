@@ -36,3 +36,10 @@ For more detailed information, please refer to our
 Reach out for support or to contribute at mtk.branding@gmail.com. 
 
 Your feedback and contributions make Ronvis better for everyone. 🌟
+
+## Made by Matthew Truth
+
+I'm a product lead and designer who builds what he designs. I share open tools for product people and for Persian and right-to-left design.
+
+Follow me on GitHub: https://github.com/truthofmatthew
+Read my studies: https://truthofmatthew.substack.com
