@@ -828,17 +828,21 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
 //        tViewPager.requestLayout();
         tViewPager.setCurrentItem(3);
         DragLayoutView.mSpring.setCurrentValue(1);
-
-
-    public void button_bar_buttons_layout    (View v) {
-        boolean isChecked = Pref.get("btn_layout_type", true);
-        Pref.put("btn_layout_type", !isChecked);
-        ((TextIcon) v).setChecked(isChecked);
-        tViewPager.setAdapter(new MainActivity.ToolsPagerAdapter(getSupportFragmentManager()));
-//        tViewPager.requestLayout();
-        tViewPager.setCurrentItem(3);
-        DragLayoutView.mSpring.setCurrentValue(1);
     }
+
+    public void button_bar_buttons_layout (View v) {
+            try {
+                boolean isChecked = Pref.get("btn_layout_type", true);
+                Pref.put("btn_layout_type", !isChecked);
+                ((TextIcon) v).setChecked(isChecked);
+                tViewPager.setAdapter(new MainActivity.ToolsPagerAdapter(getSupportFragmentManager()));
+//        tViewPager.requestLayout();
+                tViewPager.setCurrentItem(3);
+                DragLayoutView.mSpring.setCurrentValue(1);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
 
     public class myJavaScriptInterface {
         @JavascriptInterface
