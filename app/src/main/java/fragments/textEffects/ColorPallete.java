@@ -16,7 +16,6 @@ import com.azeesoft.lib.colorpicker.ColorPickerDialog;
 import com.azeesoft.lib.colorpicker.OpacityPicker;
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import java.lang.reflect.Field;
 

@@ -31,7 +31,6 @@ import android.widget.FrameLayout;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import activities.MainActivity;
 import fragments.Interface.TaskProcess;

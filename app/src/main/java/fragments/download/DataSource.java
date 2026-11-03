@@ -4,7 +4,6 @@ import android.os.StrictMode;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import fragments.download.model.Download;
 import fragments.download.model.DownloadAPI;

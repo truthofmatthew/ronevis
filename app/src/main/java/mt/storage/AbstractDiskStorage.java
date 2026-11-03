@@ -6,7 +6,6 @@ import android.os.StatFs;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;

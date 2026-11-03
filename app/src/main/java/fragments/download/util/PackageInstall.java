@@ -6,7 +6,6 @@ import android.os.AsyncTask;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -138,8 +137,7 @@ public class PackageInstall extends
                     });
                 }
             } catch (Exception ignored1) {
-                AcraLSender acraLSender1 = new AcraLSender();
-                acraLSender1.TrySend(ApplicationLoader.appInstance(), ignored, "UnzipUtility_133");
+                FirebaseCrash.report(ignored1);
             }
         }
         return null;

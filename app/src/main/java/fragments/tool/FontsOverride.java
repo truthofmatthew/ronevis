@@ -5,7 +5,6 @@ import android.graphics.Typeface;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import java.lang.reflect.Field;
 

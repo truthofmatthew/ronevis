@@ -133,11 +133,7 @@
 
 
 
--keep class org.acra.** { *; }
-
 -dontwarn android.support.v4.app.NotificationCompat*
-
--keep public class * implements org.acra.sender.ReportSenderFactory { public <methods>; }
 
 -keep class sun.misc.Unsafe { *; }
 -dontwarn java.nio.file.*

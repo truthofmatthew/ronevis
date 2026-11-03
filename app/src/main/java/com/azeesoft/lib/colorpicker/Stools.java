@@ -11,7 +11,6 @@ import android.util.TypedValue;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import mt.karimi.ronevis.ApplicationLoader;
 

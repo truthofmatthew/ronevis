@@ -6,7 +6,6 @@ import android.content.Intent;
 import com.google.firebase.crash.FirebaseCrash;
 import com.google.firebase.messaging.RemoteMessage;
 
-import org.acra.sender.AcraLSender;
 import org.apprater.AppRater;
 
 import activities.DialogActivity;

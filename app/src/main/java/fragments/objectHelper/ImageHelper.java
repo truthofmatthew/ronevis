@@ -16,7 +16,6 @@ import android.os.Build;
 import android.util.Base64;
 import android.widget.ImageView;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

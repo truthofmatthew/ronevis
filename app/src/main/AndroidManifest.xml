@@ -74,14 +74,6 @@
         </activity>
 
         <activity
-            android:name="org.acra.dialog.CrashReportDialog"
-            android:excludeFromRecents="true"
-            android:finishOnTaskLaunch="true"
-            android:launchMode="singleInstance"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-
-        <activity
             android:name="activities.AppDetailActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -159,11 +151,6 @@
         <!--<category android:name="users.GcmIntentService"/>-->
         <!--</intent-filter>-->
         <!--</receiver>-->
-
-        <service
-            android:name="org.acra.sender.SenderService"
-            android:exported="false"
-            android:process=":acra" />
 
         <service android:name="fragments.download.service.DownloadService" />
 

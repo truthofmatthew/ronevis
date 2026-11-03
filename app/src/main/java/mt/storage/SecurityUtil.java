@@ -1,6 +1,5 @@
 package mt.storage;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidAlgorithmParameterException;

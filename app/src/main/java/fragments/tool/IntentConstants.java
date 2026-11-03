@@ -8,7 +8,6 @@ import android.net.Uri;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import activities.MainActivity;
 import mt.karimi.ronevis.ApplicationLoader;

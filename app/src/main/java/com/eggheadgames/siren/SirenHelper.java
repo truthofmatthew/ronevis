@@ -12,7 +12,6 @@ import android.text.TextUtils;
 
 import com.google.firebase.crash.FirebaseCrash;
 
-import org.acra.sender.AcraLSender;
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
