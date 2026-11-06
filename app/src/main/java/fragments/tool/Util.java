@@ -72,7 +72,7 @@ public class Util {
         siren.setPatchUpdateAlertType(SirenAlertType.FORCE);
         siren.setRevisionUpdateAlertType(SirenAlertType.FORCE);
         siren.setVersionCodeUpdateAlertType(SirenAlertType.FORCE);
-        siren.checkVersion(MainActivity.mainInstance(), SirenVersionCheckType.IMMEDIATELY, "http://www.ronevis.com/update/update.txt");
+        siren.checkVersion(MainActivity.mainInstance(), SirenVersionCheckType.IMMEDIATELY, "https://www.ronevis.com/update/update.txt");
     }
 
     public static boolean checkPlayServices(final Context context) {

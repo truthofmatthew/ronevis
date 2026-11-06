@@ -643,7 +643,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         });
         //Add a JavaScriptInterface, so I can make calls from the web to Java methods
         wb.addJavascriptInterface(new myJavaScriptInterface(), "CallToAnAndroidFunction");
-        wb.loadUrl("http://www.ronevis.com");
+        wb.loadUrl("https://www.ronevis.com");
     }
 
     @Override
