@@ -48,7 +48,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 import com.google.firebase.messaging.RemoteMessage;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.orhanobut.logger.Logger;
@@ -305,6 +305,8 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
     private void onResume(Activity activity) {
         if (activity == this) {
             doubleBackToExitPressedOnce = false;
+            // No google-services.json in the open-source build, so Firebase isn't set up; skip push.
+            if (com.google.firebase.FirebaseApp.getApps(this).isEmpty()) return;
             FCMManager.getInstance(this).registerListener(new FCMListener() {
                 @Override
                 public void onDeviceRegistered(String deviceToken) {
@@ -334,7 +336,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
-                PendingIntent.FLAG_ONE_SHOT);
+                PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_IMMUTABLE);
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_matt)
@@ -459,6 +461,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         } catch (IOException e) {
             Log.e("tag", e.getMessage());
         }
+        ApplicationLoader.appInstance().storage.getFile(ApplicationLoader.appInstance().getString(R.string.ronevisPathFontsFa)).mkdirs();
         for (String filename : files) {
             System.out.println("File name => " + filename);
             InputStream in = null;
@@ -534,7 +537,8 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
                 break;
         }
         remindVitrin(R.string.dRemMessage, R.string.Icon_shopping);
-        getWindow().setBackgroundDrawable(null);
+        // A null window background leaves stale frames ("echoes") where the collapsing tool panel used to be.
+        getWindow().setBackgroundDrawableResource(R.color.bg_dark);
         MainInstance = this;
         setContentView(R.layout.activity_main);
         Intent intent = getIntent();
@@ -640,7 +644,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         });
         //Add a JavaScriptInterface, so I can make calls from the web to Java methods
         wb.addJavascriptInterface(new myJavaScriptInterface(), "CallToAnAndroidFunction");
-        wb.loadUrl("http://www.ronevis.com");
+        wb.loadUrl("https://www.ronevis.com");
     }
 
     @Override
@@ -828,17 +832,21 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
 //        tViewPager.requestLayout();
         tViewPager.setCurrentItem(3);
         DragLayoutView.mSpring.setCurrentValue(1);
-
-
-    public void button_bar_buttons_layout    (View v) {
-        boolean isChecked = Pref.get("btn_layout_type", true);
-        Pref.put("btn_layout_type", !isChecked);
-        ((TextIcon) v).setChecked(isChecked);
-        tViewPager.setAdapter(new MainActivity.ToolsPagerAdapter(getSupportFragmentManager()));
-//        tViewPager.requestLayout();
-        tViewPager.setCurrentItem(3);
-        DragLayoutView.mSpring.setCurrentValue(1);
     }
+
+    public void button_bar_buttons_layout (View v) {
+            try {
+                boolean isChecked = Pref.get("btn_layout_type", true);
+                Pref.put("btn_layout_type", !isChecked);
+                ((TextIcon) v).setChecked(isChecked);
+                tViewPager.setAdapter(new MainActivity.ToolsPagerAdapter(getSupportFragmentManager()));
+//        tViewPager.requestLayout();
+                tViewPager.setCurrentItem(3);
+                DragLayoutView.mSpring.setCurrentValue(1);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
 
     public class myJavaScriptInterface {
         @JavascriptInterface

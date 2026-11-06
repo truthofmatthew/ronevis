@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.util.List;
 
@@ -130,7 +130,7 @@ public class FragmentController {
             MainActivity.mainInstance().FragContainerFrame.setFocusable(false);
             Manimator.SlideInUp(MainActivity.mainInstance().FragContainerFrame);
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
     }
 

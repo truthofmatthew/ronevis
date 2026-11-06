@@ -1,17 +1,21 @@
 plugins {
     id 'com.android.application'
-    id 'com.google.gms.google-services'
+//    id 'com.google.gms.google-services'
+
 }
 
 android {
-    compileSdk 31
+    namespace "mt.karimi.ronevis"
+    compileSdk 34
 
     defaultConfig {
         applicationId "mt.karimi.ronevis"
         minSdk 21
-        targetSdk 31
+        targetSdk 34
         versionCode 43
         versionName '2.65'
+        // Override to test a local store: ./gradlew assembleCafebazaarDebug -PstoreUrl=http://localhost:8787/
+        buildConfigField 'String', 'STORE_BASE_URL', "\"${project.findProperty('storeUrl') ?: 'https://www.ronevis.com/'}\""
 
         externalNativeBuild {
             ndkBuild {
@@ -23,6 +27,11 @@ android {
     }
 
     buildTypes {
+        // Installs next to the store-signed release instead of clashing with it.
+        debug {
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -39,6 +48,10 @@ android {
     }
 
 
+
+    buildFeatures {
+        buildConfig true
+    }
 
     flavorDimensions "market"
     productFlavors {
@@ -111,28 +124,20 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-
-    implementation 'com.google.android.gms:play-services-measurement-api:20.1.2'
-    implementation 'com.google.firebase:firebase-crash:16.2.1'
+//    implementation 'com.google.android.gms:play-services-measurement-api:20.1.2'
     implementation 'com.google.firebase:firebase-messaging:23.0.2'
-
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
-
     implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
     implementation 'com.daimajia.easing:library:1.0.1@aar'
     implementation 'com.daimajia.androidanimations:library:1.1.3@aar'
-
     implementation 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
     implementation 'com.nineoldandroids:library:2.4.0'
-//    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
     implementation 'com.koushikdutta.ion:ion:2.1.9'
     implementation 'com.orhanobut:logger:1.13'
     implementation 'jp.wasabeef:recyclerview-animators:4.0.2'
@@ -141,10 +146,8 @@ dependencies {
     implementation 'com.tumblr:backboard:0.2.0'
     implementation 'com.github.Commit451:NativeStackBlur:1.0.7'
     implementation 'com.jakewharton:disklrucache:2.0.2'
-
     implementation files('libs/libwebp.jar')
     implementation project(path: ':EasyFCM')
-
     implementation "com.github.permissions-dispatcher:permissionsdispatcher:4.9.2"
     annotationProcessor "com.github.permissions-dispatcher:permissionsdispatcher-processor:4.9.2"
 }

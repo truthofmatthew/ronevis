@@ -25,7 +25,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.commit451.nativestackblur.NativeStackBlur;
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -148,7 +148,7 @@ public class Save extends BaseFragment {
             }
             fos.close();
         } catch (IOException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
         return result;
@@ -299,7 +299,7 @@ public class Save extends BaseFragment {
                     share.setType("image/*");
                     share.putExtra(Intent.EXTRA_SUBJECT, "Made by ronevis");
                     share.putExtra(Intent.EXTRA_TEXT, "#ronevis");
-                    share.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(SavedImagePath)));
+                    Util.attachShareFile(share, new File(SavedImagePath));
                     MainActivity.mainInstance().startActivity(Intent.createChooser(share, Util.Persian(mActivity, R.string.dsBtnShare)));
                     break;
                 case R.id.button3:

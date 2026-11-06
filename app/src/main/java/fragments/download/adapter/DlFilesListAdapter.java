@@ -84,11 +84,7 @@ public class DlFilesListAdapter extends RecyclerSwipeAdapter<DlFilesListAdapter.
         holder.setTag(typeTag);
         holder.tvName.setText(filesInfo.getTitle());
         holder.tvDownload.setText(ApplicationLoader.appInstance().getString(R.string.STATUS_B_NOT_DOWNLOAD));
-        Ion.with(holder.itemView.getContext())
-                .load(filesInfo.getImage())
-                .withBitmap()
-                .placeholder(R.drawable.empty_dl)
-                .intoImageView(holder.ivIcon);
+        fragments.imageHelper.RemoteImage.load(holder.ivIcon, filesInfo.getImage(), R.drawable.empty_dl);
 //        Ion.with(MainActivity.mainInstance()).load(filesInfo.getImage()).withBitmap().asBitmap()
 //                .setCallback(new FutureCallback<Bitmap>() {
 //                    @Override

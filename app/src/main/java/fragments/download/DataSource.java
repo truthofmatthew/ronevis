@@ -2,9 +2,8 @@ package fragments.download;
 
 import android.os.StrictMode;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
-import org.acra.sender.AcraLSender;
 
 import fragments.download.model.Download;
 import fragments.download.model.DownloadAPI;
@@ -36,7 +35,7 @@ public class DataSource {
                     .permitAll().build();
             StrictMode.setThreadPolicy(policy);
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://www.ronevis.com/")
+                    .baseUrl(mt.karimi.ronevis.BuildConfig.STORE_BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
             DownloadAPI downloadAPI = retrofit.create(DownloadAPI.class);
@@ -53,7 +52,7 @@ public class DataSource {
                 }
             });
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
     }

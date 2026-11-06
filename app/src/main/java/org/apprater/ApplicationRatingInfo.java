@@ -5,7 +5,6 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-import org.acra.sender.AcraLSender;
 
 import fragments.FireHelper;
 import mt.karimi.ronevis.ApplicationLoader;

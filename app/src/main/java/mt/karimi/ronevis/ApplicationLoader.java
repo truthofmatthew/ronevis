@@ -12,12 +12,6 @@ import android.os.Handler;
 
 import com.orhanobut.logger.Logger;
 
-import org.acra.ACRA;
-import org.acra.ReportingInteractionMode;
-import org.acra.annotation.ReportsCrashes;
-import org.acra.sender.AcraLFactory;
-import org.acra.sender.AcraLSender;
-
 import activities.MainActivity;
 import fragments.FireHelper;
 import fragments.tool.Base;
@@ -29,13 +23,6 @@ import multithreaddownload.DownloadConfiguration;
 import multithreaddownload.DownloadManager;
 //import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
-@ReportsCrashes(mode = ReportingInteractionMode.DIALOG,
-        resDialogText = R.string.ok,
-        resDialogIcon = android.R.drawable.ic_dialog_info,
-        resDialogTitle = R.string.ok,
-        resDialogCommentPrompt = R.string.ok,
-        resDialogEmailPrompt = R.string.ok,
-        reportSenderFactoryClasses = {AcraLFactory.class})
 public class ApplicationLoader extends Application {
     public static volatile Context applicationContext;
     public static volatile Handler applicationHandler;
@@ -68,7 +55,7 @@ public class ApplicationLoader extends Application {
     public void onCreate() {
 //        ACRA.init(this);
         super.onCreate();
- //        FirebaseCrash.report(new Exception("My first Android non-fatal error"));
+ //        FireHelper.report(new Exception("My first Android non-fatal error"));
 //        if (BuildConfig.DEBUG_MODE) {
 //            AndroidDevMetrics.initWith(this);
 //        }

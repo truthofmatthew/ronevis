@@ -17,7 +17,6 @@ import com.google.gson.JsonPrimitive;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;

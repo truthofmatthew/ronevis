@@ -182,7 +182,7 @@ class MTNotification {
             intentNotifyMessage.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
             pendingNotifyMessage =
                     PendingIntent.getActivity(getContext(), 0, intentNotifyMessage,
-                            PendingIntent.FLAG_CANCEL_CURRENT);
+                            PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
             // getContext().startActivity(IntentNotifyMessage);
         } else {
             // IntentNotifyMessage = new Intent(getContext(), MainActivity.class);
@@ -194,7 +194,7 @@ class MTNotification {
             // getContext().startActivity(IntentNotifyMessage);
             pendingNotifyMessage =
                     PendingIntent.getActivity(getContext(), 0, intentNotifyMessage,
-                            PendingIntent.FLAG_UPDATE_CURRENT);
+                            PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
         }
         NotificationManagerCompat mNotificationManager = NotificationManagerCompat.from(getContext());
         if (getPictureUrl() != null) {

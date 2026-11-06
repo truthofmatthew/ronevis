@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.lang.reflect.Field;
 
@@ -83,7 +83,7 @@ public class ColorPickerDialog extends Dialog {
                 field.setAccessible(true);
                 return field.getInt(object);
             } catch (Exception ignored) {
-                FirebaseCrash.report(ignored);
+                FireHelper.report(ignored);
 
             }
         }

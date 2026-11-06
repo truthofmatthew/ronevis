@@ -20,7 +20,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.io.IOException;
 
@@ -396,21 +396,21 @@ public class mtDialog extends Dialog implements View.OnClickListener {
                 try {
                     neutral.clicked(this);
                 } catch (IOException ignored) {
-                    FirebaseCrash.report(ignored);
+                    FireHelper.report(ignored);
                 }
                 break;
             case R.id.dButton2:
                 try {
                     negative.clicked(this);
                 } catch (IOException ignored) {
-                    FirebaseCrash.report(ignored);
+                    FireHelper.report(ignored);
                 }
                 break;
             case R.id.dButton1:
                 try {
                     positive.clicked(this);
                 } catch (IOException ignored) {
-                    FirebaseCrash.report(ignored);
+                    FireHelper.report(ignored);
                 }
                 break;
         }

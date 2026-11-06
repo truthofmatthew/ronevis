@@ -4,9 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -86,18 +85,23 @@ public class PackageInstall extends
         try {
             ZipInputStream zin = new ZipInputStream(new FileInputStream(file));
             String workingDir = destination.getAbsolutePath() + '/';
+            destination.mkdirs(); // folders don't exist yet on a fresh install
+            String safeRoot = destination.getCanonicalPath() + File.separator;
             byte buffer[] = new byte[1024 * 8];
             int bytesRead;
             ZipEntry entry;
             int ff = 0;
             while ((entry = zin.getNextEntry()) != null) {
+                File target = new File(workingDir, entry.getName());
+                // Reject entries like "../x" that would escape the pack folder (zip slip).
+                if (!target.getCanonicalPath().startsWith(safeRoot)) {
+                    throw new IOException("Blocked zip entry outside pack folder: " + entry.getName());
+                }
                 if (entry.isDirectory()) {
-                    File dir = new File(workingDir, entry.getName());
-                    if (!dir.exists()) {
-                        dir.mkdir();
-                    }
+                    target.mkdirs();
                 } else {
-                    FileOutputStream fos = new FileOutputStream(workingDir + entry.getName());
+                    target.getParentFile().mkdirs();
+                    FileOutputStream fos = new FileOutputStream(target);
                     BufferedOutputStream bufout = new BufferedOutputStream(fos, buffer.length);
                     while ((bytesRead = zin.read(buffer, 0, buffer.length)) != -1) {
                         bufout.write(buffer, 0, bytesRead);
@@ -117,7 +121,7 @@ public class PackageInstall extends
                 file.delete();
             }
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
             try {
                 if (activity != null) {
                     activity.runOnUiThread(new Runnable() {
@@ -138,8 +142,7 @@ public class PackageInstall extends
                     });
                 }
             } catch (Exception ignored1) {
-                AcraLSender acraLSender1 = new AcraLSender();
-                acraLSender1.TrySend(ApplicationLoader.appInstance(), ignored, "UnzipUtility_133");
+                FireHelper.report(ignored1);
             }
         }
         return null;

@@ -9,9 +9,8 @@ import android.graphics.drawable.Drawable;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
-import org.acra.sender.AcraLSender;
 
 import mt.karimi.ronevis.ApplicationLoader;
 
@@ -31,7 +30,7 @@ class Stools {
             editor.putString(SP_KEY_LAST_COLOR, hexaVal);
             editor.apply();
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
     }
@@ -45,7 +44,7 @@ class Stools {
                 Color.parseColor(!s.isEmpty() ? s : "#ffffffff");
             }
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
         return s != null && !s.isEmpty() ? s : "#ffffffff";

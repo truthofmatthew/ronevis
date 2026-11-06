@@ -1,2 +1,0 @@
-com.trung.fcm.library
-string app_name

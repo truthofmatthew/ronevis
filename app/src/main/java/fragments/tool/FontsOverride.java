@@ -3,9 +3,8 @@ package fragments.tool;
 import android.content.Context;
 import android.graphics.Typeface;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
-import org.acra.sender.AcraLSender;
 
 import java.lang.reflect.Field;
 
@@ -30,7 +29,7 @@ public final class FontsOverride {
             staticField.setAccessible(true);
             staticField.set(null, newTypeface);
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
     }

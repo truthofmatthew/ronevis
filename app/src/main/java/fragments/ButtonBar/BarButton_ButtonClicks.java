@@ -20,7 +20,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 import com.orhanobut.logger.Logger;
 
 import java.io.File;
@@ -570,7 +570,7 @@ public class BarButton_ButtonClicks {
                     try {
                         tp.AddTextView(MainActivity.mainInstance()._exportroot);
                     } catch (Exception ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
                     }
                 }
                 break;

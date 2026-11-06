@@ -13,11 +13,10 @@ import permissions.dispatcher.PermissionRequest;
 import permissions.dispatcher.PermissionUtils;
 
 public abstract class BaseActivityPermission {
-    public static final String[] PERMISSIONS_ALL = new String[]{
-            Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_PHONE_STATE,
-            Manifest.permission.ACCESS_COARSE_LOCATION
-    };
+    // Only Android 9 and older need a permission (to copy saved images into Pictures); newer versions use MediaStore.
+    public static final String[] PERMISSIONS_ALL = Build.VERSION.SDK_INT <= Build.VERSION_CODES.P
+            ? new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}
+            : new String[0];
 
     private BaseActivityPermission() {
     }

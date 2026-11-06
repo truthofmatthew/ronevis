@@ -238,7 +238,7 @@ public class SavedDialog {
                     share.setType("image/*");
                     share.putExtra(Intent.EXTRA_SUBJECT, "Made by ronevis");
                     share.putExtra(Intent.EXTRA_TEXT, "#ronevis");
-                    share.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(SavedImagePath)));
+                    Util.attachShareFile(share, new File(SavedImagePath));
                     MainActivity.mainInstance().startActivity(Intent.createChooser(share, Util.Persian(mActivity, R.string.dsBtnShare)));
                     alertDialogs.dismiss();
                     break;

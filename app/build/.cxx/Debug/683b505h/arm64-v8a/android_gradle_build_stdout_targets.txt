@@ -1,2 +1,0 @@
-make: Nothing to be done for 'dwebp'.
-make: Nothing to be done for 'webp'.

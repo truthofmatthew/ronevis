@@ -48,6 +48,16 @@ import mt.karimi.ronevis.R;
 import static mt.karimi.ronevis.R.color.text_secondary_light;
 
 public class Util {
+    // file:// URIs crash on Android 7+ when handed to another app; share through the FileProvider instead.
+    // ClipData carries the read grant through Intent.createChooser to whichever app is picked.
+    public static void attachShareFile(Intent share, File file) {
+        Context context = ApplicationLoader.appInstance();
+        Uri uri = androidx.core.content.FileProvider.getUriForFile(context, context.getPackageName() + ".provider", file);
+        share.putExtra(Intent.EXTRA_STREAM, uri);
+        share.setClipData(android.content.ClipData.newRawUri("", uri));
+        share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+    }
+
     private static final int FLAG_TAG_BR = 1;
     private static final int FLAG_TAG_BOLD = 2;
     private static final int FLAG_TAG_COLOR = 4;
@@ -62,7 +72,7 @@ public class Util {
         siren.setPatchUpdateAlertType(SirenAlertType.FORCE);
         siren.setRevisionUpdateAlertType(SirenAlertType.FORCE);
         siren.setVersionCodeUpdateAlertType(SirenAlertType.FORCE);
-        siren.checkVersion(MainActivity.mainInstance(), SirenVersionCheckType.IMMEDIATELY, "http://www.ronevis.com/update/update.txt");
+        siren.checkVersion(MainActivity.mainInstance(), SirenVersionCheckType.IMMEDIATELY, "https://www.ronevis.com/update/update.txt");
     }
 
     public static boolean checkPlayServices(final Context context) {

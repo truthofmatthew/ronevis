@@ -3,10 +3,9 @@ package users;
 import android.content.Context;
 import android.content.Intent;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 import com.google.firebase.messaging.RemoteMessage;
 
-import org.acra.sender.AcraLSender;
 import org.apprater.AppRater;
 
 import activities.DialogActivity;
@@ -97,7 +96,7 @@ public class NotificationHandler {
                         .Build();
             }
         } catch (IllegalArgumentException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
     }

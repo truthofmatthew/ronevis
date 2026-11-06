@@ -4,9 +4,8 @@ import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.StatFs;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
-import org.acra.sender.AcraLSender;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
@@ -202,7 +201,7 @@ abstract class AbstractDiskStorage implements Storage {
                             return true;
                         }
                     } catch (Exception ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
                     }
                     return false;
                 }
@@ -407,7 +406,7 @@ abstract class AbstractDiskStorage implements Storage {
             try {
                 closeable.close();
             } catch (IOException ignored) {
-                FirebaseCrash.report(ignored);
+                FireHelper.report(ignored);
             }
         }
     }
