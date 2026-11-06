@@ -583,7 +583,7 @@
  }
 
  -keepnames class * implements android.os.Parcelable {
- public static fi/Volumes/Files/Developments Final/Ronevis/Ronevis/Ronevis/app/google-services.jsonnal ** CREATOR;}
+ public static final ** CREATOR;}
 
  -keep public class co.ronash.pushe.log.handlers.** { *; }
  -keep class org.json.** { *; }

@@ -26,6 +26,25 @@ android {
         }
     }
 
+    // Release signing: local.properties (not in git) holds releaseKeystoreProperties=<path to keystore.properties>.
+    // Without it, release builds come out unsigned.
+    def localProps = new Properties()
+    def localPropsFile = rootProject.file('local.properties')
+    if (localPropsFile.exists()) localPropsFile.withInputStream { localProps.load(it) }
+    def keystorePropsPath = localProps.getProperty('releaseKeystoreProperties')
+    if (keystorePropsPath) {
+        def ks = new Properties()
+        file(keystorePropsPath).withInputStream { ks.load(it) }
+        signingConfigs {
+            release {
+                storeFile file(ks.storeFile)
+                storePassword ks.storePassword
+                keyAlias ks.keyAlias
+                keyPassword ks.keyPassword
+            }
+        }
+    }
+
     buildTypes {
         // Installs next to the store-signed release instead of clashing with it.
         debug {
@@ -33,6 +52,7 @@ android {
             versionNameSuffix "-debug"
         }
         release {
+            if (keystorePropsPath) signingConfig signingConfigs.release
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
