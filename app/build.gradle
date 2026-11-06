@@ -9,7 +9,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "mt.karimi.ronevis"
+        applicationId "matthew.truth.ronevis"
         minSdk 21
         targetSdk 34
         versionCode 43
@@ -79,8 +79,8 @@ android {
             dimension "market"
             buildConfigField 'String', 'marketName', '"کافه بازار"'
             buildConfigField 'String', 'marketPackage', '"com.farsitel.bazaar"'
-            buildConfigField 'String', 'marketUri', '"bazaar://details?id=mt.karimi.ronevis"'
-            buildConfigField 'String', 'marketUriApp', '"bazaar://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUri', '"bazaar://details?id=matthew.truth.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"bazaar://details?id=matthew.truth.ronevis"'
             buildConfigField 'String', 'marketIntent', '"android.intent.action.EDIT"'
             buildConfigField 'String', 'marketCatID', '"2"'
         }
@@ -88,8 +88,8 @@ android {
             dimension "market"
             buildConfigField 'String', 'marketName', '"کندو"'
             buildConfigField 'String', 'marketPackage', '"com.ada.market"'
-            buildConfigField 'String', 'marketUri', '"cando://leave-review?id=mt.karimi.ronevis"'
-            buildConfigField 'String', 'marketUriApp', '"cando://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUri', '"cando://leave-review?id=matthew.truth.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"cando://details?id=matthew.truth.ronevis"'
             buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
             buildConfigField 'String', 'marketCatID', '"5"'
         }
@@ -97,8 +97,8 @@ android {
             dimension "market"
             buildConfigField 'String', 'marketName', '"پارس هاب"'
             buildConfigField 'String', 'marketPackage', '"net.jhoobin.jhub"'
-            buildConfigField 'String', 'marketUri', '"parshub://comment?q=mt.karimi.ronevis"'
-            buildConfigField 'String', 'marketUriApp', '"parshub://search?q=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUri', '"parshub://comment?q=matthew.truth.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"parshub://search?q=matthew.truth.ronevis"'
             buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
             buildConfigField 'String', 'marketCatID', '"7"'
         }
@@ -106,8 +106,8 @@ android {
             dimension "market"
             buildConfigField 'String', 'marketName', '"مایکت"'
             buildConfigField 'String', 'marketPackage', '"ir.mservices.market"'
-            buildConfigField 'String', 'marketUri', '"myket://comment/#Intent;scheme=comment;package=mt.karimi.ronevis;refId=app;end"'
-            buildConfigField 'String', 'marketUriApp', '"myket://download/#Intent;scheme=download;package=mt.karimi.ronevis;end"'
+            buildConfigField 'String', 'marketUri', '"myket://comment/#Intent;scheme=comment;package=matthew.truth.ronevis;refId=app;end"'
+            buildConfigField 'String', 'marketUriApp', '"myket://download/#Intent;scheme=download;package=matthew.truth.ronevis;end"'
             buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
             buildConfigField 'String', 'marketCatID', '"3"'
         }
@@ -115,8 +115,8 @@ android {
             dimension "market"
             buildConfigField 'String', 'marketName', '"ایران اپس"'
             buildConfigField 'String', 'marketPackage', '"ir.tgbs.android.iranapp"'
-            buildConfigField 'String', 'marketUri', '"iranapps://app/mt.karimi.ronevis?a=comment&r=5"'
-            buildConfigField 'String', 'marketUriApp', '"iranapps://app/mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUri', '"iranapps://app/matthew.truth.ronevis?a=comment&r=5"'
+            buildConfigField 'String', 'marketUriApp', '"iranapps://app/matthew.truth.ronevis"'
             buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
             buildConfigField 'String', 'marketCatID', '"1"'
         }
@@ -124,8 +124,8 @@ android {
 //            dimension "market"
 //            buildConfigField 'String', 'marketName', '"اول مارکت"'
 //            buildConfigField 'String', 'marketPackage', '"com.hrm.android.market"'
-//            buildConfigField 'String', 'marketUri', '"market://rate?id=mt.karimi.ronevis"'
-//            buildConfigField 'String', 'marketUriApp', '"market://rate?id=mt.karimi.ronevis"'
+//            buildConfigField 'String', 'marketUri', '"market://rate?id=matthew.truth.ronevis"'
+//            buildConfigField 'String', 'marketUriApp', '"market://rate?id=matthew.truth.ronevis"'
 //            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
 //            buildConfigField 'String', 'marketCatID', '"4"'
 //        }
