@@ -461,6 +461,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         } catch (IOException e) {
             Log.e("tag", e.getMessage());
         }
+        ApplicationLoader.appInstance().storage.getFile(ApplicationLoader.appInstance().getString(R.string.ronevisPathFontsFa)).mkdirs();
         for (String filename : files) {
             System.out.println("File name => " + filename);
             InputStream in = null;

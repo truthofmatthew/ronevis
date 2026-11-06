@@ -85,18 +85,23 @@ public class PackageInstall extends
         try {
             ZipInputStream zin = new ZipInputStream(new FileInputStream(file));
             String workingDir = destination.getAbsolutePath() + '/';
+            destination.mkdirs(); // folders don't exist yet on a fresh install
+            String safeRoot = destination.getCanonicalPath() + File.separator;
             byte buffer[] = new byte[1024 * 8];
             int bytesRead;
             ZipEntry entry;
             int ff = 0;
             while ((entry = zin.getNextEntry()) != null) {
+                File target = new File(workingDir, entry.getName());
+                // Reject entries like "../x" that would escape the pack folder (zip slip).
+                if (!target.getCanonicalPath().startsWith(safeRoot)) {
+                    throw new IOException("Blocked zip entry outside pack folder: " + entry.getName());
+                }
                 if (entry.isDirectory()) {
-                    File dir = new File(workingDir, entry.getName());
-                    if (!dir.exists()) {
-                        dir.mkdir();
-                    }
+                    target.mkdirs();
                 } else {
-                    FileOutputStream fos = new FileOutputStream(workingDir + entry.getName());
+                    target.getParentFile().mkdirs();
+                    FileOutputStream fos = new FileOutputStream(target);
                     BufferedOutputStream bufout = new BufferedOutputStream(fos, buffer.length);
                     while ((bytesRead = zin.read(buffer, 0, buffer.length)) != -1) {
                         bufout.write(buffer, 0, bytesRead);
