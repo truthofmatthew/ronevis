@@ -712,6 +712,13 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
             case R.id.menuOpenFile:
                 RonevisHelper.OpenProject(this);
                 break;
+            case R.id.menusupport:
+                try {
+                    startActivity(fragments.tool.IntentConstants.EmailIntent());
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(this, Util.Persian(R.string.daaMailErr), Toast.LENGTH_LONG).show();
+                }
+                break;
             case R.id.menushop:
                 startActivity(new Intent(this, DownloadActivity.class));
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
@@ -744,6 +751,9 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         MenuItem menuabout = menu.findItem(R.id.menuabout);
         menuabout.setTitle(Util.Persian(R.string.menuabout));
         menuabout.setIcon(Util.getDrawableIcon(R.string.Icon_information, R.color.text_secondary_light));
+        MenuItem menusupport = menu.findItem(R.id.menusupport);
+        menusupport.setTitle(Util.Persian(R.string.menusupport));
+        menusupport.setIcon(Util.getDrawableIcon(R.string.Icon_email, R.color.text_secondary_light));
         MenuItem menunew = menu.findItem(R.id.menunew);
         menunew.setTitle(Util.Persian(R.string.menunew));
         menunew.setIcon(Util.getDrawableIcon(R.string.Icon_new_box, R.color.text_secondary_light));

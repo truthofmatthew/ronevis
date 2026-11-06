@@ -22,6 +22,11 @@
             android:title="@string/menuOpenFile"
             app:showAsAction="never"/>
         <item
+            android:id="@+id/menusupport"
+            android:orderInCategory="5"
+            android:title="@string/menusupport"
+            app:showAsAction="never"/>
+        <item
             android:id="@+id/menuabout"
             android:orderInCategory="6"
             android:title="@string/menuabout"
