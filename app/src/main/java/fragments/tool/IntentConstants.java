@@ -113,7 +113,6 @@ public class IntentConstants {
     public static Intent EmailIntent() {
         String email = ApplicationLoader.appInstance().getResources().getString(R.string.daaEmail);
         Intent i = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + email));
-        i.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
         i.putExtra(Intent.EXTRA_SUBJECT, Util.Persian(R.string.daaMailSubject));
         i.putExtra(Intent.EXTRA_TEXT, Util.Persian(R.string.daaMailBody));
         return i;
