@@ -14,6 +14,8 @@ android {
         targetSdk 34
         versionCode 43
         versionName '2.65'
+        // Override to test a local store: ./gradlew assembleCafebazaarDebug -PstoreUrl=http://localhost:8787/
+        buildConfigField 'String', 'STORE_BASE_URL', "\"${project.findProperty('storeUrl') ?: 'https://www.ronevis.com/'}\""
 
         externalNativeBuild {
             ndkBuild {

@@ -35,7 +35,7 @@ public class DataSource {
                     .permitAll().build();
             StrictMode.setThreadPolicy(policy);
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("https://www.ronevis.com/")
+                    .baseUrl(mt.karimi.ronevis.BuildConfig.STORE_BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
             DownloadAPI downloadAPI = retrofit.create(DownloadAPI.class);

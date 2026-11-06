@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "title": "فونت فارسی",
+      "type": "font",
+      "cover_font": "lalezar/Lalezar-Regular.ttf",
+      "packs": [
+        {
+          "subcat": "fa_Vazirmatn",
+          "maincat": "fa",
+          "name_fa": "وزیرمتن",
+          "license": "vazirmatn/OFL.txt",
+          "files": [
+            "vazirmatn/fonts/ttf/Vazirmatn-Thin.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-ExtraLight.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-Light.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-Regular.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-Medium.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-SemiBold.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-Bold.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-ExtraBold.ttf",
+            "vazirmatn/fonts/ttf/Vazirmatn-Black.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Sahel",
+          "maincat": "fa",
+          "name_fa": "ساحل",
+          "license": "sahel-font/LICENSE",
+          "files": [
+            "sahel-font/Sahel-Light.ttf",
+            "sahel-font/Sahel.ttf",
+            "sahel-font/Sahel-SemiBold.ttf",
+            "sahel-font/Sahel-Bold.ttf",
+            "sahel-font/Sahel-Black.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Samim",
+          "maincat": "fa",
+          "name_fa": "صمیم",
+          "license": "samim-font/LICENSE",
+          "files": [
+            "samim-font/Samim.ttf",
+            "samim-font/Samim-Medium.ttf",
+            "samim-font/Samim-Bold.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Shabnam",
+          "maincat": "fa",
+          "name_fa": "شبنم",
+          "license": "shabnam-font/LICENSE",
+          "files": [
+            "shabnam-font/Shabnam-Thin.ttf",
+            "shabnam-font/Shabnam-Light.ttf",
+            "shabnam-font/Shabnam.ttf",
+            "shabnam-font/Shabnam-Medium.ttf",
+            "shabnam-font/Shabnam-Bold.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Lalezar",
+          "maincat": "fa",
+          "name_fa": "لاله‌زار",
+          "license": "lalezar/OFL.txt",
+          "files": [
+            "lalezar/Lalezar-Regular.ttf"
+          ]
+        }
+      ]
+    }
+  ]
+}
