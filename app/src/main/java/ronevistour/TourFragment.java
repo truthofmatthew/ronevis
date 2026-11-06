@@ -82,11 +82,7 @@ public class TourFragment extends Fragment {
             AutoSIzeImageView images_head = (AutoSIzeImageView) rootView.findViewById(R.id.images_head);
             text_head.setText(getArguments().getInt(HEAD_ID, -1));
             text_content.setText(getArguments().getInt(CONTENT_ID, -1));
-            Ion.with(getContext())
-                    .load(getArguments().getString(IMG_LINK))
-                    .withBitmap()
-                    .placeholder(R.drawable.empty_dl)
-                    .intoImageView(images_head);
+            fragments.imageHelper.RemoteImage.load(images_head, getArguments().getString(IMG_LINK), R.drawable.empty_dl);
             text_head.setTypeface(Util.GetSelfTypeFace(getActivity(), 3));
             text_content.setTypeface(Util.GetSelfTypeFace(getActivity(), 1));
         }

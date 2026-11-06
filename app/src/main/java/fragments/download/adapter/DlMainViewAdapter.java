@@ -57,11 +57,7 @@ public class DlMainViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     }
 
     private void bindData(AppViewHolder holder, final int position) {
-        Ion.with(holder.itemView.getContext())
-                .load(mDownloads.get(position).getCover())
-                .withBitmap()
-                .placeholder(R.drawable.empty_dl)
-                .intoImageView(holder.ivIcon);
+        fragments.imageHelper.RemoteImage.load(holder.ivIcon, mDownloads.get(position).getCover(), R.drawable.empty_dl);
         holder.ivIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

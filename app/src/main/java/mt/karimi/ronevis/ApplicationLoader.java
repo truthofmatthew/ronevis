@@ -85,16 +85,6 @@ public class ApplicationLoader extends Application {
         configuration.setMaxThreadNum(10);
         configuration.setThreadNum(3);
         DownloadManager.getInstance().init(getApplicationContext(), configuration);
-        // Ion 2.1.9's SSL code throws AssertionError (crashing the app) on TLS 1.3 handshakes; pin it to TLS 1.2.
-        try {
-            javax.net.ssl.SSLContext tls12 = javax.net.ssl.SSLContext.getInstance("TLSv1.2");
-            tls12.init(null, null, null);
-            com.koushikdutta.ion.Ion ion = com.koushikdutta.ion.Ion.getDefault(this);
-            ion.getConscryptMiddleware().enable(false);
-            ion.getHttpClient().getSSLSocketMiddleware().setSSLContext(tls12);
-        } catch (Exception e) {
-            FireHelper.report(e);
-        }
         FontsOverride.setDefaultFont(this, "MONOSPACE", ApplicationLoader.appInstance().getString(R.string.IR_UltraLight_Fa));
 //        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
 //                .setDefaultFontPath(ApplicationLoader.appInstance().getString(R.string.IR_UltraLight_Fa))
