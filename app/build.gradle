@@ -42,19 +42,77 @@ android {
 
 
 
-//    flavorDimensions "market"
-//    productFlavors {
-//        cafebazaar {
+    buildFeatures {
+        buildConfig true
+    }
+
+    flavorDimensions "market"
+    productFlavors {
+        cafebazaar {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"کافه بازار"'
+            buildConfigField 'String', 'marketPackage', '"com.farsitel.bazaar"'
+            buildConfigField 'String', 'marketUri', '"bazaar://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"bazaar://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.EDIT"'
+            buildConfigField 'String', 'marketCatID', '"2"'
+        }
+        asr24 {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"کندو"'
+            buildConfigField 'String', 'marketPackage', '"com.ada.market"'
+            buildConfigField 'String', 'marketUri', '"cando://leave-review?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"cando://details?id=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"5"'
+        }
+        parshub {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"پارس هاب"'
+            buildConfigField 'String', 'marketPackage', '"net.jhoobin.jhub"'
+            buildConfigField 'String', 'marketUri', '"parshub://comment?q=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketUriApp', '"parshub://search?q=mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"7"'
+        }
+        myket {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"مایکت"'
+            buildConfigField 'String', 'marketPackage', '"ir.mservices.market"'
+            buildConfigField 'String', 'marketUri', '"myket://comment/#Intent;scheme=comment;package=mt.karimi.ronevis;refId=app;end"'
+            buildConfigField 'String', 'marketUriApp', '"myket://download/#Intent;scheme=download;package=mt.karimi.ronevis;end"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"3"'
+        }
+        iranapps {
+            dimension "market"
+            buildConfigField 'String', 'marketName', '"ایران اپس"'
+            buildConfigField 'String', 'marketPackage', '"ir.tgbs.android.iranapp"'
+            buildConfigField 'String', 'marketUri', '"iranapps://app/mt.karimi.ronevis?a=comment&r=5"'
+            buildConfigField 'String', 'marketUriApp', '"iranapps://app/mt.karimi.ronevis"'
+            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+            buildConfigField 'String', 'marketCatID', '"1"'
+        }
+//        avvalmarket {
 //            dimension "market"
-//            buildConfigField 'String', 'marketName', '"کافه بازار"'
-//            buildConfigField 'String', 'marketPackage', '"com.farsitel.bazaar"'
-//            buildConfigField 'String', 'marketUri', '"bazaar://details?id=mt.karimi.ronevis"'
-//            buildConfigField 'String', 'marketUriApp', '"bazaar://details?id=mt.karimi.ronevis"'
-//            buildConfigField 'String', 'marketIntent', '"android.intent.action.EDIT"'
-//            buildConfigField 'String', 'marketCatID', '"2"'
+//            buildConfigField 'String', 'marketName', '"اول مارکت"'
+//            buildConfigField 'String', 'marketPackage', '"com.hrm.android.market"'
+//            buildConfigField 'String', 'marketUri', '"market://rate?id=mt.karimi.ronevis"'
+//            buildConfigField 'String', 'marketUriApp', '"market://rate?id=mt.karimi.ronevis"'
+//            buildConfigField 'String', 'marketIntent', '"android.intent.action.VIEW"'
+//            buildConfigField 'String', 'marketCatID', '"4"'
 //        }
-//
-//    }
+//        website {
+//            dimension "market"
+//            buildConfigField 'String', 'marketName', '"وب سایت رونویس"'
+//            buildConfigField 'String', 'marketPackage', '""'
+//            buildConfigField 'String', 'marketUri', '""'
+//            buildConfigField 'String', 'marketUriApp', '""'
+//            buildConfigField 'String', 'marketIntent', '""'
+//            buildConfigField 'String', 'marketCatID', '"8"'
+//        }
+
+    }
 
 }
 
@@ -63,7 +121,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
 //    implementation 'com.google.android.gms:play-services-measurement-api:20.1.2'
-    implementation 'com.google.firebase:firebase-crash:16.2.1'
     implementation 'com.google.firebase:firebase-messaging:23.0.2'
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'

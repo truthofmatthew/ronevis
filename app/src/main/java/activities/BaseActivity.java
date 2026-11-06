@@ -3,6 +3,7 @@ package activities;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ import fragments.tool.WeakHandler;
 import fragments.tool.preferences.Pref;
 import fragments.views.mtAlertDialog;
 import mt.karimi.ronevis.ApplicationLoader;
+import mt.karimi.ronevis.BuildConfig;
 import mt.karimi.ronevis.R;
 import permissions.dispatcher.*;
 
@@ -67,11 +69,11 @@ public abstract class BaseActivity extends AppCompatActivity {
                 .title(R.string.permission_title)
                 .message(R.string.permission_all)
                 .cancelable(false)
-                .when(R.string.label_ok, dialog -> {
+                .when(R.string.label_ok, (mtAlertDialog.Positive) dialog -> {
                     request.proceed();
                     dialog.dismiss();
                 })
-                .when(R.string.label_cancel, dialog -> {
+                .when(R.string.label_cancel, (mtAlertDialog.Negative) dialog -> {
                     request.cancel();
                     dialog.dismiss();
                 })
@@ -100,17 +102,18 @@ public abstract class BaseActivity extends AppCompatActivity {
                                     .title(R.string.duTitle)
                                     .message(R.string.duMessage)
                                     .cancelable(false)
-                                    .when(R.string.duPositiveButton, dialog -> {
+                                    .when(R.string.duPositiveButton, (mtAlertDialog.Positive) dialog -> {
                                         try {
                                             Intent intent = new Intent(Intent.ACTION_VIEW);
-                                            intent.setData(Uri.parse("https://example.com")); // جایگزین کن
+                                            intent.setData(Uri.parse(BuildConfig.marketUriApp));
                                             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                            intent.setPackage(BuildConfig.marketPackage);
                                             startActivity(intent);
                                         } catch (Exception ignored) {}
                                         finish();
                                         dialog.dismiss();
                                     })
-                                    .when(R.string.duNegativeButton, dialog -> {
+                                    .when(R.string.duNegativeButton, (mtAlertDialog.Negative) dialog -> {
                                         BaseActivity.baseInstance().finish();
                                         dialog.dismiss();
                                     })

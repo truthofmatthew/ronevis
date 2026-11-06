@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import fragments.tool.Util;
 import mt.karimi.ronevis.R;
@@ -119,7 +119,7 @@ class ColorEditDialog extends Dialog {
                             return;
                         }
                     } catch (NumberFormatException ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
 
                     }
                     Toast.makeText(getContext(), "Enter values between 0 and 255", Toast.LENGTH_LONG).show();
@@ -156,7 +156,7 @@ class ColorEditDialog extends Dialog {
                         }
                         dismiss();
                     } catch (NumberFormatException ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
                     }
                 }
             });

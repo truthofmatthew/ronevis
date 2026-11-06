@@ -10,7 +10,7 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import java.util.Calendar;
@@ -78,7 +78,7 @@ public class SirenHelper {
             intent.setPackage(BuildConfig.marketPackage);
             activity.startActivity(intent);
         } catch (ActivityNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
     }
 
@@ -93,7 +93,7 @@ public class SirenHelper {
             PackageInfo pInfo = context.getPackageManager().getPackageInfo(getPackageName(context), 0);
             return pInfo.versionName;
         } catch (PackageManager.NameNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
             return "";
         }
     }

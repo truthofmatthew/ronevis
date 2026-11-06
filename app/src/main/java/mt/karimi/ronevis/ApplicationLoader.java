@@ -55,7 +55,7 @@ public class ApplicationLoader extends Application {
     public void onCreate() {
 //        ACRA.init(this);
         super.onCreate();
- //        FirebaseCrash.report(new Exception("My first Android non-fatal error"));
+ //        FireHelper.report(new Exception("My first Android non-fatal error"));
 //        if (BuildConfig.DEBUG_MODE) {
 //            AndroidDevMetrics.initWith(this);
 //        }

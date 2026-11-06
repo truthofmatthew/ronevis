@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 
 import com.azeesoft.lib.colorpicker.ColorPickerDialog;
 import com.azeesoft.lib.colorpicker.OpacityPicker;
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import java.lang.reflect.Field;
@@ -66,7 +66,7 @@ public class ColorPallete extends BaseFragment {
                 field.setAccessible(true);
                 return field.getInt(object);
             } catch (Exception ignored) {
-                FirebaseCrash.report(ignored);
+                FireHelper.report(ignored);
             }
         }
         return 0;

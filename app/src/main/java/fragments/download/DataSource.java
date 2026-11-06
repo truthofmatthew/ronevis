@@ -2,7 +2,7 @@ package fragments.download;
 
 import android.os.StrictMode;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import fragments.download.model.Download;
@@ -52,7 +52,7 @@ public class DataSource {
                 }
             });
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
     }

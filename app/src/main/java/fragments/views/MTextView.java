@@ -29,7 +29,7 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import activities.MainActivity;
@@ -391,7 +391,7 @@ public class MTextView extends View {
                                 view.setLayoutParams(layoutParams);
                             }
                         } catch (Exception ignored) {
-                            FirebaseCrash.report(ignored);
+                            FireHelper.report(ignored);
                         }
 //                        }
                         break;
@@ -1058,7 +1058,7 @@ public class MTextView extends View {
                 MainActivity.mainInstance().pagerAdapter.getFragment(MainActivity.mainInstance().tViewPager.getCurrentItem()).getAdapter().refreshWholeLayout();
             }
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
     }
 

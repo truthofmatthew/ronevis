@@ -86,7 +86,7 @@ public class SaveImage {
                                 .setBigContentTitle(Util.Persian(R.string.notification_image_saved))
                                 .setSummaryText(Util.Persian(R.string.notification_image_saved_click_to_preview))
                                 .bigPicture(remote_picture))
-                .setContentIntent(PendingIntent.getActivity(MainActivity.mainInstance(), 0, intent, 0))
+                .setContentIntent(PendingIntent.getActivity(MainActivity.mainInstance(), 0, intent, PendingIntent.FLAG_IMMUTABLE))
                 .setAutoCancel(true);
         ((NotificationManager) MainActivity.mainInstance().getSystemService(Context.NOTIFICATION_SERVICE)).notify(DOWNLOAD_NOTIFICATION_ID_DONE, mNotification.build());
     }
@@ -139,7 +139,8 @@ public class SaveImage {
                         share.setType("image/*");
 //                share.putExtra(Intent.EXTRA_SUBJECT, "Made by ronevis");
 //                share.putExtra(Intent.EXTRA_TEXT, "#ronevis");
-                        share.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(storedImagePath));
+                        share.putExtra(Intent.EXTRA_STREAM, Util.shareUri(storedImagePath));
+                    share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
                         MainActivity.mainInstance().startActivity(Intent.createChooser(share, Util.Persian(activity, R.string.dsBtnShare)));
 //                saveFile(activity,storedImagePath.getAbsolutePath());
                         dDialog.dismiss();
@@ -195,16 +196,52 @@ public class SaveImage {
         return result;
     }
 
+    // The working file lives in app-private storage, so copy it into the shared Pictures/Ronevis album.
     private static Uri addImageToGallery(ContentResolver cr, String imgType, File filepath) {
+        String ext = imgType.replace(".", "");
         ContentValues values = new ContentValues();
         values.put(MediaStore.Images.Media.TITLE, "#ronevis");
-        values.put(MediaStore.Images.Media.DISPLAY_NAME, "Made by ronevis App");
+        values.put(MediaStore.Images.Media.DISPLAY_NAME, filepath.getName());
         values.put(MediaStore.Images.Media.DESCRIPTION, "#ronevis");
-        values.put(MediaStore.Images.Media.MIME_TYPE, "image/" + imgType);
-        values.put(MediaStore.Images.Media.DATE_ADDED, System.currentTimeMillis());
+        values.put(MediaStore.Images.Media.MIME_TYPE, "image/" + ext);
+        values.put(MediaStore.Images.Media.DATE_ADDED, System.currentTimeMillis() / 1000);
         values.put(MediaStore.Images.Media.DATE_TAKEN, System.currentTimeMillis());
-        values.put(MediaStore.Images.Media.DATA, filepath.toString());
-        return cr.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+        File legacyCopy = null;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+            values.put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/Ronevis");
+        } else {
+            File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "Ronevis");
+            dir.mkdirs();
+            legacyCopy = new File(dir, filepath.getName());
+            values.put(MediaStore.Images.Media.DATA, legacyCopy.getAbsolutePath());
+        }
+        try {
+            if (legacyCopy != null) {
+                copy(new FileInputStream(filepath), new FileOutputStream(legacyCopy));
+                return cr.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+            }
+            Uri uri = cr.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+            if (uri != null) {
+                copy(new FileInputStream(filepath), cr.openOutputStream(uri));
+            }
+            return uri;
+        } catch (Exception e) {
+            FireHelper.report(e);
+            return null;
+        }
+    }
+
+    private static void copy(InputStream in, java.io.OutputStream out) throws IOException {
+        try {
+            byte[] buffer = new byte[8192];
+            int len;
+            while ((len = in.read(buffer)) > 0) {
+                out.write(buffer, 0, len);
+            }
+        } finally {
+            in.close();
+            out.close();
+        }
     }
 
     private static byte[] streamToBytes(InputStream is) {

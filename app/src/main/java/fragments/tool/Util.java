@@ -48,6 +48,12 @@ import mt.karimi.ronevis.R;
 import static mt.karimi.ronevis.R.color.text_secondary_light;
 
 public class Util {
+    // file:// URIs crash on Android 7+ when handed to another app; share through the FileProvider instead.
+    public static Uri shareUri(File file) {
+        Context context = ApplicationLoader.appInstance();
+        return androidx.core.content.FileProvider.getUriForFile(context, context.getPackageName() + ".provider", file);
+    }
+
     private static final int FLAG_TAG_BR = 1;
     private static final int FLAG_TAG_BOLD = 2;
     private static final int FLAG_TAG_COLOR = 4;

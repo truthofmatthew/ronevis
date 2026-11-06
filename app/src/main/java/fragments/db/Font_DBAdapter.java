@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import mt.karimi.ronevis.ApplicationLoader;
@@ -67,7 +67,7 @@ public class Font_DBAdapter {
                 c.moveToFirst();
             }
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
         return c;
@@ -86,7 +86,7 @@ public class Font_DBAdapter {
             exists = (c.getCount() > 0);
             c.close();
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
 
         }
         return exists;

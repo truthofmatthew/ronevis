@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -127,7 +127,7 @@ public class Texture_Loader extends BaseFragment implements OnItemClickListener<
 //                                fileToDeleteImg.delete();
 //                            }
                         } catch (Exception ignored) {
-                            FirebaseCrash.report(ignored);
+                            FireHelper.report(ignored);
                         }
                     }
                 } else {

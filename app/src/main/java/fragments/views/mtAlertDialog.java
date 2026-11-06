@@ -15,7 +15,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.io.IOException;
 
@@ -132,7 +132,7 @@ public class mtAlertDialog {
                         try {
                             positive.clicked(dialog);
                         } catch (IOException ignored) {
-                            FirebaseCrash.report(ignored);
+                            FireHelper.report(ignored);
                         }
                     }
                 });
@@ -143,7 +143,7 @@ public class mtAlertDialog {
                         try {
                             positive.clicked(dialog);
                         } catch (IOException ignored) {
-                            FirebaseCrash.report(ignored);
+                            FireHelper.report(ignored);
                         }
                     }
                 });
@@ -156,7 +156,7 @@ public class mtAlertDialog {
                     try {
                         negative.clicked(dialog);
                     } catch (IOException ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
                     }
                 }
             });
@@ -168,7 +168,7 @@ public class mtAlertDialog {
                     try {
                         neutral.clicked(dialog);
                     } catch (IOException ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
                     }
                 }
             });
@@ -211,7 +211,7 @@ public class mtAlertDialog {
                     try {
                         positive.clicked(alertDialog);
                     } catch (IOException ignored) {
-                        FirebaseCrash.report(ignored);
+                        FireHelper.report(ignored);
                     }
                 }
             });

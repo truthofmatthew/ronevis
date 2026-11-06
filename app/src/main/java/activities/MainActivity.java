@@ -48,7 +48,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 import com.google.firebase.messaging.RemoteMessage;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.orhanobut.logger.Logger;
@@ -305,6 +305,8 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
     private void onResume(Activity activity) {
         if (activity == this) {
             doubleBackToExitPressedOnce = false;
+            // No google-services.json in the open-source build, so Firebase isn't set up; skip push.
+            if (com.google.firebase.FirebaseApp.getApps(this).isEmpty()) return;
             FCMManager.getInstance(this).registerListener(new FCMListener() {
                 @Override
                 public void onDeviceRegistered(String deviceToken) {
@@ -334,7 +336,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
-                PendingIntent.FLAG_ONE_SHOT);
+                PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_IMMUTABLE);
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_matt)

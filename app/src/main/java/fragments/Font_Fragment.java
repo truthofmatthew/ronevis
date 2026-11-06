@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 import java.io.File;
 import java.io.IOException;
@@ -174,7 +174,7 @@ public class Font_Fragment extends BaseFragment implements OnItemClickListener<F
                 }
             } catch (Exception ignored) {
                 ignored.printStackTrace();
-                FirebaseCrash.report(ignored);
+                FireHelper.report(ignored);
             } finally {
                 fontDBAdapter.close();
                 if (c != null) {
@@ -335,7 +335,7 @@ public class Font_Fragment extends BaseFragment implements OnItemClickListener<F
                                             fontDBAdapter.close();
                                             mAdapter.deleteItem(position);
                                         } catch (Exception ignored) {
-                                            FirebaseCrash.report(ignored);
+                                            FireHelper.report(ignored);
                                         }
                                     }
                                     dialog.dismiss();
@@ -382,7 +382,7 @@ public class Font_Fragment extends BaseFragment implements OnItemClickListener<F
                         Toast.makeText(getContext(), Util.Persian(R.string.dfFileDeleted), Toast.LENGTH_SHORT).show();
                     }
                 } catch (Exception ignored) {
-                    FirebaseCrash.report(ignored);
+                    FireHelper.report(ignored);
                 }
                 break;
         }

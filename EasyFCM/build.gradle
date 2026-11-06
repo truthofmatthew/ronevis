@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace "mt.karimi.ronevis"
+    namespace "com.trung.fcm.library"
 
     compileSdk 31
 

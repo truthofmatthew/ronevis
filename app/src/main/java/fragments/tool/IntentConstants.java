@@ -6,7 +6,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import activities.MainActivity;
@@ -45,7 +45,7 @@ public class IntentConstants {
                 }
             }
         } catch (PackageManager.NameNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
         return new Intent(Intent.ACTION_VIEW, uri);
     }
@@ -67,7 +67,7 @@ public class IntentConstants {
                 uri = Uri.parse("http://instagram.com/_u/" + "ronevisapp/");
             }
         } catch (PackageManager.NameNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
         return new Intent(Intent.ACTION_VIEW, uri);
     }
@@ -85,7 +85,7 @@ public class IntentConstants {
                 uri = Uri.parse("https://t.me/joinchat/AAAAADzmxJriGnYUo_Uk5g");
             }
         } catch (PackageManager.NameNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
         return new Intent(Intent.ACTION_VIEW, uri);
     }
@@ -103,7 +103,7 @@ public class IntentConstants {
                 uri = Uri.parse("https://www.linkedin.com/company/" + "ronevis");
             }
         } catch (PackageManager.NameNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
         return new Intent(Intent.ACTION_VIEW, uri);
     }
@@ -131,7 +131,7 @@ public class IntentConstants {
                 intent.setData(Uri.parse("http://www.aparat.com/ronevis"));
             }
         } catch (PackageManager.NameNotFoundException ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
         }
         return intent;
     }

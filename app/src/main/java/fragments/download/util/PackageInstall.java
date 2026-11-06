@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.google.firebase.crash.FirebaseCrash;
+import fragments.FireHelper;
 
 
 import java.io.BufferedOutputStream;
@@ -116,7 +116,7 @@ public class PackageInstall extends
                 file.delete();
             }
         } catch (Exception ignored) {
-            FirebaseCrash.report(ignored);
+            FireHelper.report(ignored);
             try {
                 if (activity != null) {
                     activity.runOnUiThread(new Runnable() {
@@ -137,7 +137,7 @@ public class PackageInstall extends
                     });
                 }
             } catch (Exception ignored1) {
-                FirebaseCrash.report(ignored1);
+                FireHelper.report(ignored1);
             }
         }
         return null;
