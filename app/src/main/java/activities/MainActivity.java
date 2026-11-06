@@ -536,7 +536,8 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
                 break;
         }
         remindVitrin(R.string.dRemMessage, R.string.Icon_shopping);
-        getWindow().setBackgroundDrawable(null);
+        // A null window background leaves stale frames ("echoes") where the collapsing tool panel used to be.
+        getWindow().setBackgroundDrawableResource(R.color.bg_dark);
         MainInstance = this;
         setContentView(R.layout.activity_main);
         Intent intent = getIntent();
