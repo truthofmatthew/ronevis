@@ -37,10 +37,7 @@ import ronevistour.AgreementFragment;
 //import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class AgreementActivity extends AppCompatActivity {
-    public static final String[] PERMISSIONS_ALL = new String[]{
-            Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_PHONE_STATE
-    };
+    public static final String[] PERMISSIONS_ALL = BaseActivityPermission.PERMISSIONS_ALL;
     public ArrayList<Fragment> fragments = new ArrayList<>();
     ViewPager pager;
     PagerAdapter pagerAdapter;

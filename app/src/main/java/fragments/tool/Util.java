@@ -49,9 +49,13 @@ import static mt.karimi.ronevis.R.color.text_secondary_light;
 
 public class Util {
     // file:// URIs crash on Android 7+ when handed to another app; share through the FileProvider instead.
-    public static Uri shareUri(File file) {
+    // ClipData carries the read grant through Intent.createChooser to whichever app is picked.
+    public static void attachShareFile(Intent share, File file) {
         Context context = ApplicationLoader.appInstance();
-        return androidx.core.content.FileProvider.getUriForFile(context, context.getPackageName() + ".provider", file);
+        Uri uri = androidx.core.content.FileProvider.getUriForFile(context, context.getPackageName() + ".provider", file);
+        share.putExtra(Intent.EXTRA_STREAM, uri);
+        share.setClipData(android.content.ClipData.newRawUri("", uri));
+        share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
     }
 
     private static final int FLAG_TAG_BR = 1;

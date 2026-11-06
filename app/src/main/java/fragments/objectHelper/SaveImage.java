@@ -139,8 +139,7 @@ public class SaveImage {
                         share.setType("image/*");
 //                share.putExtra(Intent.EXTRA_SUBJECT, "Made by ronevis");
 //                share.putExtra(Intent.EXTRA_TEXT, "#ronevis");
-                        share.putExtra(Intent.EXTRA_STREAM, Util.shareUri(storedImagePath));
-                    share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                        Util.attachShareFile(share, storedImagePath);
                         MainActivity.mainInstance().startActivity(Intent.createChooser(share, Util.Persian(activity, R.string.dsBtnShare)));
 //                saveFile(activity,storedImagePath.getAbsolutePath());
                         dDialog.dismiss();
