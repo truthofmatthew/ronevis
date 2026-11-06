@@ -108,13 +108,14 @@ public class IntentConstants {
         return new Intent(Intent.ACTION_VIEW, uri);
     }
 
+    // mailto: opens only email apps with the support address filled in; ACTION_SEND showed the generic share sheet.
+    // Callers catch ActivityNotFoundException when the phone has no email app.
     public static Intent EmailIntent() {
-        Intent i = new Intent(Intent.ACTION_SEND);
-        i.setType("message/rfc822");
-        i.putExtra(Intent.EXTRA_EMAIL, new String[]{ApplicationLoader.appInstance().getResources().getString(R.string.daaEmail)});
+        String email = ApplicationLoader.appInstance().getResources().getString(R.string.daaEmail);
+        Intent i = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + email));
         i.putExtra(Intent.EXTRA_SUBJECT, Util.Persian(R.string.daaMailSubject));
         i.putExtra(Intent.EXTRA_TEXT, Util.Persian(R.string.daaMailBody));
-        return Intent.createChooser(i, Util.Persian(R.string.daaMailChoose));
+        return i;
     }
 
     public static Intent AparatIntent() {

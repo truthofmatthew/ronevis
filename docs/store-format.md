@@ -94,14 +94,14 @@ Built-in example: the app ships `assets/sans/fa_IRANSans_1.ttf` to `_5.ttf` and 
 
 ```json
 {
-  "mt.karimi.ronevis": {
+  "matthew.truth.ronevis": {
     "minVersionCode": 43,
     "minVersionName": "2.65"
   }
 }
 ```
 
-Users below `minVersionCode` see the update prompt, which opens the build's own store (Cafe Bazaar, Myket and so on). Debug builds use `mt.karimi.ronevis.debug`, so they only see a prompt if that key is present too.
+Users below `minVersionCode` see the update prompt, which opens the build's own store (Cafe Bazaar, Myket and so on). Debug builds use `matthew.truth.ronevis.debug`, so they only see a prompt if that key is present too.
 
 ## 5. Hosting
 
