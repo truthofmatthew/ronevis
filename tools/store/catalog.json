@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "title": "فونت فارسی",
+      "title": "فونت",
       "type": "font",
       "cover_font": "lalezar/Lalezar-Regular.ttf",
       "packs": [
@@ -20,7 +20,9 @@
             "vazirmatn/fonts/ttf/Vazirmatn-Bold.ttf",
             "vazirmatn/fonts/ttf/Vazirmatn-ExtraBold.ttf",
             "vazirmatn/fonts/ttf/Vazirmatn-Black.ttf"
-          ]
+          ],
+          "source": "https://github.com/rastikerdar/vazirmatn",
+          "licence": "OFL-1.1"
         },
         {
           "subcat": "fa_Sahel",
@@ -33,7 +35,9 @@
             "sahel-font/Sahel-SemiBold.ttf",
             "sahel-font/Sahel-Bold.ttf",
             "sahel-font/Sahel-Black.ttf"
-          ]
+          ],
+          "source": "https://github.com/rastikerdar/sahel-font",
+          "licence": "OFL-1.1"
         },
         {
           "subcat": "fa_Samim",
@@ -44,7 +48,9 @@
             "samim-font/Samim.ttf",
             "samim-font/Samim-Medium.ttf",
             "samim-font/Samim-Bold.ttf"
-          ]
+          ],
+          "source": "https://github.com/rastikerdar/samim-font",
+          "licence": "OFL-1.1"
         },
         {
           "subcat": "fa_Shabnam",
@@ -57,7 +63,9 @@
             "shabnam-font/Shabnam.ttf",
             "shabnam-font/Shabnam-Medium.ttf",
             "shabnam-font/Shabnam-Bold.ttf"
-          ]
+          ],
+          "source": "https://github.com/rastikerdar/shabnam-font",
+          "licence": "OFL-1.1"
         },
         {
           "subcat": "fa_Lalezar",
@@ -66,7 +74,325 @@
           "license": "lalezar/OFL.txt",
           "files": [
             "lalezar/Lalezar-Regular.ttf"
+          ],
+          "source": "https://github.com/google/fonts/tree/main/ofl/lalezar",
+          "licence": "OFL-1.1"
+        },
+        {
+          "subcat": "fa_Estedad",
+          "maincat": "fa",
+          "name_fa": "استعداد",
+          "source": "https://github.com/aminabedi68/Estedad (v8.5)",
+          "licence": "OFL-1.1",
+          "license": "Estedad/OFL.txt",
+          "files": [
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-Thin.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-ExtraLight.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-Light.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-Regular.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-Medium.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-SemiBold.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-Bold.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-ExtraBold.ttf",
+            "Estedad/Estedad-v8.5/Statics/ttf/Estedad-Black.ttf"
           ]
+        },
+        {
+          "subcat": "fa_Mikhak",
+          "maincat": "fa",
+          "name_fa": "میخک",
+          "source": "https://github.com/aminabedi68/Mikhak (v3.4)",
+          "licence": "OFL-1.1",
+          "license": "Mikhak/OFL.txt",
+          "files": [
+            "Mikhak/Mikhak-v3.4/ttf/Mikhak-Light.ttf",
+            "Mikhak/Mikhak-v3.4/ttf/Mikhak-Regular.ttf",
+            "Mikhak/Mikhak-v3.4/ttf/Mikhak-Medium.ttf",
+            "Mikhak/Mikhak-v3.4/ttf/Mikhak-Bold.ttf",
+            "Mikhak/Mikhak-v3.4/ttf/Mikhak-Black.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Parastoo",
+          "maincat": "fa",
+          "name_fa": "پرستو",
+          "source": "https://github.com/rastikerdar/parastoo-font (v2.0.1)",
+          "licence": "OFL-1.1",
+          "license": "parastoo-font/LICENSE",
+          "files": [
+            "parastoo-font/web/Parastoo.ttf",
+            "parastoo-font/web/Parastoo-Bold.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Gandom",
+          "maincat": "fa",
+          "name_fa": "گندم",
+          "source": "https://github.com/rastikerdar/gandom-font (v0.8)",
+          "licence": "OFL-1.1 (Noto Serif parts Apache-2.0)",
+          "license": "gandom-font/LICENSE",
+          "files": [
+            "gandom-font/Gandom.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Titr",
+          "maincat": "fa",
+          "name_fa": "تیتر",
+          "source": "https://github.com/google/fonts/tree/main/ofl/jomhuria, https://github.com/google/fonts/tree/main/ofl/katibeh, https://github.com/google/fonts/tree/main/ofl/marhey (static weights cut from the variable font)",
+          "licence": "OFL-1.1",
+          "license": [
+            "gfonts/jomhuria/OFL.txt",
+            "gfonts/katibeh/OFL.txt",
+            "gfonts/marhey/OFL.txt"
+          ],
+          "files": [
+            "gfonts/jomhuria/Jomhuria-Regular.ttf",
+            "gfonts/katibeh/Katibeh-Regular.ttf",
+            "gfonts/marhey/Marhey-Regular.ttf",
+            "gfonts/marhey/Marhey-Bold.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Khoshnevisi",
+          "maincat": "fa",
+          "name_fa": "خوشنویسی",
+          "source": "https://github.com/google/fonts/tree/main/ofl/amiri, https://github.com/google/fonts/tree/main/ofl/arefruqaa, https://github.com/google/fonts/tree/main/ofl/mirza, https://github.com/google/fonts/tree/main/ofl/reemkufi (Reem Kufi weights cut from the variable font)",
+          "licence": "OFL-1.1",
+          "license": [
+            "gfonts/amiri/OFL.txt",
+            "gfonts/arefruqaa/OFL.txt",
+            "gfonts/mirza/OFL.txt",
+            "gfonts/reemkufi/OFL.txt"
+          ],
+          "files": [
+            "gfonts/amiri/Amiri-Regular.ttf",
+            "gfonts/amiri/Amiri-Bold.ttf",
+            "gfonts/arefruqaa/ArefRuqaa-Regular.ttf",
+            "gfonts/arefruqaa/ArefRuqaa-Bold.ttf",
+            "gfonts/mirza/Mirza-Regular.ttf",
+            "gfonts/mirza/Mirza-Bold.ttf",
+            "gfonts/reemkufi/ReemKufi-Regular.ttf",
+            "gfonts/reemkufi/ReemKufi-Bold.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Nastaliq",
+          "maincat": "fa",
+          "name_fa": "نستعلیق",
+          "source": "https://github.com/google/fonts/tree/main/ofl/notonastaliqurdu (weights cut from the variable font), https://github.com/google/fonts/tree/main/ofl/gulzar",
+          "licence": "OFL-1.1",
+          "license": [
+            "gfonts/notonastaliqurdu/OFL.txt",
+            "gfonts/gulzar/OFL.txt"
+          ],
+          "files": [
+            "gfonts/notonastaliqurdu/NotoNastaliqUrdu-Regular.ttf",
+            "gfonts/notonastaliqurdu/NotoNastaliqUrdu-Bold.ttf",
+            "gfonts/gulzar/Gulzar-Regular.ttf"
+          ]
+        },
+        {
+          "subcat": "fa_Ketabi",
+          "maincat": "fa",
+          "name_fa": "کتابی",
+          "source": "https://github.com/google/fonts/tree/main/ofl/notonaskharabic, https://github.com/google/fonts/tree/main/ofl/markazitext, https://github.com/google/fonts/tree/main/ofl/harmattan (Noto Naskh and Markazi weights cut from the variable fonts)",
+          "licence": "OFL-1.1",
+          "license": [
+            "gfonts/notonaskharabic/OFL.txt",
+            "gfonts/markazitext/OFL.txt",
+            "gfonts/harmattan/OFL.txt"
+          ],
+          "files": [
+            "gfonts/notonaskharabic/NotoNaskhArabic-Regular.ttf",
+            "gfonts/notonaskharabic/NotoNaskhArabic-Bold.ttf",
+            "gfonts/markazitext/MarkaziText-Regular.ttf",
+            "gfonts/markazitext/MarkaziText-Bold.ttf",
+            "gfonts/harmattan/Harmattan-Regular.ttf",
+            "gfonts/harmattan/Harmattan-Bold.ttf"
+          ]
+        },
+        {
+          "subcat": "en_Display",
+          "maincat": "en",
+          "name_fa": "انگلیسی تیتر",
+          "preview_title": "Display",
+          "sample": "Make your own photo text",
+          "source": "https://github.com/google/fonts/tree/main/ofl/bebasneue, https://github.com/google/fonts/tree/main/ofl/abrilfatface, https://github.com/google/fonts/tree/main/ofl/lobster",
+          "licence": "OFL-1.1",
+          "license": [
+            "gfonts/bebasneue/OFL.txt",
+            "gfonts/abrilfatface/OFL.txt",
+            "gfonts/lobster/OFL.txt"
+          ],
+          "files": [
+            "gfonts/bebasneue/BebasNeue-Regular.ttf",
+            "gfonts/abrilfatface/AbrilFatface-Regular.ttf",
+            "gfonts/lobster/Lobster-Regular.ttf"
+          ]
+        },
+        {
+          "subcat": "en_Script",
+          "maincat": "en",
+          "name_fa": "انگلیسی دست‌نویس",
+          "preview_title": "Script",
+          "sample": "Make your own photo text",
+          "source": "https://github.com/google/fonts/tree/main/ofl/pacifico, https://github.com/google/fonts/tree/main/ofl/dancingscript, https://github.com/google/fonts/tree/main/ofl/caveat (Dancing Script and Caveat weights cut from the variable fonts)",
+          "licence": "OFL-1.1",
+          "license": [
+            "gfonts/pacifico/OFL.txt",
+            "gfonts/dancingscript/OFL.txt",
+            "gfonts/caveat/OFL.txt"
+          ],
+          "files": [
+            "gfonts/pacifico/Pacifico-Regular.ttf",
+            "gfonts/dancingscript/DancingScript-Regular.ttf",
+            "gfonts/dancingscript/DancingScript-Bold.ttf",
+            "gfonts/caveat/Caveat-Regular.ttf",
+            "gfonts/caveat/Caveat-Bold.ttf"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "استیکر",
+      "type": "sticker",
+      "cover_font": "lalezar/Lalezar-Regular.ttf",
+      "packs": [
+        {
+          "subcat": "stk_faces",
+          "name_fa": "صورتک",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/faces/*.png"
+        },
+        {
+          "subcat": "stk_hearts",
+          "name_fa": "قلب",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/hearts/*.png"
+        },
+        {
+          "subcat": "stk_flowers",
+          "name_fa": "گل و گیاه",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/flowers/*.png"
+        },
+        {
+          "subcat": "stk_animals",
+          "name_fa": "حیوانات",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/animals/*.png"
+        },
+        {
+          "subcat": "stk_food",
+          "name_fa": "خوراکی",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/food/*.png"
+        },
+        {
+          "subcat": "stk_nowruz",
+          "name_fa": "نوروز",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/nowruz/*.png"
+        },
+        {
+          "subcat": "stk_yalda",
+          "name_fa": "یلدا",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/yalda/*.png"
+        },
+        {
+          "subcat": "stk_ramadan",
+          "name_fa": "رمضان",
+          "source": "https://github.com/hfg-gmuend/openmoji (color/618x618)",
+          "licence": "CC-BY-SA-4.0",
+          "license": "openmoji/ATTRIBUTION.txt",
+          "files": "openmoji/ramadan/*.png"
+        }
+      ]
+    },
+    {
+      "title": "پس‌زمینه",
+      "type": "background",
+      "cover_font": "lalezar/Lalezar-Regular.ttf",
+      "packs": [
+        {
+          "subcat": "bg_gradient",
+          "name_fa": "گرادیان",
+          "source": "Drawn by tools/store/make_backgrounds.py",
+          "licence": "CC0-1.0",
+          "license": "generated/LICENSE.txt",
+          "files": "generated/gradients/*.jpg"
+        },
+        {
+          "subcat": "bg_tiles",
+          "name_fa": "کاشی",
+          "source": "Drawn by tools/store/make_backgrounds.py",
+          "licence": "CC0-1.0",
+          "license": "generated/LICENSE.txt",
+          "files": "generated/tiles/*.jpg"
+        },
+        {
+          "subcat": "bg_sky",
+          "name_fa": "آسمان",
+          "source": "Wikimedia Commons, CC0 photos; per-image links in commons/sky/CREDITS.txt",
+          "licence": "CC0-1.0",
+          "license": "commons/sky/CREDITS.txt",
+          "files": "commons/sky/*.jpg"
+        },
+        {
+          "subcat": "bg_nature",
+          "name_fa": "طبیعت",
+          "source": "Wikimedia Commons, CC0 photos; per-image links in commons/nature/CREDITS.txt",
+          "licence": "CC0-1.0",
+          "license": "commons/nature/CREDITS.txt",
+          "files": "commons/nature/*.jpg"
+        },
+        {
+          "subcat": "bg_nowruz",
+          "name_fa": "نوروز",
+          "source": "Drawn by tools/store/make_backgrounds.py",
+          "licence": "CC0-1.0",
+          "license": "generated/LICENSE.txt",
+          "files": "generated/nowruz/*.jpg"
+        },
+        {
+          "subcat": "bg_yalda",
+          "name_fa": "یلدا",
+          "source": "Drawn by tools/store/make_backgrounds.py",
+          "licence": "CC0-1.0",
+          "license": "generated/LICENSE.txt",
+          "files": "generated/yalda/*.jpg"
+        },
+        {
+          "subcat": "bg_muharram",
+          "name_fa": "محرم",
+          "source": "Drawn by tools/store/make_backgrounds.py",
+          "licence": "CC0-1.0",
+          "license": "generated/LICENSE.txt",
+          "files": "generated/muharram/*.jpg"
+        },
+        {
+          "subcat": "bg_ramadan",
+          "name_fa": "رمضان",
+          "source": "Drawn by tools/store/make_backgrounds.py",
+          "licence": "CC0-1.0",
+          "license": "generated/LICENSE.txt",
+          "files": "generated/ramadan/*.jpg"
         }
       ]
     }
