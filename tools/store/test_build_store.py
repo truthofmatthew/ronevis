@@ -50,6 +50,8 @@ class ImagePacks(unittest.TestCase):
         entry, z = self.build({"subcat": "bg_test", "name_fa": "آزمون", "files": ["wide.jpg", "tall.png"], "license": ["a.txt", "b.txt"]}, "background")
         self.assertEqual(entry["name"], "back_bg_test.zip")
         self.assertIn(".img/", z.namelist())
+        self.assertIn(".tmb/", z.namelist())
+        self.assertEqual(Image.open(io.BytesIO(z.read(".tmb/bg_test_1.jpg"))).size, (256, 192))
         self.assertEqual(Image.open(io.BytesIO(z.read(".img/bg_test_1.jpg"))).size, (1080, 810))
         self.assertEqual(Image.open(io.BytesIO(z.read(".img/bg_test_2.jpg"))).size, (607, 1080))
         self.assertEqual(z.read("LICENSE-bg-test.txt").decode(), "licence A\n\nlicence B\n")

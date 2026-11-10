@@ -21,6 +21,7 @@ COUNT_WORD = {"font": "فونت", "background": "پس‌زمینه", "sticker": 
 BG, FG, ACCENT = "#1f1f1f", "#f4efe6", "#f2b23a"
 SAMPLE = "عکس‌نوشته‌های خاص خودت رو بساز"
 MAX_SIDE = {"background": 1080, "sticker": 512}
+THUMB_SIDE = 256
 PACK_LIMIT = 3 * 1024 * 1024
 
 
@@ -59,6 +60,14 @@ def pack_image(path, ptype):
         return buf.getvalue(), ".jpg"
     img.convert("RGBA").save(buf, "PNG", optimize=True)
     return buf.getvalue(), ".png"
+
+
+def thumbnail(data):
+    img = Image.open(io.BytesIO(data))
+    img.thumbnail((THUMB_SIDE, THUMB_SIDE), Image.LANCZOS)
+    buf = io.BytesIO()
+    img.save(buf, "JPEG", quality=75, optimize=True)
+    return buf.getvalue()
 
 
 def collage(path, images, ptype):
@@ -105,12 +114,17 @@ def build_pack(pack, ptype, src, out, base_url, pack_id):
             raise SystemExit(f"{subcat}: missing source file {f}")
 
     name = NAME_PREFIX[ptype] + subcat + ".zip"
-    folder = ".img/" if ptype == "background" else ""  # the editor reads backgrounds from .Backs/.img/
+    # The editor reads backgrounds from .Backs/.img/ and draws its grid from same-named thumbnails in .Backs/.tmb/.
+    folder = ".img/" if ptype == "background" else ""
     images = [pack_image(f, ptype) for f in files] if ptype in MAX_SIDE else []
     zip_path = out / "store/packs" / name
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
         if folder:
             z.writestr(folder, "")  # PackageInstall only creates folders that have their own zip entry
+        if ptype == "background":
+            z.writestr(".tmb/", "")
+            for i, (data, ext) in enumerate(images, 1):
+                z.writestr(f".tmb/{subcat}_{i}{ext}", thumbnail(data))
         for i, f in enumerate(files, 1):
             if images:
                 data, ext = images[i - 1]
