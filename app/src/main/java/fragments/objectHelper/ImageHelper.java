@@ -29,7 +29,7 @@ public class ImageHelper {
     public static Point GetBitmapSize(String ImagePath) {
         Bitmap bitmapLoad = null;
         BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-        if (ImagePath.startsWith("/storage")) {
+        if (ImagePath.startsWith("/")) { // a file (packs live in app storage); asset paths are relative
             bitmapLoad = BitmapFactory.decodeFile(ImagePath, bmOptions);
         } else {
             AssetManager assetManager = MainActivity.mainInstance().getAssets();
@@ -49,7 +49,7 @@ public class ImageHelper {
     public static Bitmap GetImageBitmap(String ImagePath, int newWidth, int newHeight) {
         Bitmap b = null;
         BitmapFactory.Options bmOptions = new BitmapFactory.Options();
-        if (ImagePath.startsWith("/storage")) {
+        if (ImagePath.startsWith("/")) { // a file (packs live in app storage); asset paths are relative
             Bitmap bitmapLoad = BitmapFactory.decodeFile(ImagePath, bmOptions);
             b = Bitmap.createScaledBitmap(bitmapLoad, newWidth, newHeight, true);
         } else {
