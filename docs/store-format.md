@@ -79,10 +79,10 @@ Each installed pack becomes a tab in the matching editor panel. The tab lists fi
 | `font` (`maincat` `fa`) | `ronevis/.Fonts/.fa/` | `fa_Vazirmatn_1.ttf`, `fa_Vazirmatn_2.ttf`, … at the zip root |
 | `font` (`maincat` `en`) | `ronevis/.Fonts/.en/` | `en_Roboto_1.ttf`, … at the zip root |
 | `sticker` | `ronevis/.Stickers/` | `stk_hearts_1.png`, `stk_hearts_2.png`, … at the zip root |
-| `background` | `ronevis/.Backs/.img/` | `.img/bg_nature_1.jpg`, … inside a `.img/` folder |
+| `background` | `ronevis/.Backs/.img/` | `.img/bg_nature_1.jpg`, … inside a `.img/` folder, plus same-named thumbnails in `.tmb/` |
 | texture (`Pattern…` name) | `ronevis/.Texture/` | any file with `_<number>` in its name; the texture panel lists every one, not per pack |
 
-Background zips are the odd one out. The zip unpacks into `.Backs/` but the editor reads `.Backs/.img/`, so the images must sit in a `.img/` folder inside the zip. There's an unused `.tmb/` thumbnail folder in the code; you can leave it out.
+Background zips are the odd one out. The zip unpacks into `.Backs/` but the editor reads `.Backs/.img/`, so the images must sit in a `.img/` folder inside the zip. The editor's background grid loads each image's thumbnail from `.Backs/.tmb/` under the same name (`.tmb/bg_nature_1.jpg`); without it the grid stays empty. `build_store.py` writes 256px thumbnails.
 
 Image formats are anything Android decodes: PNG, JPG and WebP. Stickers need transparency, so use PNG or WebP. Fonts are TTF or OTF.
 
