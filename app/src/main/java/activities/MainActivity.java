@@ -524,9 +524,7 @@ public class MainActivity extends BaseActivity /* implements SuicidalFragmentLis
 
         switch (AppChecker.checkAppStart(this)) {
             case NORMAL:
-                if (!BuildConfig.marketCatID.equals("8")) {
-                    AppRater.app_launched(this, 10, 15, 7, 5);
-                }
+                // No rating prompt in 2.70: the app is being replaced by Ronevis Next.
                 break;
             case FIRST_TIME_VERSION:
                 break;
