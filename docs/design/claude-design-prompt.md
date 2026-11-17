@@ -129,7 +129,7 @@ States to show: empty states for a fresh install of the panel, loading skeletons
 Redesign the Ronevis web app at ronevis.com so it matches the new Android app and the brand foundation. Responsive from 360px to 1440px. Two parts:
 
 A. Marketing site
-- Keep the current content and voice (hero "عکس‌نوشته‌های خاص خودت رو بساز", four feature points, stats: since 1392, 500k+ downloads, 150k monthly users, store awards, open-source Android code) but give it a stronger first screen: a live, playable mini-editor in the hero where visitors type their own Persian text and switch between 4-5 fonts instantly.
+- Keep the current content and voice (hero "طراحی فارسی، به سادگی نوشتن", four feature points, stats: since 1392, 500k+ downloads, 150k monthly users, store awards, open-source Android code) but give it a stronger first screen: a live, playable mini-editor in the hero where visitors type their own Persian text and switch between 4-5 fonts instantly.
 - Sections: how it works in three steps, font showcase (scrolling specimens rendered in real fonts, including Nastaliq), templates gallery by occasion, download buttons for Cafe Bazaar, Myket and Google Play with QR on desktop, premium plans, press and awards, FAQ, footer with about, contact, press, social links.
 - Language switcher (fa, ar, en) with fully mirrored layouts.
 
