@@ -19,7 +19,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps, features
 NAME_PREFIX = {"font": "font_", "background": "back_", "sticker": "sticker_"}
 COUNT_WORD = {"font": "فونت", "background": "پس‌زمینه", "sticker": "استیکر"}
 BG, FG, ACCENT = "#1f1f1f", "#f4efe6", "#f2b23a"
-SAMPLE = "عکس‌نوشته‌های خاص خودت رو بساز"
+SAMPLE = "طراحی فارسی، به سادگی نوشتن"
 MAX_SIDE = {"background": 1080, "sticker": 512}
 THUMB_SIDE = 256
 PACK_LIMIT = 3 * 1024 * 1024
