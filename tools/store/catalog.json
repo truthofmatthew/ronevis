@@ -25,6 +25,25 @@
           "licence": "OFL-1.1"
         },
         {
+          "subcat": "fa_SoftVazirmatn",
+          "maincat": "fa",
+          "name_fa": "وزیرمتن نرم",
+          "license": "vazirmatn-soft/OFL.txt",
+          "files": [
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-Thin.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-ExtraLight.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-Light.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-Regular.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-Medium.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-SemiBold.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-Bold.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-ExtraBold.ttf",
+            "vazirmatn-soft/fonts/ttf/VazirmatnSoft-Black.ttf"
+          ],
+          "source": "https://github.com/truthofmatthew/vazirmatn-soft",
+          "licence": "OFL-1.1"
+        },
+        {
           "subcat": "fa_Sahel",
           "maincat": "fa",
           "name_fa": "ساحل",
